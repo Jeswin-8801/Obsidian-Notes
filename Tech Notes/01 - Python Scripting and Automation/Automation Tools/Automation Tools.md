@@ -12,9 +12,7 @@
 6. **Schedule**: Simplifies the scheduling of periodic tasks. Easy way to set up cron-like job schedules.
     
 7. **Pandas**: For data manipulation and analysis. Essential when dealing with data-heavy automation.
+	
+8. **ConfigParser**: For handling configurations, helpful in larger automation projects.
     
-8. **Logging**: Built-in module for tracking events in your script, crucial for debugging.
-    
-9. **ConfigParser**: For handling configurations, helpful in larger automation projects.
-    
-10. **APScheduler**: For advanced scheduling, offers flexibility beyond the simple `schedule` library.
+9. **APScheduler**: For advanced scheduling, offers flexibility beyond the simple `schedule` library.

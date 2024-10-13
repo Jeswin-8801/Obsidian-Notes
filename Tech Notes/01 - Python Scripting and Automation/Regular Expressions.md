@@ -72,7 +72,45 @@ capturing groups
 ('foo', 'baz')
 ```
 
+## Example
 
+> Find all files in current directory that are not dot files and contain only alphabets
+
+Checkout [[Getting a Directory Listing]]
+
+```python
+import os
+import re
+
+def list_alpha_files(directory):
+    # Regex pattern to match files with only alphabetic characters
+    pattern = re.compile(r'^[A-Za-z]+$')
+	
+    # List files in the specified directory
+    files = os.listdir(directory)
+	
+    # Filter files based on the regex pattern
+    alpha_files = [f for f in files if pattern.match(f)]
+	
+    return alpha_files
+
+alpha_files = list_alpha_files('./')
+for file in alpha_files:
+    print(file)
+
+```
+
+is the same as
+
+```python ln:False
+>>> print('\n'.join([f for f in os.listdir('./') if re.compile(r'^[A-Z][A-Za-z]+$').match(f)]))
+AppData
+Contacts
+Cookies
+Desktop
+Documents
+...(truncated)
+```
 
 
 

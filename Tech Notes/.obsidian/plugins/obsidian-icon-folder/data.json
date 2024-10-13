@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFolderTree",
+      "LiFile",
       "RiQuestionnaireLine",
       "FasObjectUngroup",
-      "❕",
-      "LiList",
-      "LiFunctionSquare"
+      "❕"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,7 @@
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md": "LiList",
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md": "❕",
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md": "FasObjectUngroup",
-  "01 - Python Scripting and Automation/Interview Questions and Answers": "RiQuestionnaireLine"
+  "01 - Python Scripting and Automation/Interview Questions and Answers": "RiQuestionnaireLine",
+  "01 - Python Scripting and Automation/File Handling": "LiFile",
+  "01 - Python Scripting and Automation/File Handling/Notes/Getting a Directory Listing.md": "LiFolderTree"
 }

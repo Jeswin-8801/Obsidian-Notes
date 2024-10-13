@@ -33,6 +33,9 @@ Helps collect detailed runtime statistics
 ```
 
 ---
+Checkout [[List Directory Tree#Comparing Getting a Directory Listing `os.listdir()` os.listdir() and Getting a Directory Listing `os.scandir()` os.scandir()|Comparing the performance of os.listdir() and os.scandir()]]
+
+---
 
 > checkout [Profiling in Python: How to Find Performance Bottlenecks – Real Python](https://realpython.com/python-profiling/)
 
