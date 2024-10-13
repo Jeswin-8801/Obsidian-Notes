@@ -1,12 +1,14 @@
 {
   "accentColor": "",
-  "theme": "system",
+  "theme": "obsidian",
   "cssTheme": "",
   "nativeMenus": false,
   "enabledCssSnippets": [
     "Colored Sidebar Items",
+    "CyanVoxel's General Tweaks",
     "Notebook Backgrounds",
-    "CyanVoxel's General Tweaks"
+    "Background for Kanban",
+    "Bigger Popover Preview"
   ],
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",

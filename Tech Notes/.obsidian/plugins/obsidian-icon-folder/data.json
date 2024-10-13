@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasObjectUngroup",
+      "❕",
+      "LiList",
+      "LiFunctionSquare"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md": "LiFunctionSquare",
+  "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md": "LiList",
+  "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md": "❕",
+  "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md": "FasObjectUngroup"
+}

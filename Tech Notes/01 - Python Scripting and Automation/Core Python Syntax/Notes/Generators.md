@@ -19,7 +19,7 @@ Traceback (most recent call last):
 MemoryError
 ```
 
-- Instead we can handle it using `yeild`
+- Instead we can handle it using `yield`
 ```python
 def csv_reader(file_name):
     for row in open(file_name, "r"):
@@ -27,7 +27,7 @@ def csv_reader(file_name):
 ```
 
 > [!note]
-> - Using [[#`yeild`|yeild]] will result in a generator object.
+> - Using [[#`yield`|yield]] will result in a generator object.
 > - Using `return` will result in the first line of the file _only_.
 
 ### 2. Generating an Infinite Sequence
@@ -142,11 +142,11 @@ KeyboardInterrupt
 Checkout [[cProfile#An example of performance monitoring for List Compressions list compression and Generators Building Generators With Generator Expressions generator compression|An example of performance monitoring for List Compressions list compression and Generators Building Generators With Generator Expressions generator compression]]
 
 ---
-## `yeild`
+## `yield`
 
 Controls the flow of a generator function in a way that’s similar to `return` statements.
 
-> When `yeild` is called, the program ==suspends function execution== and returns the yielded value to the caller. (In contrast, `return` stops function execution completely)
+> When `yield` is called, the program ==suspends function execution== and returns the yielded value to the caller. (In contrast, `return` stops function execution completely)
 
 ```python
 def multi_yield():

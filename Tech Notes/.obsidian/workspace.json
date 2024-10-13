@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "784ec09aa322b782",
+        "id": "4686c94187975fba",
         "type": "tabs",
         "children": [
           {
-            "id": "67c9cebd8427da9e",
+            "id": "b0016d914e345acc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md",
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80686531fc881471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "yeild",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md",
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md",
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md"
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md"
               }
             }
           },
@@ -136,17 +149,25 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "474fe9a7344defea",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 366.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -154,25 +175,31 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-projects:Open projects": false,
-      "obsidian-git:Open Git source control": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "67c9cebd8427da9e",
+  "active": "80686531fc881471",
   "lastOpenFiles": [
+    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Decorators.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Manager.md",
+    "00 - Linux/File System Heirarchy/Directories_1.canvas",
+    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "Untitled Kanban.md",
+    "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Managers.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/cProfile.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes",
-    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
     "Pasted image 20241012161602.png",
     "01 - Python Scripting and Automation/Core Python Syntax",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes",
@@ -193,11 +220,6 @@
     "01 - Python Scripting and Automation/File Handling",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes",
     "01 - Python Scripting and Automation/File Handling/File Handling.md",
-    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
-    "00 - Linux/Commands and Utilities/Process Text Streams/sed, split, awk.md",
-    "00 - Linux/Commands and Utilities/Compression And Archiving/tar, cpio.md",
-    "00 - Linux/File System Heirarchy/Directories_1.canvas",
-    "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",
     "00 - Linux/Images/Pasted image 20240930122732.png",
     "00 - Linux/Images/Pasted image 20240928232439.png",
