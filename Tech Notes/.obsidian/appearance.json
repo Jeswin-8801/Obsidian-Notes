@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "cssTheme": "",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "Notebook Backgrounds",
+    "CyanVoxel's General Tweaks"
+  ],
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "Consolas"
+}
