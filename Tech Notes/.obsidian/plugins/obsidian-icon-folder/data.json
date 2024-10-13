@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiQuestionnaireLine",
       "FasObjectUngroup",
       "❕",
       "LiList",
@@ -35,5 +36,6 @@
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md": "LiFunctionSquare",
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md": "LiList",
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md": "❕",
-  "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md": "FasObjectUngroup"
+  "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md": "FasObjectUngroup",
+  "01 - Python Scripting and Automation/Interview Questions and Answers": "RiQuestionnaireLine"
 }

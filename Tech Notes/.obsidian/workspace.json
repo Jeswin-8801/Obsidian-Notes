@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80686531fc881471",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
-                "mode": "source",
+                "file": "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+                "file": "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+                "file": "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md"
+                "file": "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md"
               }
             }
           },
@@ -180,13 +167,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "80686531fc881471",
+  "active": "b0016d914e345acc",
   "lastOpenFiles": [
-    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/System Knowledge.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers",
+    "01 - Python Scripting and Automation/Interview Questions and Answers",
+    "01 - Python Scripting and Automation/APIs and Web Requests.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Decorators.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Manager.md",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
@@ -212,14 +204,10 @@
     "01 - Python Scripting and Automation/Testing",
     "01 - Python Scripting and Automation/Scripting/Scripting.md",
     "01 - Python Scripting and Automation/Automation Tools",
-    "01 - Python Scripting and Automation/APIs and Web Requests.md",
     "01 - Python Scripting and Automation/Regular Expressions.md",
     "01 - Python Scripting and Automation/Scripting",
     "01 - Python Scripting and Automation/Libraries and Frameworks",
     "01 - Python Scripting and Automation/Error Handling",
-    "01 - Python Scripting and Automation/File Handling",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes",
-    "01 - Python Scripting and Automation/File Handling/File Handling.md",
     "Untitled.canvas",
     "00 - Linux/Images/Pasted image 20240930122732.png",
     "00 - Linux/Images/Pasted image 20240928232439.png",
