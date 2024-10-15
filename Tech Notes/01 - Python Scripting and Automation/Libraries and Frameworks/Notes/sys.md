@@ -40,7 +40,8 @@ sys.path.append('/path/to/directory')  # Add directory to sys.path
 sys.path.remove('/path/to/directory')  # Remove directory from sys.path
 ```
 
-### Working with ==Standard Input==, ==Output== and ==Error==
+---
+## Working with ==Standard Input==, ==Output== and ==Error==
 
 - `sys.stdin`: Standard input
 - `sys.stdout`: Standard output
