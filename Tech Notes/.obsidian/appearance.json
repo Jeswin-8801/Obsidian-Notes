@@ -4,11 +4,11 @@
   "cssTheme": "",
   "nativeMenus": false,
   "enabledCssSnippets": [
+    "Background for Kanban",
+    "Bigger Popover Preview",
     "Colored Sidebar Items",
     "CyanVoxel's General Tweaks",
-    "Notebook Backgrounds",
-    "Background for Kanban",
-    "Bigger Popover Preview"
+    "Notebook Backgrounds"
   ],
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",

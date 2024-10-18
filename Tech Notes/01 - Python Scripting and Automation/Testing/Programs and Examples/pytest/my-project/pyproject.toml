@@ -1,0 +1,51 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+description = "Project to test pytest"
+authors = [
+    {name = "Jeswin-8801", email = "jeswin.santosh@outlook.com"},
+]
+dependencies = [
+    "pytest>=8.3.3",
+    "ruff>=0.7.0",
+    "bandit>=1.7.10",
+    "pytest-benchmark>=4.0.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.ruff]
+lint.select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+exclude = [
+    "__pycache__",
+    ".venv",
+]
+
+[tool.bandit]
+exclude_dirs = [".git", ".pytest_cache", ".benchmarks", ".ruff_cache"]
+skips = ["B101", "B601"]
+
+[tool.pytest.ini_options]
+markers = [
+    "sort_small: sorts a small array (deselect with '-m \"not sort_small\"')",
+    "sort_large: sorts a large array (deselect with '-m \"not sort_large\"')",
+    "leetcode",
+]

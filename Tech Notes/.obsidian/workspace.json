@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md",
-                "mode": "preview",
+                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md",
+                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md",
+                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md"
+                "file": "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md"
               }
             }
           },
@@ -164,20 +164,36 @@
       "obsidian-projects:Open projects": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "b6d28fcaf7b875fc",
   "lastOpenFiles": [
-    "01 - Python Scripting and Automation/Testing/Notes/pytest.md",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/README.md",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort/__init__.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort/test_benchmark.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort/conftest.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/__init__.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/test_roman_to_integer.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/test_shortest_completing_word.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/conftest.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/__init__.py",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/my-project/README.md",
     "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md",
+    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
+    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
+    "02 - DevOps/Tools/GitLab.md",
+    "01 - Python Scripting and Automation/Testing/Notes/pytest.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
     "01 - Python Scripting and Automation/Testing/Testing.md",
     "01 - Python Scripting and Automation/Testing/Programs and Examples/Anagram Example using unittest.md",
     "01 - Python Scripting and Automation/Testing/Notes/unittest.md",
-    "01 - Python Scripting and Automation/Testing/Programs and Examples",
-    "01 - Python Scripting and Automation/Testing/Notes",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/sys.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/argparse vs sys.argv.md",
@@ -188,32 +204,16 @@
     "01 - Python Scripting and Automation/Images/Pasted image 20241012161602.png",
     "reaction_game.gif",
     "01 - Python Scripting and Automation/Images/timer_gif.gif",
-    "01 - Python Scripting and Automation/Images/reaction_game_hack.mp4",
     "reaction_game_hack.gif",
-    "01 - Python Scripting and Automation/Images",
     "01 - Python Scripting and Automation/File Handling/File Handling.md",
     "01 - Python Scripting and Automation/File Handling/Notes/File Operations.md",
     "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
     "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/System Knowledge.md",
     "01 - Python Scripting and Automation/File Handling/Notes/Traversing Directories and Processing Files.md",
     "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
-    "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
-    "01 - Python Scripting and Automation/Environment Management.md",
-    "01 - Python Scripting and Automation/Regular Expressions.md",
-    "01 - Python Scripting and Automation/Logging.md",
-    "01 - Python Scripting and Automation/APIs and Web Requests.md",
-    "01 - Python Scripting and Automation/File Handling/Notes/Archiving.md",
-    "01 - Python Scripting and Automation/File Handling/Notes/Getting File Attributes.md",
-    "01 - Python Scripting and Automation/File Handling/Notes/mkdir.md",
     "Untitled.canvas",
-    "01 - Python Scripting and Automation/File Handling/Notes",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers",
-    "01 - Python Scripting and Automation/Interview Questions and Answers",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes",
-    "01 - Python Scripting and Automation/Core Python Syntax",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes",
     "00 - Linux/Images/Pasted image 20240930122732.png",
     "00 - Linux/Images/Pasted image 20240928232439.png",
     "Pasted image 20240928232619.png",

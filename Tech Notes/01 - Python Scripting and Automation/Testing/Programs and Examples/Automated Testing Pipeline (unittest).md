@@ -23,7 +23,7 @@ NC=\033[0m
 
 # Create virtual environment
 create-venv:
-	$(call print_message, "Starting virtual environment creation", "—")
+	$(call print_message, "Starting Virtual Environment", "—")
 	@echo -n ">>> $(BLUE)python -m venv $(VENV)$(NC)\n"
 	@python -m venv $(VENV)
 	@echo "Entering virtual environment..."
@@ -81,7 +81,7 @@ Inside the `project/` run
 ```bash ln:False
 $ make all
 
-—————————————————— Starting virtual environment creation ——————————————————
+—————————————————————— Starting Virtual Environment ———————————————————————
 
 >>> python -m venv .venv
 Entering virtual environment...

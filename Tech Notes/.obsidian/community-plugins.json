@@ -9,5 +9,6 @@
   "obsidian-kanban",
   "obsidian-linter",
   "highlightr-plugin",
-  "obsidian-completr"
+  "obsidian-completr",
+  "vscode-editor"
 ]
