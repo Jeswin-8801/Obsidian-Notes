@@ -6,3 +6,5 @@
 
 ---
 # 2. [[pytest]]
+
+- [[Automated Testing Pipeline (pytest)]]
