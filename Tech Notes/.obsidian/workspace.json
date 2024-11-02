@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/Tools/Jenkins.md",
+                "file": "00 - Linux/Linux/Arch Installation.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Arch Installation"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#date_time",
+                "query": "kernel",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 362.5
   },
   "right": {
     "id": "f7c5154c2aff24d0",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - DevOps/Tools/Jenkins.md",
+                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for file, find"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - DevOps/Tools/Jenkins.md",
+                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from file, find"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - DevOps/Tools/Jenkins.md"
-              }
+                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of file, find"
             }
           },
           {
@@ -134,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -142,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -170,32 +190,34 @@
   },
   "active": "b6d28fcaf7b875fc",
   "lastOpenFiles": [
+    "00 - Linux/Commands and Utilities/Others/passwd.md",
+    "00 - Linux/Linux/Arch Installation.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fstab.md",
+    "00 - Linux/Commands and Utilities/Others/ip.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkfs.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fdisk.md",
+    "00 - Linux/Linux/EFI vs GRUB.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
-    "00 - Linux/File System Heirarchy/How To/List all ls commands.md",
-    "00 - Linux/File System Heirarchy/How To/List all filesystems in ⁄proc⁄filesystems.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄var.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄usr.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄tmp.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄opt.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄mnt.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄media.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄lost+found.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄lib.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄dev.md",
     "00 - Linux/File System Heirarchy/Directories and Files/⁄boot.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄bin.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄etc/Important Configuration Files.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄dev.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄mnt.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄opt.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄var.md",
+    "00 - Linux/File System Heirarchy/How To/Boot into a single user mode.md",
+    "00 - Linux/File System Heirarchy/How To/List all filesystems in ⁄proc⁄filesystems.md",
+    "00 - Linux/File System Heirarchy/How To/List all ls commands.md",
     "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄etc/Important Configuration Files.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/Important Virtual Files in ⁄proc.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/⁄proc.md",
+    "00 - Linux/Linux",
+    "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems",
+    "00 - Linux/Commands and Utilities/Using Streams/STDIN, STDOUT, STDERR, tee.md",
+    "00 - Linux/Commands and Utilities/Others/udev.md",
+    "02 - DevOps/Tools/Jenkins.md",
     "01 - Python Scripting and Automation/Index.md",
-    "01 - Python Scripting and Automation/Testing/Testing.md",
-    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
-    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
-    "01 - Python Scripting and Automation/File Handling/File Handling.md",
-    "01 - Python Scripting and Automation/File Handling/Notes/mkdir.md",
-    "01 - Python Scripting and Automation/RE/Regular Expressions.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄usr.md",
     "01 - Python Scripting and Automation/RE",
     "01 - Python Scripting and Automation/Logging",
     "01 - Python Scripting and Automation/APIs and Web Requests",
@@ -205,8 +227,6 @@
     "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort/conftest.py",
     "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/__init__.py",
     "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/test_roman_to_integer.py",
-    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/test_shortest_completing_word.py",
-    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/leetcode/conftest.py",
     "reaction_game 1.gif",
     "01 - Python Scripting and Automation/Images/reaction_game 2.gif",
     "01 - Python Scripting and Automation/Images/Pasted image 20241012161602.png",

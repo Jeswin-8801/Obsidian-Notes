@@ -5,6 +5,7 @@
 >  docker-compose.yaml
 >  jenkins_home/
 >  Dockerfile
+>  entrypoint.sh
 >  .
 
 ```Dockerfile title:Dockerfile
@@ -120,3 +121,16 @@ $ docker exec -it jenkins-server cat /var/jenkins_home/secrets/initialAdminPassw
 
 > Get Personal Access Token from https://github.com/settings/tokens
 
+---
+# Running Build Job using Jenv
+
+```bash
+#!/bin/bash
+cd /build-folder
+if [ ! -f .java-version ]; then
+  jenv local 21
+fi
+export JAVA_HOME="/root/.jenv/versions/$(cat .java-version)"
+cd project-folder
+mvn clean install
+```
