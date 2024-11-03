@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/Linux/Arch Installation.md",
+                "file": "00 - Linux/Linux/UEFI vs GRUB.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arch Installation"
+              "title": "UEFI vs GRUB"
             }
           }
         ]
@@ -190,13 +190,13 @@
   },
   "active": "b6d28fcaf7b875fc",
   "lastOpenFiles": [
-    "00 - Linux/Commands and Utilities/Others/passwd.md",
     "00 - Linux/Linux/Arch Installation.md",
+    "00 - Linux/Commands and Utilities/Others/passwd.md",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fstab.md",
     "00 - Linux/Commands and Utilities/Others/ip.md",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkfs.md",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fdisk.md",
-    "00 - Linux/Linux/EFI vs GRUB.md",
+    "00 - Linux/Linux/UEFI vs GRUB.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
     "00 - Linux/File System Heirarchy/Directories and Files/⁄boot.md",
     "00 - Linux/File System Heirarchy/Directories and Files/⁄dev.md",

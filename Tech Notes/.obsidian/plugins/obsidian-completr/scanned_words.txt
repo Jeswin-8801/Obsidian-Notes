@@ -418,6 +418,7 @@ Usage
 Usually
 Unit
 UEFI
+Unified
 library
 leading
 length
@@ -1150,6 +1151,7 @@ GitLab
 Get
 GRUB
 Generate
+Grand
 POST
 PUT
 PATCH
@@ -1956,6 +1958,7 @@ Look
 Link
 Loopback
 Locale
+Loads
 Ordered
 OpenSSL
 Operator
@@ -3057,6 +3060,7 @@ manner
 mountpoints
 mirrors
 mirror
+manages
 the
 to
 true
@@ -3420,6 +3424,8 @@ through
 target
 timezones
 timezone
+traditional
+times
 order
 of
 other
@@ -4132,6 +4138,7 @@ ens
 entries
 ext
 enable
+essence
 Mutable
 Manger
 Multithreaded
@@ -4539,6 +4546,7 @@ Maximum
 Mounting
 Mount
 Mirror
+Manages
 Items
 Inserts
 Immutable
@@ -5428,6 +5436,7 @@ configured
 choose
 checked
 consistent
+components
 be
 backend
 buffered
@@ -6304,6 +6313,7 @@ actively
 arrow
 able
 arch
+actually
 Allow
 Adds
 Authentic
@@ -7896,6 +7906,8 @@ FHS
 Found
 FAT
 Filesystem
+Firmware
+Features
 Description
 Dictionary
 DELETE
@@ -8702,6 +8714,7 @@ instance
 interface
 inet
 influences
+initializes
 specified
 shallow
 set
@@ -9120,6 +9133,7 @@ sda
 storage
 space
 select
+smoothly
 Removes
 Returns
 Reverses
@@ -9610,6 +9624,7 @@ RAM
 Represents
 Routing
 REACHABLE
+Replaces
 from
 first
 function
@@ -10011,6 +10026,7 @@ filesystem
 fragment
 free
 formatted
+firmware
 removes
 remove
 returns
@@ -10414,6 +10430,8 @@ reachable
 repository
 reflector
 remember
+roles
+replacement
 present
 pair
 properly
@@ -11532,6 +11550,8 @@ SSDs
 Sync
 Search
 Setting
+Supports
+Secure
 using
 unpacks
 unique
@@ -11908,6 +11928,7 @@ usr
 unbundled
 userspace
 uncomment
+users
 No
 Numeric
 Note
@@ -14272,6 +14293,7 @@ Control
 Check
 Configure
 Chroot
+Configured
 When
 Writing
 With
@@ -14610,6 +14632,7 @@ WFZ
 WFdCN
 Wqj
 Where
+Works
 your
 you
 yielded
@@ -16198,6 +16221,7 @@ Each
 Ethernet
 EFI
 Enable
+Extensible
 Because
 Block
 Basic
@@ -16558,6 +16582,8 @@ Boot
 Both
 Brief
 Broadcast
+Bootloader
+BIOS
 Value
 Verification
 Virtual

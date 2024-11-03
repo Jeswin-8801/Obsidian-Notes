@@ -14,6 +14,24 @@ $ echo $SHELL
 $ ping -c 3 archlinux.org
 ```
 
+#### Enable network time Protocols
+- enable NTP and allow the system to update the time via the Internet
+```bash ln:False
+timedatectl set-ntp true
+```
+
+- check NTP service status
+```bash ln:False
+$ timedatectl status
+               Local time: Sat 2024-11-02 18:58:47 UTC
+           Universal time: Sat 2024-11-02 18:58:47 UTC
+                 RTC time: Sat 2024-11-02 18:58:47
+                Time zone: UTC (UTC, +0000)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+```
+
 > list available interfaces using [[ip#`ip link`|ip link]]
 
 If not connected:
@@ -112,6 +130,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 $ cfdisk /dev/sda
 ```
 
+- select **<mark style="background: #ABF7F7A6;">gpt</mark>**
 ```shell ln:False title:next
 ┌ Select label type ───┐
 │ gpt                  │
