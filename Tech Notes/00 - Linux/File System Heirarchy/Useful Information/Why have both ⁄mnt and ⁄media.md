@@ -1,3 +1,8 @@
+---
+tags:
+  - INFO
+  - Linux-Directories
+---
 
 > `/mnt` was already accepted as a place to manually and temporarily mount external media, usually for permanently attached storage (generally internal disks).
 > 

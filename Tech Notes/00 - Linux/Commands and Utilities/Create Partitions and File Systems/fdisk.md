@@ -2,6 +2,30 @@ Used to create partitions.
 
 - A drive needs to have at least one partition before you can format it and store files on it.
 
+
+### Check Existing Partitions
+
+```shell ln:False
+$ fdisk -l
+Disk /dev/nvme0n1: 232.91 GiB, 250059350016 bytes, 488397168 sectors
+Disk model: Samsung SSD 960 EVO 250GB               
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 6907D1B3-B3AB-7E43-AD20-0707A656A1B5
+
+Device            Start       End   Sectors   Size Type
+/dev/nvme0n1p1     2048   1050623   1048576   512M EFI System
+/dev/nvme0n1p2  1050624  34605055  33554432    16G Linux swap
+/dev/nvme0n1p3 34605056 488397134 453792079 216.4G Linux filesystem
+```
+
+
+</br>
+
+### Create Partitions
+
 > Create (<mark style="background: #FFF3A3A6;">EFI</mark>), (<mark style="background: #FFF3A3A6;">root</mark>) and (<mark style="background: #FFF3A3A6;">home</mark>) partitions
 > same as for [[Arch Installation#Using `cfdisk`]]
 

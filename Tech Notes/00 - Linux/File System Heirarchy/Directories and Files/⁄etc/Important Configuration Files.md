@@ -1,4 +1,6 @@
 
+</br>
+
 | `/etc/grub.conf`    | It is the grub bootloader configuration file.                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | `/etc/default/grub` | GRUB 2 configuration file which can be modified <br><br>(changes are made with the command `grub-mkconfig` or `grub2-mkconfig) |

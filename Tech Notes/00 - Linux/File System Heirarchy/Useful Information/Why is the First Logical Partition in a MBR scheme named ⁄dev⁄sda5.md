@@ -1,3 +1,10 @@
+---
+tags:
+  - INFO
+  - Disk-Partition
+  - MBR
+---
+
 
 **The first 4 are reserved for primary partitions**. 
 

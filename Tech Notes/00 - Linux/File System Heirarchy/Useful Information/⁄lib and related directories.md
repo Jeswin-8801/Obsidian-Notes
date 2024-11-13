@@ -1,3 +1,8 @@
+---
+tags:
+  - INFO
+  - Linux-Directories
+---
 
 ## [/lib](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03s09.html)
 

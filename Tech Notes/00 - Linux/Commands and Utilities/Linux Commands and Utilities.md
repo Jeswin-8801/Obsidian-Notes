@@ -1,3 +1,8 @@
+---
+tags:
+  - MAIN
+  - Linux-Commands
+---
 
 ## Compression And Archiving
 
@@ -35,5 +40,23 @@
 | [[Diversions\|>]]<br><br>[[Diversions\|>>]]<br><br>[[Diversions#`<<`\|<<]]<br><br>[[Diversions\|<<<]] | [[STDIN, STDOUT, STDERR, tee#`STDIN`\|stdin]]<br><br>[[STDIN, STDOUT, STDERR, tee#`STDOUT`\|stdout]]<br><br>[[STDIN, STDOUT, STDERR, tee#`STDERR`\|stderr]]<br><br>[[STDIN, STDOUT, STDERR, tee#`tee`\|tee]] |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
+---
+
+## Create Partitions and File Systems
+
+| [[fdisk]] |
+| --------- |
+| [[fstab]] |
+| [[mkfs]]  |
+
+---
+
+## Others
+
+| [[fsck]]   |
+| ---------- |
+| [[ip]]     |
+| [[passwd]] |
+| [[udev]]   |
 
 

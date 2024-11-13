@@ -1,3 +1,8 @@
+---
+tags:
+  - MAIN
+---
+
 
 # [[Core Python Syntax]]
 

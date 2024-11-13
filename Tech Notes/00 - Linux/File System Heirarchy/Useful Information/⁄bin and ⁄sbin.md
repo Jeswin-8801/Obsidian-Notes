@@ -1,3 +1,8 @@
+---
+tags:
+  - INFO
+  - Linux-Directories
+---
 
 ## `/bin` vs `/sbin` vs `/usr/bin` vs `/usr/sbin`
 

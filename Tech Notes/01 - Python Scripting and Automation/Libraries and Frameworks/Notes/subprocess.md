@@ -1,6 +1,6 @@
 ---
 tags:
-  - temp_file
+  - tempFile
   - bash
   - cmd
   - pwsh

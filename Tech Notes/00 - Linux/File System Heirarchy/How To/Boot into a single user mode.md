@@ -1,3 +1,7 @@
+---
+tags:
+  - How-To
+---
 
 ## How to boot into a `single user` Mode from `GRUB`
 

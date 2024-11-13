@@ -1,3 +1,8 @@
+---
+tags:
+  - How-To
+  - Linux-Commands
+---
 
 ```bash
 ~$ ls /usr/bin | whatis $(grep -G '^ls')

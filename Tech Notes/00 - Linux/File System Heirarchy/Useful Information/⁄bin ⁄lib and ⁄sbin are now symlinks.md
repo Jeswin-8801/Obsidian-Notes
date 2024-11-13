@@ -1,3 +1,8 @@
+---
+tags:
+  - INFO
+  - Linux-Directories
+---
 
 All files from the directories in / will be merged into their respective counterparts in `/usr`, and `symlinks` for the old directories will be created instead.
 

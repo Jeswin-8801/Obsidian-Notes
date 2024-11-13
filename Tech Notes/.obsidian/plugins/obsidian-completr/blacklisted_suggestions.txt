@@ -1,2 +1,5 @@
 list
 lists
+cmd
+bash
+BusIer

@@ -1,8 +1,15 @@
+---
+tags:
+  - INFO
+---
 
-- Character special files are simple interfaces to character devices. 
-- Likewise, block special files are simple interfaces to block devices. 
+
+<mark style="background: #D2B3FFA6;">Character Special Files</mark> are simple interfaces to character devices. 
+Likewise, <mark style="background: #D2B3FFA6;">Block Special Files</mark> are to block devices.
 
 > The difference between these devices depends on how the operating system reads data off of them. 
+
+</br> 
 
 #### Character Devices
 
@@ -16,6 +23,9 @@
 - A driver accesses data from block devices through a cache and communicates by sending an entire ==block of data==.
 
 ---
+
+</br>
+
 ### Identifying Character Special Files and Block Special Files 
 
 - Character devices can be sound cards or serial ports

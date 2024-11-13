@@ -1,9 +1,9 @@
 ---
 tags:
-  - file_update_time
-  - truncate_results
-  - date_time
+  - File-Properties
+  - Time-Format
 ---
+
 using `os.stat()`, `os.scandir()`, or `pathlib.Path()`
 
 -  the `st_mtime` attribute shows the time the content of the file was last modified.
@@ -47,7 +47,7 @@ def get_files(path):
             info = entry.stat()
             print(f'{entry.name:40}\t Last Modified: {convert_date(info.st_mtime)}')
 ```
-- `entry.name` has a maximum of 40 characters
+> `entry.name` has a maximum of 40 characters
 ```python ln:False
 >>> get_files('01 - Python Scripting and Automation/')
 APIs and Web Requests.md                         Last Modified: 13 Oct 2024

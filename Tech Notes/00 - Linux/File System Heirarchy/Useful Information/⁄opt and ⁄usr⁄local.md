@@ -1,6 +1,14 @@
+---
+tags:
+  - INFO
+  - Linux-Directories
+---
+
 
 > [!Note] Note
 > While both are designed to contain files not belonging to the operating system, `/opt` and `/usr/local` are not intended to contain the same set of files.
+
+</br>
 
 ## `/usr/local`
 
@@ -9,6 +17,8 @@ The `/usr/local` directory in Linux is ==used by system administrators to ins
 Contains user programs installed from source or outside the distribution's provided software.
 
 > `/usr/local` is a place to install files built by the administrator, typically by using the `make` command (e.g., `./configure; make; make install`). 
+
+</br>
 
 #### **Why use `/usr/local` over `/usr/bin` in certain cases?**
 
@@ -19,6 +29,9 @@ All files under `/usr` are shareable between OS instances, although this is ra
 `/usr/local` is a legacy from the original BSD. At that time, the source code of `/usr/bin` OS commands were in `/usr/src/bin` and `/usr/src/usr.bin`, while the source of locally developed commands was in `/usr/local/src`, and their binaries in `/usr/local/bin`. There was no notion of packaging (outside tarballs).
 
 ---
+
+</br>
+
 ## `/opt`
 
 > `/opt` is a directory for installing unbundled packages (i.e. packages not part of the Operating System distribution, but provided by an independent source), each one in its own subdirectory. 

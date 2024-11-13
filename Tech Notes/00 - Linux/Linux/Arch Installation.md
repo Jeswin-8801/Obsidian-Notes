@@ -498,7 +498,6 @@ EDITOR=nano visudo
 
 > uncomment `# %wheel ALL=(ALL) ALL`
 
-
 ---
 
 ## Exit Arch-Chroot Environment and Reboot
