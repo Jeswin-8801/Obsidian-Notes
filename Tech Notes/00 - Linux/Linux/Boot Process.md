@@ -92,7 +92,7 @@ Next, **init** process continues the system startup by running init scripts for 
 
 # 5. Systemd
 
-The kernel initiates the <mark style="background: #D2B3FFA6;">init</mark> process, which starts the parent process. Here, **the parent of all Linux processes** **is** **[Systemd](https://www.baeldung.com/linux/differences-systemctl-service#1-sysvinit-and-systemd)**, which replaces the old [SysVinit](https://www.baeldung.com/linux/differences-systemctl-service) process.
+The kernel initiates the <mark style="background: #D2B3FFA6;">init</mark> process, which starts the parent process. Here, **the parent of all Linux processes** **is** [[SysVinit vs Upstart vs Systemd#Systemd|systemd]], which replaces the old [[SysVinit vs Upstart vs Systemd#SysVinit|SysVinit]] process.
 
 Following the booting steps, <mark style="background: #D2B3FFA6;">Systemd</mark> performs a range of tasks:
 
@@ -108,3 +108,39 @@ Lastly, Systemd uses the `/etc/systemd/system/default.target` file to decide t
 
 # 6. Run Levels
 
+**In Linux, the run level stands for the current state of the operating system**. Run levels define which system services are running. 
+
+[[SysVinit vs Upstart vs Systemd#SysVinit|SysVinit]] identifies run levels by number, however, `.target` files now replace run levels in [[SysVinit vs Upstart vs Systemd#Systemd|systemd]].
+
+Further, [[SysVinit vs Upstart vs Systemd#Systemd|systemd]] activates the <mark style="background: #D2B3FFA6;">_default.target_</mark> unit by default when the system boots. Let’s check our default target:
+
+```bash ln:False
+$ systemctl get-default
+graphical.target
+```
+
+> ==targets== in systemd:
+> 
+> - _<mark style="background: #FFB86CA6; color: black;">poweroff.target (0)</mark>_: turn off (shut down) the computer
+> - _<mark style="background: #FFB86CA6; color: black;">rescue.target (1)</mark>_: initiate a rescue shell process
+> - _<mark style="background: #FFB86CA6; color: black;">multi-user.target (3)</mark>_: configure the system as a non-graphical (console) multi-user environment
+> - _<mark style="background: #FFB86CA6; color: black;">graphical.target (5)</mark>_: establish a graphical multi-user interface with network services
+> - _<mark style="background: #FFB86CA6; color: black;">reboot.target (6)</mark>_: restart the machine
+> - _<mark style="background: #FFB86CA6; color: black;">emergency.target</mark>_: emergency run level
+
+> [!note] 
+> The run level for a server without a GUI is _3_ because the default target is _<mark style="background: #D2B3FFA6;">multi-user.target</mark>_.
+
+##### Switch targets using the following commands:
+
+- To switch to _==run level 3==_ from ==_run level 5_==, we can run the following command:
+
+```bash
+$ sudo systemctl isolate multi-user.target
+```
+
+- To take the system to ==_run level 5_==, let’s run the command:
+
+```bash
+$ sudo systemctl isolate graphical.target
+```

@@ -3,7 +3,13 @@ tags:
   - MAIN
   - Linux-Commands
 ---
+## System Information
 
+| CPU and Kernel                 | Hardware                       | Kernel Modules                                      |
+| ------------------------------ | ------------------------------ | --------------------------------------------------- |
+| [[lscpu]]    <br><br>[[uname]] | [[lspci]]    <br><br>[[lsusb]] | [[lsmod]]   <br><br>[[modinfo]]<br><br>[[modprobe]] |
+
+---
 ## Compression And Archiving
 
 | [[file, find#`file`\|file]]      <br><br>[[file, find#`find`\|find]] | [[dd]]         | [[tar, cpio#`tar`\|tar]]       <br><br>[[tar, cpio#`cpio`\|cpio]] | [[gzip, gunzip, bzip2, bunzip, xz, unxz#`gzip`\|gzip]]<br><br>[[gzip, gunzip, bzip2, bunzip, xz, unxz#`gunzip`\|gunzip]]<br><br>[[gzip, gunzip, bzip2, bunzip, xz, unxz#`bzip2`\|bzip2]]<br><br>[[gzip, gunzip, bzip2, bunzip, xz, unxz#`bunzip2`\|bunzip2]]<br><br>[[gzip, gunzip, bzip2, bunzip, xz, unxz#`xz`\|xz]]<br><br>[[gzip, gunzip, bzip2, bunzip, xz, unxz#`unxz`\|unxz]] |
@@ -53,10 +59,7 @@ tags:
 
 ## Others
 
-| [[fsck]]   |
-| ---------- |
-| [[ip]]     |
-| [[passwd]] |
-| [[udev]]   |
-
+|                                                          | Logging                         |
+| -------------------------------------------------------- | ------------------------------- |
+| [[fsck]]<br><br>[[ip]]<br><br>[[passwd]]<br><br>[[udev]] | [[dmesg]]<br><br>[[journalctl]] |
 

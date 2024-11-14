@@ -82,7 +82,7 @@ $ lspci -nn | head
 
 #### Get Information about a Specific PCI Device
 - Getting info on the GPU
-```shell ln:False
+```shell ln:False hl:1
 $ lspci -v -s $(lspci | grep -i vga | grep -oE "^[0-9]+:[0-9a-z]+.[0-9a-z]+\b")
 00:0f.0 VGA compatible controller: VMware SVGA II Adapter (prog-if 00 [VGA controller])
         Subsystem: VMware SVGA II Adapter

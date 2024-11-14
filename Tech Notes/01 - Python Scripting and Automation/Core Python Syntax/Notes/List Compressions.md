@@ -41,7 +41,7 @@
 
 ##### The Walrus Operator `:=`
 
-- Say you need to make ten requests to an `API` that will return temperature data (returns a random number in this case). You only want to return results that are greater than 100 degrees.
+- Say you need to make twenty requests to an `API` that will return temperature data (returns a random number in this case). You only want to return results that are greater than 100 degrees.
 ```python
 >>> import random
 >>> def get_weather_data():

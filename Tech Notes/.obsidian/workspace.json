@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6d28fcaf7b875fc",
+            "id": "6102bf65b08ec4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux Directory Structure"
-            }
-          },
-          {
-            "id": "ac5eb4e753f48d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Linux/Linux/Boot Process.md",
+                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Boot Process"
-            }
-          },
-          {
-            "id": "ecd9c69a9f2e9ada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Linux/Linux/Linux Boot/Bootloader.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bootloader"
+              "title": "Modules and Packages"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#INFO",
+                "query": "shutil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Linux/Linux/Boot Process.md"
+                "file": "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Boot Process"
+              "title": "Outline of df"
             }
           },
           {
@@ -195,12 +166,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,51 +183,50 @@
       "obsidian-projects:Open projects": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "vscode-editor:Create Code File": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ac5eb4e753f48d83",
+  "active": "474fe9a7344defea",
   "lastOpenFiles": [
-    "00 - Linux/Linux/Linux Boot/initrd (InitialRamDisk).md",
-    "00 - Linux/Linux/Boot Process.md",
-    "00 - Linux/Linux/Arch Installation.md",
-    "00 - Linux/Linux/Linux Boot/BIOS vs UEFI.md",
-    "00 - Linux/Linux/Linux Boot/Bootloader.md",
-    "00 - Linux/Linux/Linux Boot/ESP (EFI System Partition).md",
-    "00 - Linux/Linux/Linux Boot/MBR vs GPT.md",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fdisk.md",
-    "00 - Linux/File System Heirarchy/Useful Information/Why is the First Logical Partition in a MBR scheme named ⁄dev⁄sda5.md",
-    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md",
+    "01 - Python Scripting and Automation/APIs and Web Requests/APIs and Web Requests.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
+    "01 - Python Scripting and Automation/Index.md",
+    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
+    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
+    "01 - Python Scripting and Automation/Testing/Notes/pytest.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
+    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Manager.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
+    "01 - Python Scripting and Automation/File Handling/Notes/Archiving.md",
+    "01 - Python Scripting and Automation/File Handling/File Handling.md",
+    "01 - Python Scripting and Automation/Logging/Logging.md",
+    "01 - Python Scripting and Automation/RE/Regular Expressions.md",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
+    "01 - Python Scripting and Automation/Testing/Notes/unittest.md",
+    "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
+    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
+    "00 - Linux/Commands and Utilities/Others/logging",
     "00 - Linux/Linux/Linux Boot",
     "Images/Pasted image 20241113155639.png",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄boot.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lsusb.md",
-    "00 - Linux/Commands and Utilities/System Information/lscpu.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-    "00 - Linux/File System Heirarchy/How To/List all ls commands.md",
-    "00 - Linux/Commands and Utilities/System Information/Kernel Modules/modprobe.md",
     "00 - Linux/Commands and Utilities/System Information/Hardware",
-    "00 - Linux/Commands and Utilities/System Information/Kernel Modules/modinfo.md",
-    "00 - Linux/Commands and Utilities/System Information/Kernel Modules/lsmod.md",
     "00 - Linux/Commands and Utilities/System Information/Kernel Modules",
-    "00 - Linux/File System Heirarchy/Useful Information/⁄sys vs ⁄proc.md",
-    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
-    "00 - Linux/Commands and Utilities/System Information/uname.md",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/⁄proc.md",
-    "00 - Linux/File System Heirarchy/Useful Information/⁄opt and ⁄usr⁄local.md",
-    "00 - Linux/File System Heirarchy/Useful Information/Types of Pseudo Devices.md",
-    "00 - Linux/File System Heirarchy/How To/List all Modules Loaded in the Kernel.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄mnt.md",
     "00 - Linux/Commands and Utilities/System Information",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/Linux",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems",
     "01 - Python Scripting and Automation/RE",
     "01 - Python Scripting and Automation/Logging",
-    "01 - Python Scripting and Automation/APIs and Web Requests",
-    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/my-project/tests/sort/__init__.py",
     "reaction_game 1.gif",
     "01 - Python Scripting and Automation/Images/reaction_game 2.gif",
     "01 - Python Scripting and Automation/Images/Pasted image 20241012161602.png",
