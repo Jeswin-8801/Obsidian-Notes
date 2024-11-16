@@ -1,14 +1,19 @@
-Disk Dump
+
+</br>
+
+Stands for <mark style="background: #D2B3FFA6;">Disk Dump</mark>.
 Used to copy directly from disk partitions.
 
-```bash
-~$ dd if=/dev/sda1 of=/dev/sdb1
+```bash ln:False
+dd if=/dev/sda1 of=/dev/sdb1
 ```
 - `if` input file
 - `of` output file
 
-copies `file1` to `file2`
-```bash
+</br>
+
+- copies `file1` to `file2`
+```bash ln:False
 $ dd if=file1.txt of=file2.txt
 0+1 records in
 0+1 records out
@@ -18,7 +23,7 @@ $ dd if=file1.txt of=file2.txt
 - Read blocks of `512 bytes` each from /dev/sda1; here only 1 block is copied as `count` is 1
 -  `bs` stands for bytes
 -  Here the first 512 bytes is the partition table and is being copied
-```bash
+```bash ln:False
 ~$ sudo dd if=/dev/sda1 of=backup_bootloader bs=512 count=1
 1+0 records in
 1+0 records out
