@@ -50,16 +50,31 @@ tags:
 
 ## Create Partitions and File Systems
 
-| [[fdisk]] |
-| --------- |
-| [[fstab]] |
-| [[mkfs]]  |
+| Partitioning | Filesystem                                           |
+| ------------ | ---------------------------------------------------- |
+| [[fdisk]]    | [[mkfs]]<br><br>[[mke2fs]]<br><br>[[mkswap, swapon]] |
+
+---
+
+## Ensuring the Integrity of Filesystems
+
+| [[du]]    <br><br>[[df]] | [[fsck]] | [[tune2fs]] | [[xfs_repair, xfs_db, xfs_fsr#<mark style="background ABF7F7A6;">xfs_repair</mark>\|xfs_repair]]<br><br>[[xfs_repair, xfs_db, xfs_fsr#<mark style="background ABF7F7A6;">xfs_db</mark>\|xfs_db]]<br><br>[[xfs_repair, xfs_db, xfs_fsr#<mark style="background ABF7F7A6;">xfs_fsr</mark>\|xfs_fsr]] |
+| ------------------------ | -------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+---
+
+## Mounting and Unmounting of Filesystems
+
+| [[findmnt]]<br><br>[[fstab\|/etc/fstab]] | [[mount, umount#<mark style="background ABF7F7A6;">mount</mark>\|mount]]<br><br>[[mount, umount#<mark style="background ABF7F7A6;">umount</mark>\|umount]] |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> - How to [[retrieve UUID of a partition]]
+> - How to [[get systemctl status of a mount point]]
 
 ---
 
 ## Others
 
-|                                                          | Logging                         |
-| -------------------------------------------------------- | ------------------------------- |
-| [[fsck]]<br><br>[[ip]]<br><br>[[passwd]]<br><br>[[udev]] | [[dmesg]]<br><br>[[journalctl]] |
+|                                          | Logging                         |
+| ---------------------------------------- | ------------------------------- |
+| [[ip]]<br><br>[[passwd]]<br><br>[[udev]] | [[dmesg]]<br><br>[[journalctl]] |
 

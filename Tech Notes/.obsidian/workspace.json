@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7478fbe3bca6ac21",
+        "id": "377f0e738e4d2fda",
         "type": "tabs",
         "children": [
           {
-            "id": "6102bf65b08ec4c9",
+            "id": "11558e503f06dc24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
+                "file": "00 - Linux/File System Heirarchy/How To/get systemctl status of a mount point.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Modules and Packages"
+              "title": "get systemctl status of a mount point"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 409.5
   },
   "right": {
     "id": "f7c5154c2aff24d0",
@@ -186,34 +186,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "474fe9a7344defea",
+  "active": "11558e503f06dc24",
   "lastOpenFiles": [
-    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md",
-    "01 - Python Scripting and Automation/APIs and Web Requests/APIs and Web Requests.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
-    "01 - Python Scripting and Automation/Index.md",
-    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
-    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
-    "01 - Python Scripting and Automation/Testing/Notes/pytest.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Generators.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Context Manager.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/args and kwargs.md",
-    "01 - Python Scripting and Automation/File Handling/Notes/Archiving.md",
-    "01 - Python Scripting and Automation/File Handling/File Handling.md",
-    "01 - Python Scripting and Automation/Logging/Logging.md",
-    "01 - Python Scripting and Automation/RE/Regular Expressions.md",
-    "01 - Python Scripting and Automation/Testing/Programs and Examples/pytest/Automated Testing Pipeline (pytest).md",
-    "01 - Python Scripting and Automation/Testing/Notes/unittest.md",
-    "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "00 - Linux/File System Heirarchy/How To/get systemctl status of a mount point.md",
+    "00 - Linux/File System Heirarchy/How To/retrieve UUID of a partition.md",
+    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/fstab.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fdisk.md",
+    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/Retrieveing uuid.md",
+    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/mount, umount.md",
+    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/findmnt.md",
+    "00 - Linux/File System Heirarchy/Useful Information/Mounting.md",
+    "00 - Linux/Linux/Boot Process.md",
+    "00 - Linux/Linux/Arch Installation.md",
+    "00 - Linux/File System Heirarchy/Directories_1.canvas",
+    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/tune2fs.md",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/fsck.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkswap, swapon.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkfs.md",
+    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mke2fs.md",
+    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/xfs_repair, xfs_db, xfs_fsr.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄lost+found.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/Important Virtual Files in ⁄proc.md",
+    "00 - Linux/File System Heirarchy/How To/List all filesystems in ⁄proc⁄filesystems.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/⁄proc.md",
+    "00 - Linux/File System Heirarchy/Directories and Files/⁄etc/Important Configuration Files.md",
+    "00 - Linux/Commands and Utilities/Others/logging/journalctl.md",
+    "00 - Linux/Commands and Utilities/Others/logging/dmesg.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
     "00 - Linux/Commands and Utilities/Others/logging",
     "00 - Linux/Linux/Linux Boot",
@@ -222,11 +224,9 @@
     "00 - Linux/Commands and Utilities/System Information/Kernel Modules",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "00 - Linux/Commands and Utilities/System Information",
-    "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/Linux",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems",
     "01 - Python Scripting and Automation/RE",
-    "01 - Python Scripting and Automation/Logging",
     "reaction_game 1.gif",
     "01 - Python Scripting and Automation/Images/reaction_game 2.gif",
     "01 - Python Scripting and Automation/Images/Pasted image 20241012161602.png",

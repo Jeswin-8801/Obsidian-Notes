@@ -80,3 +80,6 @@ sda      8:0    0    12G  0 disk
 └─sda3   8:3    0   1.5G  0 part
 sr0     11:0    1   1.1G  0 rom  /run/archiso/bootmnt
 ```
+
+> [!note] 
+> [[retrieve UUID of a partition|How to get the UUID of a partition in linux]]
