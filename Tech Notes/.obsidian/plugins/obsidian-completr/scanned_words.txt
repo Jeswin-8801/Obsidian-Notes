@@ -428,6 +428,9 @@ Ubuntu
 UUID
 Unmount
 Unmounting
+USER
+UID
+UMASK
 library
 leading
 length
@@ -862,6 +865,7 @@ later
 linux
 lsblk
 letters
+lead
 GET
 GUI
 Great
@@ -1195,6 +1199,7 @@ GPT
 GRand
 Gives
 Group
+GROUP
 POST
 PUT
 PATCH
@@ -1610,6 +1615,7 @@ Permanent
 Percentage
 Perform
 Permanently
+Persisting
 Lists
 Locks
 Log
@@ -2029,6 +2035,7 @@ Let
 Learn
 Logs
 Label
+Links
 Ordered
 OpenSSL
 Operator
@@ -3163,6 +3170,8 @@ maintaining
 makes
 marked
 man
+members
+masking
 the
 to
 true
@@ -3552,6 +3561,8 @@ tail
 tiny
 trigproc
 terminated
+themselves
+traverse
 order
 of
 other
@@ -3852,6 +3863,7 @@ orderly
 owners
 owner
 octal
+ownership
 elements
 end
 empty
@@ -4312,6 +4324,7 @@ except
 editor
 editing
 elevated
+everyone
 Mutable
 Manger
 Multithreaded
@@ -5199,6 +5212,7 @@ Inodes
 IMP
 Impact
 Incorrect
+Inode
 can
 changed
 creation
@@ -5673,6 +5687,7 @@ caution
 cleans
 copied
 category
+counts
 be
 backend
 buffered
@@ -6106,6 +6121,9 @@ buff
 best
 busy
 blkid
+breakdown
+broken
+backups
 after
 an
 and
@@ -6594,6 +6612,9 @@ atomic
 attempting
 attempts
 amd
+across
+accurate
+aliases
 Allow
 Adds
 Authentic
@@ -6981,6 +7002,8 @@ Always
 Another
 Avoid
 Apply
+Administrative
+Allowing
 duplicates
 duplicate
 descending
@@ -7495,6 +7518,13 @@ defragment
 detach
 dpkg
 divided
+determines
+determine
+direct
+difficult
+dangling
+duplicating
+defs
 values
 value
 vs
@@ -7856,6 +7886,7 @@ vital
 volume
 vim
 verified
+viewing
 Function
 For
 Formatting
@@ -8262,6 +8293,7 @@ Further
 Filter
 Filesystems
 Force
+FILE
 Description
 Dictionary
 DELETE
@@ -9114,6 +9146,8 @@ improves
 invoked
 impact
 inherit
+inode
+inconsistencies
 specified
 shallow
 set
@@ -9602,6 +9636,13 @@ sticky
 setuid
 setgid
 stat
+subtracted
+sessions
+soft
+symlinks
+struggle
+span
+shortcuts
 Removes
 Returns
 Reverses
@@ -10112,6 +10153,8 @@ Reorganization
 Regular
 Read
 Recursive
+Recursively
+Restriction
 from
 first
 function
@@ -10534,6 +10577,7 @@ freeing
 fsck
 fragmentation
 fsr
+final
 removes
 remove
 returns
@@ -10976,6 +11020,8 @@ records
 resume
 requiring
 rename
+reference
+reflected
 present
 pair
 properly
@@ -11424,6 +11470,7 @@ property
 permission
 primarily
 particularly
+pointing
 given
 guarantee
 group
@@ -12176,6 +12223,9 @@ Setuid
 Similar
 Setgid
 Sticky
+Syntax
+Settings
+Soft
 using
 unpacks
 unique
@@ -12571,6 +12621,7 @@ ubuntu
 unintended
 uppercase
 useful
+umask
 No
 Numeric
 Note
@@ -12891,6 +12942,7 @@ NTP
 Next
 NFS
 NUL
+Notes
 number
 new
 not
@@ -13224,6 +13276,7 @@ nice
 namespace
 none
 numeric
+newly
 Keys
 Key
 Kg
@@ -14983,6 +15036,7 @@ Considerations
 CACFD
 Changes
 Continuous
+Cannot
 When
 Writing
 With
@@ -17301,6 +17355,7 @@ Better
 Blocks
 Beyond
 Bit
+Broken
 Value
 Verification
 Virtual

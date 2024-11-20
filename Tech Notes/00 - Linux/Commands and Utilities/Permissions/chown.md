@@ -4,9 +4,12 @@ Used to change the ownership of files and directories.
 
 It allows you to set a new owner and/or group for a given file, directory, or symbolic link.
 
+> [!note] 
+> Alternatively, we can change just the owner group using [[chgrp]]
+
 ### Basic Syntax
 
-```bash
+```bash ln:False
 chown [OPTIONS] USER[:GROUP] FILE(s)
 ```
 

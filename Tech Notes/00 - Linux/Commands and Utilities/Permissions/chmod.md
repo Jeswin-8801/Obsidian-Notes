@@ -10,7 +10,7 @@ Stands for <mark style="background: #D2B3FFA6;">change file mode</mark>. Used to
 
 In symbolic mode, you use letters to represent permissions and categories.
 
-```sh ln:False
+```shell ln:False
 chmod u+r,g-w,o+x filename
 ```
 
@@ -28,7 +28,7 @@ In numeric mode, permissions are represented by a three-digit octal number. Each
 - **<mark style="background: #FFB86CA6; color: black;">2</mark>**: Write
 - **<mark style="background: #FFB86CA6; color: black;">1</mark>**: Execute
 
-```sh ln:False
+```shell ln:False
 chmod 755 filename
 ```
 
@@ -45,7 +45,7 @@ chmod 755 filename
 **<mark style="background: #FFB86CA6; color: black;">Recursive (-R)</mark>**:
 Apply changes to all files and directories within a directory.
 
-```sh ln:False
+```shell ln:False
 chmod -R 755 directory
 ```
 
@@ -53,7 +53,7 @@ chmod -R 755 directory
 
 ## Example
 
-```sh ln:False hl:4
+```shell ln:False hl:4
 $ touch abc.txt
 $ ll abc.txt
 -rw-rw-r-- 1 jeswins jeswins 0 Nov 20 08:15 abc.txt
@@ -62,11 +62,11 @@ $ ll abc.txt
 -rwxr--r-- 1 jeswins jeswins 0 Nov 20 08:15 abc.txt*
 ```
 
-```sh ln:False
+```shell ln:False
 chmod 744 abc.txt
 ```
 > *can also be written as*
-```sh ln:False
+```shell ln:False
 chmod u=rwx,g=r,o=r abc.txt
 ```
 

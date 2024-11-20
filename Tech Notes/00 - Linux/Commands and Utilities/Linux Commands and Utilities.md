@@ -72,6 +72,17 @@ tags:
 
 ---
 
+## [[Permissions]]
+
+| [[chmod]] | [[chown]]<br><br>[[chgrp]] | [[umask]] |
+| --------- | -------------------------- | --------- |
+
+---
+
+## [[Hardlinks and Softlinks|Symbolic Links in Linux]]
+
+---
+
 ## Others
 
 |                                          | Logging                         |

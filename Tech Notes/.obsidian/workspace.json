@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "15ba0d66ac7f4262",
+        "id": "fb0669be9ab426ac",
         "type": "tabs",
         "children": [
           {
-            "id": "f557b2a3d7257b54",
+            "id": "36821a0f01d2d93d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Permissions/chmod.md",
+                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "chmod"
-            }
-          },
-          {
-            "id": "6171c540a75ee921",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Linux/Commands and Utilities/Permissions/chown.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "chown"
+              "title": "file, find"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,13 +187,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6171c540a75ee921",
+  "active": "36821a0f01d2d93d",
   "lastOpenFiles": [
-    "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
-    "00 - Linux/Commands and Utilities/Permissions/chmod.md",
-    "00 - Linux/Commands and Utilities/Permissions/chown.md",
-    "00 - Linux/Linux/Arch Installation.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+    "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
+    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
+    "00 - Linux/Commands and Utilities/Permissions/umask.md",
+    "00 - Linux/Commands and Utilities/Permissions/chown.md",
+    "00 - Linux/Commands and Utilities/Permissions/chmod.md",
+    "00 - Linux/Commands and Utilities/Permissions/chgrp.md",
+    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/ps, pstree, uptime, free.md",
+    "00 - Linux/Commands and Utilities/Symlinks",
+    "00 - Linux/Linux/Arch Installation.md",
     "00 - Linux/Commands and Utilities/Permissions",
     "01 - Python Scripting and Automation/Index.md",
     "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
@@ -228,11 +219,6 @@
     "00 - Linux/File System Heirarchy/How To/get systemctl status of a mount point.md",
     "00 - Linux/File System Heirarchy/How To/retrieve UUID of a partition.md",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/fstab.md",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/fdisk.md",
-    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/Retrieveing uuid.md",
-    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/mount, umount.md",
-    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/findmnt.md",
-    "00 - Linux/File System Heirarchy/Useful Information/Mounting.md",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
@@ -244,7 +230,6 @@
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "00 - Linux/Commands and Utilities/System Information",
     "00 - Linux/Linux",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems",
     "reaction_game 1.gif",
     "reaction_game.gif",
     "Images/timer_gif.gif",

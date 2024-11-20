@@ -1,28 +1,32 @@
-# `file`
+</br>
+
+# <mark style="background: #ABF7F7A6;">find</mark>
 
 Shows the file type
 
-```bash
+```bash ln:False
 ~$ file /etc/passwd
 /etc/passwd: ASCII text
 ```
 
 ---
 
-# `find`
+</br>
 
-```bash
+# <mark style="background: #ABF7F7A6;">find</mark>
+
+```bash ln:False
 ~$ find -name *keys
 ./.ssh/authorized_keys
 ```
 
-```bash
+```bash ln:False
 ~$ sudo find /var -name journal
 /var/log/journal
 ```
  
  - ignore case
-```bash
+```bash ln:False
 ~$ find -iname 'xa*log'
 ./split/xarhrt.log
 ./split/XAR.log
@@ -32,7 +36,7 @@ Shows the file type
 
 - find by file type
 - `f` stands for file
-```bash
+```bash ln:False
 ~$ sudo find / -type f -name '*\.ini'
 /usr/src/linux-headers-6.8.0-45/scripts/kconfig/tests/pytest.ini
 /usr/lib/python3.12/test/libregrtest/mypy.ini
@@ -40,21 +44,21 @@ Shows the file type
 ```
 
 - `d` stands for directory
-```bash
+```bash ln:False
 ~$ sudo find / -type d -name sbin
 /usr/sbin
 /usr/local/sbin
 ```
 
 - `l` symlink
-```bash
+```bash ln:False
 ~$ sudo find / -type l -name python3
 /usr/share/bash-completion/completions/python3
 /usr/bin/python3
 ```
 
 - find only in current directory
-```bash
+```bash ln:False
 ~$ find / -maxdepth 1 -type l
 /lib
 /sbin
