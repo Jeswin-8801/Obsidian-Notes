@@ -861,6 +861,7 @@ loss
 later
 linux
 lsblk
+letters
 GET
 GUI
 Great
@@ -1192,6 +1193,8 @@ Graphical
 GUID
 GPT
 GRand
+Gives
+Group
 POST
 PUT
 PATCH
@@ -2316,6 +2319,8 @@ Only
 Often
 Operates
 Owner
+Ownership
+Octal
 They
 Tuples
 The
@@ -3157,6 +3162,7 @@ modify
 maintaining
 makes
 marked
+man
 the
 to
 true
@@ -3542,6 +3548,10 @@ twenty
 tune
 tunable
 trees
+tail
+tiny
+trigproc
+terminated
 order
 of
 other
@@ -3838,6 +3848,10 @@ online
 operates
 optimal
 outputs
+orderly
+owners
+owner
+octal
 elements
 end
 empty
@@ -4297,6 +4311,7 @@ enough
 except
 editor
 editing
+elevated
 Mutable
 Manger
 Multithreaded
@@ -5657,6 +5672,7 @@ compacting
 caution
 cleans
 copied
+category
 be
 backend
 buffered
@@ -6577,6 +6593,7 @@ allocation
 atomic
 attempting
 attempts
+amd
 Allow
 Adds
 Authentic
@@ -6961,6 +6978,9 @@ Advanced
 Allocation
 Algorithm
 Always
+Another
+Avoid
+Apply
 duplicates
 duplicate
 descending
@@ -7473,6 +7493,8 @@ downtime
 damaged
 defragment
 detach
+dpkg
+divided
 values
 value
 vs
@@ -7832,6 +7854,8 @@ variety
 verify
 vital
 volume
+vim
+verified
 Function
 For
 Formatting
@@ -8671,6 +8695,7 @@ Defragmentation
 Debug
 Detaches
 Drives
+Display
 item
 items
 iterables
@@ -9088,6 +9113,7 @@ improving
 improves
 invoked
 impact
+inherit
 specified
 shallow
 set
@@ -9568,6 +9594,14 @@ selecting
 subsequent
 scheduled
 separate
+signal
+signals
+share
+shorthand
+sticky
+setuid
+setgid
+stat
 Removes
 Returns
 Reverses
@@ -10077,6 +10111,7 @@ Reorganizer
 Reorganization
 Regular
 Read
+Recursive
 from
 first
 function
@@ -10940,6 +10975,7 @@ reorganizes
 records
 resume
 requiring
+rename
 present
 pair
 properly
@@ -11384,6 +11420,10 @@ passes
 peak
 params
 privileges
+property
+permission
+primarily
+particularly
 given
 guarantee
 group
@@ -12126,6 +12166,16 @@ SSD
 Similarly
 Scalable
 Specifies
+Sends
+Send
+Signals
+Stops
+Status
+Symbolic
+Setuid
+Similar
+Setgid
+Sticky
 using
 unpacks
 unique
@@ -12517,6 +12567,10 @@ unmounted
 umount
 unmount
 unmounting
+ubuntu
+unintended
+uppercase
+useful
 No
 Numeric
 Note
@@ -13168,6 +13222,8 @@ nature
 numbers
 nice
 namespace
+none
+numeric
 Keys
 Key
 Kg
@@ -13829,6 +13885,7 @@ whereas
 widely
 workstation
 worst
+who
 key
 keys
 keeps
@@ -14925,6 +14982,7 @@ Consistency
 Considerations
 CACFD
 Changes
+Continuous
 When
 Writing
 With
@@ -16015,6 +16073,7 @@ human
 higher
 hours
 here
+half
 High
 Handling
 Handlers
@@ -16871,6 +16930,7 @@ Event
 Estimates
 Efficiently
 Editing
+Execute
 Because
 Block
 Basic
@@ -17239,6 +17299,8 @@ Bootloaders
 Buffer
 Better
 Blocks
+Beyond
+Bit
 Value
 Verification
 Virtual

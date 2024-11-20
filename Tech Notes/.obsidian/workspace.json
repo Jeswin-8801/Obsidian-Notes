@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "6233555a9c2a1d28",
+        "id": "15ba0d66ac7f4262",
         "type": "tabs",
         "children": [
           {
-            "id": "737a6e894aea1953",
+            "id": "f557b2a3d7257b54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/Linux/Boot Process.md",
+                "file": "00 - Linux/Commands and Utilities/Permissions/chmod.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Boot Process"
+              "title": "chmod"
+            }
+          },
+          {
+            "id": "6171c540a75ee921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Linux/Commands and Utilities/Permissions/chown.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "chown"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 381.5
   },
   "right": {
     "id": "f7c5154c2aff24d0",
@@ -187,16 +202,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "737a6e894aea1953",
+  "active": "6171c540a75ee921",
   "lastOpenFiles": [
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
+    "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
+    "00 - Linux/Commands and Utilities/Permissions/chmod.md",
+    "00 - Linux/Commands and Utilities/Permissions/chown.md",
+    "00 - Linux/Linux/Arch Installation.md",
+    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "00 - Linux/Commands and Utilities/Permissions",
     "01 - Python Scripting and Automation/Index.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
+    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/pgrep, kill, pkill, killall.md",
+    "00 - Linux/Commands and Utilities/Process Text Streams/cat, head, tail.md",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md",
+    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/tune2fs.md",
+    "00 - Linux/Commands and Utilities/Others/udev.md",
+    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "00 - Linux/Linux/Boot Process.md",
     "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
     "Images/reaction_game 2.gif",
     "Images/Pasted image 20241012161602.png",
-    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
     "00 - Linux/Commands and Utilities/Compression And Archiving/dd.md",
     "00 - Linux/File System Heirarchy/How To/get systemctl status of a mount point.md",
     "00 - Linux/File System Heirarchy/How To/retrieve UUID of a partition.md",
@@ -206,19 +233,8 @@
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/mount, umount.md",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/findmnt.md",
     "00 - Linux/File System Heirarchy/Useful Information/Mounting.md",
-    "00 - Linux/Linux/Boot Process.md",
-    "00 - Linux/Linux/Arch Installation.md",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
-    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/tune2fs.md",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/fsck.md",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkswap, swapon.md",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mkfs.md",
-    "00 - Linux/Commands and Utilities/Create Partitions and File Systems/mke2fs.md",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/xfs_repair, xfs_db, xfs_fsr.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄lost+found.md",
-    "00 - Linux/File System Heirarchy/Directories and Files/⁄proc/Important Virtual Files in ⁄proc.md",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
     "00 - Linux/Commands and Utilities/Others/logging",
     "00 - Linux/Linux/Linux Boot",
@@ -229,7 +245,6 @@
     "00 - Linux/Commands and Utilities/System Information",
     "00 - Linux/Linux",
     "00 - Linux/Commands and Utilities/Create Partitions and File Systems",
-    "01 - Python Scripting and Automation/RE",
     "reaction_game 1.gif",
     "reaction_game.gif",
     "Images/timer_gif.gif",
