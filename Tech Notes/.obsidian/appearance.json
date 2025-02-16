@@ -12,5 +12,6 @@
   ],
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "showRibbon": true
 }

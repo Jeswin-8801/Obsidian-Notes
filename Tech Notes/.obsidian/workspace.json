@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fb0669be9ab426ac",
+        "id": "cf8ecc005f2977b2",
         "type": "tabs",
         "children": [
           {
-            "id": "8f4b6096dbdcd446",
+            "id": "dbdb01ac94e2c3fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "00 - Linux/Linux/tmux.md",
-                "mode": "preview",
-                "source": true
+                "file": "Tech Notes/.obsidian/workspace.json",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "tmux"
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -40,7 +39,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -186,11 +186,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8f4b6096dbdcd446",
+  "active": "dbdb01ac94e2c3fe",
   "lastOpenFiles": [
+    "00 - Linux/Linux/tmux.md",
     "02 - DevOps/Tools/Jenkins.md",
     "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/nohup, screen, tmux.md",
-    "00 - Linux/Linux/tmux.md",
     "00 - Linux/Linux/Boot Process.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
     "02 - DevOps/Tools/Ansible.md",

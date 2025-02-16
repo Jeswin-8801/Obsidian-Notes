@@ -431,6 +431,7 @@ Unmounting
 USER
 UID
 UMASK
+Unable
 library
 leading
 length
@@ -1617,6 +1618,7 @@ Perform
 Permanently
 Persisting
 Pane
+Panes
 Lists
 Locks
 Log
@@ -4753,6 +4755,7 @@ ModemManager
 Multiuser
 Make
 Mounts
+Mouse
 Items
 Inserts
 Immutable
@@ -6133,6 +6136,7 @@ breakdown
 broken
 backups
 box
+bindings
 after
 an
 and
@@ -12249,6 +12253,7 @@ Soft
 Sessions
 Split
 Spliot
+Scroll
 using
 unpacks
 unique
