@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36821a0f01d2d93d",
+            "id": "8f4b6096dbdcd446",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "00 - Linux/Linux/tmux.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "file, find"
+              "title": "tmux"
             }
           }
         ]
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,9 +186,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "36821a0f01d2d93d",
+  "active": "8f4b6096dbdcd446",
   "lastOpenFiles": [
+    "02 - DevOps/Tools/Jenkins.md",
+    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/nohup, screen, tmux.md",
+    "00 - Linux/Linux/tmux.md",
+    "00 - Linux/Linux/Boot Process.md",
     "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "02 - DevOps/Tools/Ansible.md",
+    "02 - DevOps/Tools/GitLab.md",
     "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
     "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
     "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
@@ -210,15 +215,9 @@
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/tune2fs.md",
     "00 - Linux/Commands and Utilities/Others/udev.md",
     "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
-    "00 - Linux/Linux/Boot Process.md",
     "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
     "Images/reaction_game 2.gif",
     "Images/Pasted image 20241012161602.png",
-    "00 - Linux/Commands and Utilities/Compression And Archiving/dd.md",
-    "00 - Linux/File System Heirarchy/How To/get systemctl status of a mount point.md",
-    "00 - Linux/File System Heirarchy/How To/retrieve UUID of a partition.md",
-    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems/fstab.md",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",

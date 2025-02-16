@@ -1616,6 +1616,7 @@ Percentage
 Perform
 Permanently
 Persisting
+Pane
 Lists
 Locks
 Log
@@ -2328,6 +2329,7 @@ Operates
 Owner
 Ownership
 Octal
+Open
 They
 Tuples
 The
@@ -2781,6 +2783,7 @@ Traditionally
 Then
 Timestamps
 Trees
+Tab
 maintain
 matched
 methods
@@ -3563,6 +3566,8 @@ trigproc
 terminated
 themselves
 traverse
+terminal
+tmux
 order
 of
 other
@@ -4325,6 +4330,9 @@ editor
 editing
 elevated
 everyone
+exiting
+exit
+enter
 Mutable
 Manger
 Multithreaded
@@ -6124,6 +6132,7 @@ blkid
 breakdown
 broken
 backups
+box
 after
 an
 and
@@ -6615,6 +6624,7 @@ amd
 across
 accurate
 aliases
+attach
 Allow
 Adds
 Authentic
@@ -7004,6 +7014,7 @@ Avoid
 Apply
 Administrative
 Allowing
+Attach
 duplicates
 duplicate
 descending
@@ -8728,6 +8739,7 @@ Debug
 Detaches
 Drives
 Display
+Detach
 item
 items
 iterables
@@ -9148,6 +9160,7 @@ impact
 inherit
 inode
 inconsistencies
+initiator
 specified
 shallow
 set
@@ -9643,6 +9656,9 @@ symlinks
 struggle
 span
 shortcuts
+short
+screen
+scrolling
 Removes
 Returns
 Reverses
@@ -10155,6 +10171,7 @@ Read
 Recursive
 Recursively
 Restriction
+Rename
 from
 first
 function
@@ -11471,6 +11488,9 @@ permission
 primarily
 particularly
 pointing
+previous
+pane
+panes
 given
 guarantee
 group
@@ -12226,6 +12246,9 @@ Sticky
 Syntax
 Settings
 Soft
+Sessions
+Split
+Spliot
 using
 unpacks
 unique
@@ -12943,6 +12966,9 @@ Next
 NFS
 NUL
 Notes
+Navigate
+Navigates
+Numbers
 number
 new
 not
@@ -13626,6 +13652,7 @@ KacVGIHz
 Khb
 KhN
 Kernel
+Kill
 with
 way
 when
@@ -13939,6 +13966,7 @@ widely
 workstation
 worst
 who
+windows
 key
 keys
 keeps
@@ -14262,6 +14290,7 @@ know
 kernel
 keyboards
 keyword
+keep
 JSON
 Jenkins
 JaZ
@@ -15037,6 +15066,8 @@ CACFD
 Changes
 Continuous
 Cannot
+Ctrl
+Close
 When
 Writing
 With
@@ -15380,6 +15411,7 @@ While
 Why
 Widely
 Without
+Window
 your
 you
 yielded
@@ -16128,6 +16160,8 @@ higher
 hours
 here
 half
+hotkeys
+hotkey
 High
 Handling
 Handlers
@@ -16549,6 +16583,7 @@ Hold
 Hardware
 Host
 Hard
+Horizontal
 Example
 Exceptions
 Encoded
@@ -16985,6 +17020,7 @@ Estimates
 Efficiently
 Editing
 Execute
+Evenly
 Because
 Block
 Basic
@@ -17761,6 +17797,7 @@ Vendor
 VGAuthService
 Verify
 Volume
+Vertical
 You
 Yf
 Ya
@@ -19198,6 +19235,7 @@ Zlh
 ZUi
 ZAf
 ZvV
+Zoom
 zero
 zu
 zA
@@ -19481,6 +19519,7 @@ zPM
 zQk
 zbr
 zettabytes
+zoom
 QO
 QM
 QfJ
