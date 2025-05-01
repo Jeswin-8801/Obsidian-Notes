@@ -867,6 +867,7 @@ linux
 lsblk
 letters
 lead
+lspci
 GET
 GUI
 Great
@@ -9663,6 +9664,7 @@ shortcuts
 short
 screen
 scrolling
+setpci
 Removes
 Returns
 Reverses
@@ -15073,6 +15075,7 @@ Continuous
 Cannot
 Ctrl
 Close
+Chckout
 When
 Writing
 With

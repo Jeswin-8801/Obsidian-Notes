@@ -7,7 +7,7 @@ tags:
 
 | CPU and Kernel                 | Hardware                       | Kernel Modules                                      |
 | ------------------------------ | ------------------------------ | --------------------------------------------------- |
-| [[lscpu]]    <br><br>[[uname]] | [[lspci]]    <br><br>[[lsusb]] | [[lsmod]]   <br><br>[[modinfo]]<br><br>[[modprobe]] |
+| [[lscpu]]    <br><br>[[uname]] | [[00 - Linux/Commands and Utilities/System Information/Hardware/lspci]]    <br><br>[[lsusb]] | [[lsmod]]   <br><br>[[modinfo]]<br><br>[[modprobe]] |
 
 ---
 ## Compression And Archiving
@@ -85,7 +85,6 @@ tags:
 
 ## Others
 
-|                                          | Logging                         |
-| ---------------------------------------- | ------------------------------- |
-| [[ip]]<br><br>[[passwd]]<br><br>[[udev]] | [[dmesg]]<br><br>[[journalctl]] |
-
+|                                                          | Logging                         |
+| -------------------------------------------------------- | ------------------------------- |
+| [[ip]]<br><br>[[passwd]]<br><br>[[udev]]<br><br>[[tmux]] | [[dmesg]]<br><br>[[journalctl]] |

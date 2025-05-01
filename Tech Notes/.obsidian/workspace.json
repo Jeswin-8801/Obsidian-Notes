@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf8ecc005f2977b2",
+        "id": "9551337b01a9e5b1",
         "type": "tabs",
         "children": [
           {
-            "id": "dbdb01ac94e2c3fe",
+            "id": "362cc1f0b939e898",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Tech Notes/.obsidian/workspace.json",
-                "staged": false
+                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "lspci, setpci"
             }
           }
         ]
@@ -127,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -139,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md"
+                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of df"
+              "title": "Outline of lspci, setpci"
             }
           },
           {
@@ -151,8 +157,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -170,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,49 +193,49 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "dbdb01ac94e2c3fe",
+  "active": "362cc1f0b939e898",
   "lastOpenFiles": [
-    "00 - Linux/Linux/tmux.md",
-    "02 - DevOps/Tools/Jenkins.md",
-    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/nohup, screen, tmux.md",
-    "00 - Linux/Linux/Boot Process.md",
-    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
-    "02 - DevOps/Tools/Ansible.md",
-    "02 - DevOps/Tools/GitLab.md",
-    "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
-    "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
-    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
-    "00 - Linux/Commands and Utilities/Permissions/umask.md",
-    "00 - Linux/Commands and Utilities/Permissions/chown.md",
-    "00 - Linux/Commands and Utilities/Permissions/chmod.md",
-    "00 - Linux/Commands and Utilities/Permissions/chgrp.md",
-    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/ps, pstree, uptime, free.md",
-    "00 - Linux/Commands and Utilities/Symlinks",
-    "00 - Linux/Linux/Arch Installation.md",
-    "00 - Linux/Commands and Utilities/Permissions",
-    "01 - Python Scripting and Automation/Index.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/Bash to Python (3rd Party Packages).md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
-    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/pgrep, kill, pkill, killall.md",
-    "00 - Linux/Commands and Utilities/Process Text Streams/cat, head, tail.md",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/tune2fs.md",
-    "00 - Linux/Commands and Utilities/Others/udev.md",
-    "00 - Linux/File System Heirarchy/Linux Directory Structure.md",
+    "00 - Linux/Boot Process/Linux Boot/SysVinit vs Upstart vs Systemd.md",
+    "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+    "00 - Linux/Boot Process/Boot Process.md",
+    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
+    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
+    "01 - Python Scripting and Automation/Logging/Logging.md",
+    "01 - Python Scripting and Automation/APIs and Web Requests/APIs and Web Requests.md",
     "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Decorators.md",
+    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/System Knowledge.md",
+    "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
+    "01 - Python Scripting and Automation/RE/Regular Expressions.md",
+    "02 - DevOps/Tools/GitLab.md",
+    "02 - DevOps/Tools/Jenkins.md",
+    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
+    "00 - Linux/Commands and Utilities/Using Streams/STDIN, STDOUT, STDERR, tee.md",
+    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "03 - Work/Commands and Utilities/pci-express",
+    "03 - Work/Commands and Utilities",
+    "03 - Work",
+    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
+    "00 - Linux/Commands and Utilities/Others/tmux.md",
+    "00 - Linux/Boot Process/Arch Installation.md",
+    "00 - Linux/Commands and Utilities/Symlinks",
+    "00 - Linux/Commands and Utilities/Permissions",
     "Images/reaction_game 2.gif",
     "Images/Pasted image 20241012161602.png",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
     "00 - Linux/Commands and Utilities/Others/logging",
-    "00 - Linux/Linux/Linux Boot",
+    "00 - Linux/Boot Process/Linux Boot",
     "Images/Pasted image 20241113155639.png",
     "00 - Linux/Commands and Utilities/System Information/Hardware",
-    "00 - Linux/Commands and Utilities/System Information/Kernel Modules",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
-    "00 - Linux/Commands and Utilities/System Information",
-    "00 - Linux/Linux",
     "reaction_game 1.gif",
     "reaction_game.gif",
     "Images/timer_gif.gif",
