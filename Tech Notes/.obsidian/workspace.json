@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9551337b01a9e5b1",
+        "id": "d866975335acfe2e",
         "type": "tabs",
         "children": [
           {
-            "id": "362cc1f0b939e898",
+            "id": "565ffeee80b53c86",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Tech Notes/.obsidian/workspace.json",
-                "staged": false
+                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "lspci, setpci"
             }
           }
         ]
@@ -141,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of lspci, setpci"
             }
           },
           {
@@ -190,10 +192,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "474fe9a7344defea",
+  "active": "565ffeee80b53c86",
   "lastOpenFiles": [
-    "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
     "00 - Linux/Boot Process/Linux Boot/SysVinit vs Upstart vs Systemd.md",
+    "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
     "00 - Linux/Boot Process/Boot Process.md",
     "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
     "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
