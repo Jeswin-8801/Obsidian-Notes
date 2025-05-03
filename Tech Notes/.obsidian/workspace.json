@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
-                "mode": "source",
+                "file": "03 - Work/pci/lspci, setpci.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "lspci, setpci"
+            }
+          },
+          {
+            "id": "740ca41a85af3a49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "lspci"
             }
           }
         ]
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+                "file": "03 - Work/pci/lspci, setpci.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -176,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +209,21 @@
   },
   "active": "565ffeee80b53c86",
   "lastOpenFiles": [
+    "03 - Work/pci/PCI Configuration Space.md",
+    "03 - Work/pci/lspci, setpci.md",
+    "03 - Work/pci/PCI devices.md",
+    "03 - Work/pci/PCI standards.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/Dynamically Interact with a Process.md",
+    "Images/Pasted image 20250503192908.png",
+    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
+    "Images/Pasted image 20250503190815.png",
     "00 - Linux/Boot Process/Linux Boot/SysVinit vs Upstart vs Systemd.md",
-    "03 - Work/Commands and Utilities/pci-express/lspci, setpci.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/argparse vs sys.argv.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/cProfile.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
+    "00 - Linux/Boot Process/Linux Boot/initrd (InitialRamDisk).md",
+    "00 - Linux/Boot Process/Linux Boot/ESP (EFI System Partition).md",
     "00 - Linux/Boot Process/Boot Process.md",
     "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
     "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
@@ -208,21 +236,9 @@
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Decorators.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Core Python Syntax.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Answers/System Knowledge.md",
-    "01 - Python Scripting and Automation/Interview Questions and Answers/Interview Questions.md",
-    "01 - Python Scripting and Automation/RE/Regular Expressions.md",
-    "02 - DevOps/Tools/GitLab.md",
-    "02 - DevOps/Tools/Jenkins.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-    "00 - Linux/Commands and Utilities/Using Streams/STDIN, STDOUT, STDERR, tee.md",
-    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
-    "03 - Work/Commands and Utilities/pci-express",
+    "03 - Work/pci",
     "03 - Work/Commands and Utilities",
     "03 - Work",
-    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
-    "00 - Linux/Commands and Utilities/Others/tmux.md",
-    "00 - Linux/Boot Process/Arch Installation.md",
     "00 - Linux/Commands and Utilities/Symlinks",
     "00 - Linux/Commands and Utilities/Permissions",
     "Images/reaction_game 2.gif",
@@ -241,8 +257,6 @@
     "reaction_game_hack.gif",
     "Untitled.canvas",
     "Images/Pasted image 20240930122732.png",
-    "Images/Pasted image 20240928232439.png",
-    "Pasted image 20240928232619.png",
     "Directories.canvas"
   ]
 }

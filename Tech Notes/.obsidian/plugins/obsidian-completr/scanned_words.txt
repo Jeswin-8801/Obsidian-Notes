@@ -868,6 +868,10 @@ lsblk
 letters
 lead
 lspci
+latest
+lanes
+lane
+laptops
 GET
 GUI
 Great
@@ -1202,6 +1206,7 @@ GRand
 Gives
 Group
 GROUP
+Graphics
 POST
 PUT
 PATCH
@@ -1620,6 +1625,9 @@ Permanently
 Persisting
 Pane
 Panes
+PCIe
+Port
+Provide
 Lists
 Locks
 Log
@@ -3178,6 +3186,7 @@ marked
 man
 members
 masking
+mapped
 the
 to
 true
@@ -3571,6 +3580,8 @@ themselves
 traverse
 terminal
 tmux
+transmission
+telephone
 order
 of
 other
@@ -3872,6 +3883,7 @@ owners
 owner
 octal
 ownership
+offset
 elements
 end
 empty
@@ -4757,6 +4769,13 @@ Multiuser
 Make
 Mounts
 Mouse
+Microchip
+Message
+MSI
+MCAP
+Mini
+Modems
+Manage
 Items
 Inserts
 Immutable
@@ -5225,6 +5244,10 @@ IMP
 Impact
 Incorrect
 Inode
+Identifies
+Item
+Interrupt
+IOV
 can
 changed
 creation
@@ -5700,6 +5723,9 @@ cleans
 copied
 category
 counts
+cut
+compact
+connecting
 be
 backend
 buffered
@@ -6138,6 +6164,7 @@ broken
 backups
 box
 bindings
+bus
 after
 an
 and
@@ -6630,6 +6657,9 @@ across
 accurate
 aliases
 attach
+auto
+appropriate
+audio
 Allow
 Adds
 Authentic
@@ -7020,6 +7050,9 @@ Apply
 Administrative
 Allowing
 Attach
+AER
+Alternate
+ARI
 duplicates
 duplicate
 descending
@@ -7541,6 +7574,11 @@ difficult
 dangling
 duplicating
 defs
+dump
+detect
+datasheet
+downstream
+direction
 values
 value
 vs
@@ -8745,6 +8783,7 @@ Detaches
 Drives
 Display
 Detach
+DSN
 item
 items
 iterables
@@ -9166,6 +9205,11 @@ inherit
 inode
 inconsistencies
 initiator
+interacting
+important
+introduced
+internet
+improved
 specified
 shallow
 set
@@ -9665,6 +9709,9 @@ short
 screen
 scrolling
 setpci
+switches
+specifically
+standards
 Removes
 Returns
 Reverses
@@ -10178,6 +10225,9 @@ Recursive
 Recursively
 Restriction
 Rename
+Registers
+Reporting
+Requester
 from
 first
 function
@@ -10601,6 +10651,9 @@ fsck
 fragmentation
 fsr
 final
+fastest
+functionality
+factor
 removes
 remove
 returns
@@ -11045,6 +11098,11 @@ requiring
 rename
 reference
 reflected
+region
+registers
+recognize
+rates
+render
 present
 pair
 properly
@@ -11497,6 +11555,11 @@ pointing
 previous
 pane
 panes
+port
+product
+position
+paths
+professional
 given
 guarantee
 group
@@ -11824,6 +11887,9 @@ graphical
 gain
 generate
 generates
+grep
+graphics
+gaming
 Sorts
 Set
 Sometimes
@@ -12256,6 +12322,11 @@ Sessions
 Split
 Spliot
 Scroll
+SIG
+Signaled
+Serial
+Smaller
+Sound
 using
 unpacks
 unique
@@ -12652,6 +12723,8 @@ unintended
 uppercase
 useful
 umask
+underlying
+upstream
 No
 Numeric
 Note
@@ -12976,6 +13049,7 @@ Notes
 Navigate
 Navigates
 Numbers
+Number
 number
 new
 not
@@ -14298,6 +14372,7 @@ kernel
 keyboards
 keyword
 keep
+knows
 JSON
 Jenkins
 JaZ
@@ -15076,6 +15151,13 @@ Cannot
 Ctrl
 Close
 Chckout
+Conventional
+Consult
+Capabilities
+Capability
+Channel
+Cards
+Controllers
 When
 Writing
 With
@@ -16170,6 +16252,8 @@ here
 half
 hotkeys
 hotkey
+hexadecimal
+headers
 High
 Handling
 Handlers
@@ -16592,6 +16676,7 @@ Hardware
 Host
 Hard
 Horizontal
+Header
 Example
 Exceptions
 Encoded
@@ -17029,6 +17114,10 @@ Efficiently
 Editing
 Execute
 Evenly
+Express
+Endpoint
+Extended
+Enhance
 Because
 Block
 Basic
@@ -17400,6 +17489,8 @@ Blocks
 Beyond
 Bit
 Broken
+Base
+BARs
 Value
 Verification
 Virtual
@@ -17806,6 +17897,7 @@ VGAuthService
 Verify
 Volume
 Vertical
+Virtualization
 You
 Yf
 Ya
