@@ -41,7 +41,7 @@ $ iwctl
 NetworkConfigurationEnabled: disabled
 StateDirectory: /var/lib/iwd
 Version: 2.22
-[iwd]# device list
+[iwd] device list
                                     Devices                                   *
 --------------------------------------------------------------------------------
   Name                  Address               Powered     Adapter     Mode
@@ -49,8 +49,8 @@ Version: 2.22
   wlan0                 14:f6:d8:9b:f2:f3     on          phy0        station
 
 
-[iwd]# station wlan0 scan
-[iwd]# station wlan0 get-networks
+[iwd] station wlan0 scan
+[iwd] station wlan0 get-networks
                                Available Networks                               
 --------------------------------------------------------------------------------
       Network Name                      Security            Signal              
@@ -58,12 +58,11 @@ Version: 2.22
   >   conhem_87C                        psk                 ****
       conhem_87C-5G                     psk                 ****
 
-[iwd]# station wlan0 connect conhem_87C
+[iwd] station wlan0 connect conhem_87C
 Type the network passphrase for conhem_87C psk
 Passphrase: ***********
-[iwd]# exit
+[iwd] exit
 
-[iwd]# 
 ```
 
 ---
@@ -129,6 +128,9 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 ```shell ln:False
 $ cfdisk /dev/sda
 ```
+
+> [!note] 
+> Below GUI will show up if the disk has already been formatted once.
 
 - select **<mark style="background: #ABF7F7A6;">gpt</mark>**
 ```shell ln:False title:next
@@ -201,6 +203,10 @@ sda      8:0    0    12G  0 disk
 └─sda3   8:3    0   1.5G  0 part
 sr0     11:0    1   1.1G  0 rom  /run/archiso/bootmnt
 ```
+
+> [!caution] 
+> If you are setting up arch from a flashed USB, it will also show up as a drive with partitions when entering `lsblk`.
+> **Do not format or mount it.**
 
 ---
 ## Formatting
@@ -314,13 +320,17 @@ $ reflector -c "IN" -f 12 -l 10 -n 12 --save /etc/pacman.d/mirrorlist
 ## Install Arch Linux
 
 ```bash ln:False
-$ pacstrap /mnt base linux linux-firmware nano
+$ pacstrap /mnt base linux linux-firmware nano vim iwctl zsh
 ==> Creating install root at /mnt
 ==> Installing packages to /mnt
 :: Synchronizing package databases...
 
 (... Truncated)
 ```
+
+> [!note] 
+> Once rebooted, arch will only contain the packages installed above.
+> It is possible that you will not be connected to the network (Wi-Fi) after rebooting, there make sure you have necessary tools installed at this stage
 
 ---
 

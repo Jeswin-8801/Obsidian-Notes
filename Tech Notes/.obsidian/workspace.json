@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Work/pci/lspci, setpci.md",
+                "file": "02 - DevOps/Tools/Ansible.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "lspci, setpci"
+              "title": "Ansible"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-                "mode": "preview",
+                "file": "00 - Linux/Boot Process/Arch Installation.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "lspci"
+              "title": "Arch Installation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Work/pci/lspci, setpci.md",
+                "file": "00 - Linux/Boot Process/Arch Installation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lspci, setpci"
+              "title": "Outline of Arch Installation"
             }
           },
           {
@@ -207,15 +208,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "565ffeee80b53c86",
+  "active": "740ca41a85af3a49",
   "lastOpenFiles": [
-    "03 - Work/pci/PCI Configuration Space.md",
-    "03 - Work/pci/lspci, setpci.md",
     "03 - Work/pci/PCI devices.md",
     "03 - Work/pci/PCI standards.md",
+    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
+    "02 - DevOps/Tools/Ansible.md",
+    "02 - DevOps/Tools/Jenkins.md",
+    "02 - DevOps/Tools/GitLab.md",
+    "01 - Python Scripting and Automation/Index.md",
+    "03 - Work/pci/lspci, setpci.md",
+    "03 - Work/pci/PCI Configuration Space.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/Dynamically Interact with a Process.md",
     "Images/Pasted image 20250503192908.png",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
     "Images/Pasted image 20250503190815.png",
     "00 - Linux/Boot Process/Linux Boot/SysVinit vs Upstart vs Systemd.md",
     "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/argparse vs sys.argv.md",
@@ -233,9 +238,6 @@
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
     "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Iterable Data Types.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Exception Handling.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Decorators.md",
     "03 - Work/pci",
     "03 - Work/Commands and Utilities",
     "03 - Work",
