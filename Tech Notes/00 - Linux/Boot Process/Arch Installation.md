@@ -159,11 +159,11 @@ Select a type to create a new label, press 'L' to load script file, 'Q' quit
 ```
 Use arrow keys to create partitions
 - <mark style="background: #BBFABBA6;">/dev/sda1</mark>
-	choose 512Mb of space (UEFI)
+	choose at least 512Mb of space (UEFI) (<mark style="background: #FFF3A3A6;">1G recommended</mark>)
 - <mark style="background: #BBFABBA6;">/dev/sda2</mark>
-	choose at least 10 GB of space (root)
+	set it to twice the RAM with at most 20G (SWAP)
 - <mark style="background: #BBFABBA6;">/dev/sda3</mark>
-	choose all the left space (home)
+	the rest is allotted as root
 ```shell ln:False title:after_defining
                                Disk: /dev/sda
              Size: 12 GiB, 12884901888 bytes, 25165824 sectors
@@ -171,8 +171,8 @@ Use arrow keys to create partitions
 
     Device            Start        End    Sectors    Size Type
     /dev/sda1          2048    1050623    1048576    512M EFI System
-    /dev/sda2       1050624   17827839   16777216      8G Linux filesystem
->>  /dev/sda3      17827840   25163775    7335936    3.5G Linux filesystem
+    /dev/sda2      17827840   25163775    7335936    3.5G Linux swap
+>>  /dev/sda3       1050624   17827839   16777216     10G Linux root (x86-64)
 
  ┌────────────────────────────────────────────────────────────────────────┐
  │Partition UUID: A09CE8FF-5178-4C69-BE30-781BC804A94D                    │
@@ -189,8 +189,8 @@ Use arrow keys to create partitions
 $ fdisk -l | awk '/^Device|^\/dev/ { printf "%-12s %-12s %-12s %-12s %-12s\n", $1, $2, $3, $4, $5 }'
 Device       Start        End          Sectors      Size
 /dev/sda1    2048         1050623      1048576      512M
-/dev/sda2    1050624      22022143     20971520     10G
-/dev/sda3    22022144     25163775     3141632      1.5G
+/dev/sda2    22022144     25163775     3141632      3.5G
+/dev/sda3    1050624      22022143     20971520     10G
 ```
 *OR*
 ```shell ln:False
@@ -199,8 +199,8 @@ NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0    7:0    0 794.4M  1 loop /run/archiso/airootfs
 sda      8:0    0    12G  0 disk
 ├─sda1   8:1    0   512M  0 part
-├─sda2   8:2    0    10G  0 part
-└─sda3   8:3    0   1.5G  0 part
+├─sda2   8:2    0   3.5G  0 part
+└─sda3   8:3    0    10G  0 part
 sr0     11:0    1   1.1G  0 rom  /run/archiso/bootmnt
 ```
 
@@ -222,10 +222,10 @@ mkfs.fat 4.2 (2021-01-31)
 > The first partition -> <mark style="background: #ABF7F7A6;">UEFI</mark>
 > needs to be formatted with a ==FAT== file system
 
-The other two partitions can be formatted in any Linux file system
+The other partitions (except SWAP) can be formatted in any Linux file system
 
 ```bash ln:False
-$ mkfs.ext4 /dev/sda2
+$ mkfs.ext4 /dev/sda3
 mke2fs 1.47.1 (20-May-2024)
 Creating filesystem with 2621440 4k blocks and 655360 inodes
 Filesystem UUID: fb9439fb-0ef1-4740-aa24-4014237c95e2
@@ -238,12 +238,6 @@ Creating journal (16384 blocks): done
 Writing superblocks and filesystem accounting information: done
 ```
 
-```bash ln:False
-$ mkfs.ext4 /dev/sda3
-mke2fs 1.47.1 (20-May-2024)
-...(Truncated)
-```
-
 ---
 
 ## Mounting
@@ -254,12 +248,14 @@ mke2fs 1.47.1 (20-May-2024)
 $ mount /dev/sda2 /mnt
 ```
 
-> Create a folder to mount the <mark style="background: #ABF7F7A6;">home</mark> partition and mount it
-
-```bash ln:False
-$ mkdir /mnt/home
-$ mount /dev/sda3 /mnt/home
-```
+> [!example] 
+> You have an additional partition and you want to map `/home` to it, then do:
+> - Create a folder to mount the <mark style="background: #ABF7F7A6;">home</mark> partition and mount it
+>
+> ```bash ln:False
+> $ mkdir /mnt/home
+> $ mount /dev/nvme0n1p2 /mnt/home
+> ```
 
 - Check mountpoints
 ```bash ln:False
@@ -268,8 +264,8 @@ NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 loop0    7:0    0 794.4M  1 loop /run/archiso/airootfs
 sda      8:0    0    12G  0 disk
 ├─sda1   8:1    0   512M  0 part
-├─sda2   8:2    0    10G  0 part /mnt
-└─sda3   8:3    0   1.5G  0 part /mnt/home
+├─sda2   8:2    0   3.5G  0 part
+└─sda3   8:3    0    10G  0 part /mnt
 sr0     11:0    1   1.1G  0 rom  /run/archiso/bootmnt
 ```
 
@@ -320,7 +316,7 @@ $ reflector -c "IN" -f 12 -l 10 -n 12 --save /etc/pacman.d/mirrorlist
 ## Install Arch Linux
 
 ```bash ln:False
-$ pacstrap /mnt base linux linux-firmware nano vim iwctl zsh
+$ pacstrap /mnt base linux linux-firmware nano vim iwd dhcpcd networkmanager zsh fish git curl wget
 ==> Creating install root at /mnt
 ==> Installing packages to /mnt
 :: Synchronizing package databases...
@@ -330,7 +326,8 @@ $ pacstrap /mnt base linux linux-firmware nano vim iwctl zsh
 
 > [!note] 
 > Once rebooted, arch will only contain the packages installed above.
-> It is possible that you will not be connected to the network (Wi-Fi) after rebooting, there make sure you have necessary tools installed at this stage
+> 
+> It is possible that you will not be connected to the network (Wi-Fi) after rebooting, there make sure you have necessary tools installed at this stage.
 
 ---
 
@@ -352,9 +349,6 @@ $ cat /mnt/etc/fstab
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/sda2
 UUID=fb9439fb-0ef1-4740-aa24-4014237c95e2       /               ext4            rw,relatime     0 1
-
-# /dev/sda3
-UUID=99becabb-0fe2-4427-92f1-cf0c1913a768       /home           ext4            rw,relatime     0 2
 ```
 
 #### Chroot into the installed system

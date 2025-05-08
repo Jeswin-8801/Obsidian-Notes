@@ -4348,6 +4348,7 @@ everyone
 exiting
 exit
 enter
+entering
 Mutable
 Manger
 Multithreaded
@@ -9712,6 +9713,7 @@ setpci
 switches
 specifically
 standards
+sure
 Removes
 Returns
 Reverses
@@ -10654,6 +10656,7 @@ final
 fastest
 functionality
 factor
+flashed
 removes
 remove
 returns
@@ -11103,6 +11106,7 @@ registers
 recognize
 rates
 render
+rebooted
 present
 pair
 properly
@@ -17491,6 +17495,7 @@ Bit
 Broken
 Base
 BARs
+Below
 Value
 Verification
 Virtual

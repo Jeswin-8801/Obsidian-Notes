@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "00 - Linux/Boot Process/Arch Installation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "right": {
     "id": "f7c5154c2aff24d0",
