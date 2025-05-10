@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d866975335acfe2e",
+        "id": "cf8ecc005f2977b2",
         "type": "tabs",
         "children": [
           {
-            "id": "565ffeee80b53c86",
+            "id": "dbdb01ac94e2c3fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/Tools/Ansible.md",
+                "file": "02 - DevOps/HomeLab/PROXMOX.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ansible"
-            }
-          },
-          {
-            "id": "740ca41a85af3a49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Linux/Boot Process/Arch Installation.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Arch Installation"
+              "title": "PROXMOX"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "right": {
     "id": "f7c5154c2aff24d0",
@@ -144,9 +128,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -158,13 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Linux/Boot Process/Arch Installation.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Arch Installation"
+              "title": "Outline of df"
             }
           },
           {
@@ -173,8 +152,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -209,39 +188,46 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "740ca41a85af3a49",
+  "active": "dbdb01ac94e2c3fe",
   "lastOpenFiles": [
-    "03 - Work/pci/PCI devices.md",
-    "03 - Work/pci/PCI standards.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-    "02 - DevOps/Tools/Ansible.md",
-    "02 - DevOps/Tools/Jenkins.md",
+    "Images/proxmox_convert_to_template.png",
+    "Images/proxmox_ubuntu_cloud_init.png",
+    "Pasted image 20250511002941.png",
+    "Images/proxmox_ubuntu_template_hard_disk.png",
+    "Images/proxmox_ubuntu_template_processor.png",
+    "Images/proxmox_ubuntu_template_memory.png",
+    "Images/proxmox_download_iso.png",
+    "00 - Linux/Boot Process/Arch Installation.md",
+    "02 - DevOps/HomeLab/PROXMOX.md",
     "02 - DevOps/Tools/GitLab.md",
-    "01 - Python Scripting and Automation/Index.md",
-    "03 - Work/pci/lspci, setpci.md",
-    "03 - Work/pci/PCI Configuration Space.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/Dynamically Interact with a Process.md",
+    "02 - DevOps/HomeLab",
+    "00 - Linux/Linux/tmux.md",
     "Images/Pasted image 20250503192908.png",
-    "Images/Pasted image 20250503190815.png",
+    "03 - Work/pci/PCI standards.md",
+    "03 - Work/pci/PCI devices.md",
+    "03 - Work/pci/PCI Configuration Space.md",
+    "03 - Work/pci/lspci, setpci.md",
+    "03 - Work/pci",
+    "03 - Work",
+    "00 - Linux/Commands and Utilities/Others/tmux.md",
     "00 - Linux/Boot Process/Linux Boot/SysVinit vs Upstart vs Systemd.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/argparse vs sys.argv.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/cProfile.md",
-    "01 - Python Scripting and Automation/Libraries and Frameworks/Libraries and Frameworks.md",
+    "00 - Linux/Boot Process/Linux Boot/MBR vs GPT.md",
     "00 - Linux/Boot Process/Linux Boot/initrd (InitialRamDisk).md",
     "00 - Linux/Boot Process/Linux Boot/ESP (EFI System Partition).md",
+    "00 - Linux/Boot Process/Linux Boot/Bootloader.md",
+    "00 - Linux/Boot Process/Linux Boot/BIOS vs UEFI.md",
+    "00 - Linux/Boot Process/Linux Boot",
     "00 - Linux/Boot Process/Boot Process.md",
-    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
-    "01 - Python Scripting and Automation/Virtual Environments/Environment Management.md",
-    "01 - Python Scripting and Automation/Logging/Logging.md",
-    "01 - Python Scripting and Automation/APIs and Web Requests/APIs and Web Requests.md",
-    "01 - Python Scripting and Automation/Automation Tools/Automation Tools.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Modules and Packages.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/List Compressions.md",
-    "01 - Python Scripting and Automation/Core Python Syntax/Notes/Lambda Functions.md",
-    "03 - Work/pci",
-    "03 - Work/Commands and Utilities",
-    "03 - Work",
+    "00 - Linux/Boot Process",
+    "02 - DevOps/Tools/Jenkins.md",
+    "00 - Linux/Commands and Utilities/Create, Monitor and Terminate Processes/nohup, screen, tmux.md",
+    "00 - Linux/Linux/Boot Process.md",
+    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "02 - DevOps/Tools/Ansible.md",
+    "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+    "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
+    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
+    "00 - Linux/Commands and Utilities/Permissions/umask.md",
     "00 - Linux/Commands and Utilities/Symlinks",
     "00 - Linux/Commands and Utilities/Permissions",
     "Images/reaction_game 2.gif",
@@ -250,16 +236,9 @@
     "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
     "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
     "00 - Linux/Commands and Utilities/Others/logging",
-    "00 - Linux/Boot Process/Linux Boot",
     "Images/Pasted image 20241113155639.png",
-    "00 - Linux/Commands and Utilities/System Information/Hardware",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
-    "reaction_game 1.gif",
-    "reaction_game.gif",
-    "Images/timer_gif.gif",
-    "reaction_game_hack.gif",
     "Untitled.canvas",
-    "Images/Pasted image 20240930122732.png",
     "Directories.canvas"
   ]
 }

@@ -34,7 +34,10 @@ System clock synchronized: yes
 
 > list available interfaces using [[ip#`ip link`|ip link]]
 
-If not connected:
+If not connected, use `iwctl` as shown below.
+
+#### Connect to Wi-Fi
+
 - setup wi-fi using `iwctl`
 ```bash ln:False
 $ iwctl
