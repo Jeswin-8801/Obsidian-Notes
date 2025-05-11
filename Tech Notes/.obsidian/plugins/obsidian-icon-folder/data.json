@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGit",
+      "SiArchlinux",
       "LiFolderTree",
       "LiFile",
-      "RiQuestionnaireLine",
-      "FasObjectUngroup",
-      "❕"
+      "RiQuestionnaireLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,7 @@
   "01 - Python Scripting and Automation/Core Python Syntax/Notes/Classes and Objects.md": "FasObjectUngroup",
   "01 - Python Scripting and Automation/Interview Questions and Answers": "RiQuestionnaireLine",
   "01 - Python Scripting and Automation/File Handling": "LiFile",
-  "01 - Python Scripting and Automation/File Handling/Notes/Getting a Directory Listing.md": "LiFolderTree"
+  "01 - Python Scripting and Automation/File Handling/Notes/Getting a Directory Listing.md": "LiFolderTree",
+  "00 - Linux/OS Installations/Arch Installation.md": "SiArchlinux",
+  "04 - Notes/Git SSH setup.md": "SiGit"
 }

@@ -1,56 +1,11 @@
 
 </br>
 
-# Setup
-
-> [!important] 
-> During the installation of the OS make sure that the PC is connected to the internet over ethernet as `Proxmox` automatically fetches and assigns IP, gateway and other network configs.
-
-Post installation of the OS, verify the availability of the following services:
-
-- Network
-```bash ln:False
-ping google.com
-```
-
-> If Wi-Fi is opted instead, connect to the Wi-Fi network using <mark style="background: #ABF7F7A6;">iwctl</mark>.
-> If, the application is not found, install it using:
-> ```bash ln:False
-> apt install -y iwd
-> ```
-> Refer [[Arch Installation#Check network connection#Connect to Wi-Fi]]
-
-- SSH services
-```bash ln:False
-systemctl status sshd
-```
-
-- verify that the hostname is the one set during installation:
-```bash ln:False
-hostname
-```
-
-- get IP
-```bash ln:False
-hostname -I
-```
-
-We can now SSH into the PROXMOX instance and continue to install any additional applications from any system using:
-
-```bash ln:False
-ssh root@<ip-address-of-the-proxmox-instance>
-```
-
-> [!tip] 
-> If there is no method at hand to obtain the IP of the instance, use the method described above to get IP.
-
-</br>
-
-# Setup Ubuntu Cloud Template
-
 1. Download the ubuntu cloud server image file from: [Ubuntu Cloud Images](https://cloud-images.ubuntu.com/) at 👇
 
-![[proxmox_download_iso.png]]
+![[20250511170645_proxmox_download_iso.png]]
+
+Alternatively, download Ubuntu server iso from URL => `https://releases.ubuntu.com/24.04.2/ubuntu-24.04.2-live-server-amd64.iso`
 
 > I had decided to go with <mark style="background: #ABF7F7A6;">noble/ > current/ > noble-server-cloudimg-amd64.img</mark> at the time of setting up this server.
 >
@@ -111,7 +66,7 @@ qm set 5000 --serial0 socket --vga serial0
 
 </br>
 
-3. Select the VM (5000) in the web interface and edit the following options.
+1. Select the VM (5000) in the web interface and edit the following options in the <mark style="background: #ABF7F7A6;">Hardware</mark> section.
 
 - **Memory**
  Uncheck ballooning
@@ -131,7 +86,7 @@ qm set 5000 --serial0 socket --vga serial0
 
 </br>
 
-4. <mark style="background: #D2B3FFA6;">Clout-Init</mark> section
+2. <mark style="background: #D2B3FFA6;">Clout-Init</mark> section
 
 The following options need to be modified
 ![[proxmox_ubuntu_cloud_init.png]]
@@ -140,6 +95,7 @@ The following options need to be modified
 - The SSH key set in the ==SSH public key== field will be copied to every VM created using this template therefore we can SSH into the VMs without any additional key management.
 > To setup a SSH key in Proxmox, enter the following commands in the Proxmox instance.
 > ```bash ln:False
+> cd ~/.ssh
 > ssh-keygen -t ed25519 -C "jeswin.santosh@outlook.com"
 > # I have set the name of the key to 'ubuntu_cloud_ssh_key'
 > ```
@@ -153,6 +109,6 @@ The following options need to be modified
 
 </br>
 
-5. Convert to Template
+3. Convert to Template
 
-![[proxmox_convert_to_template.png]]
+![[20250511173115_proxmox_convert_to_template.png]]

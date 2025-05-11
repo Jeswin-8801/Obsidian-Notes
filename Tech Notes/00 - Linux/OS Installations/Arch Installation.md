@@ -1,3 +1,7 @@
+---
+tags: [arch,How-To,setup,installation]
+---
+
 </br>
 
 ## SHELL

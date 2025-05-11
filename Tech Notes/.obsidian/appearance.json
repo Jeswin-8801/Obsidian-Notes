@@ -10,8 +10,8 @@
     "CyanVoxel's General Tweaks",
     "Notebook Backgrounds"
   ],
-  "interfaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "JetBrainsMono Nerd Font",
-  "monospaceFontFamily": "Consolas",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font,IosevkaTermSlab Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font,IosevkaTermSlab Nerd Font Mono",
+  "monospaceFontFamily": "Consolas,JetBrainsMono Nerd Font,IosevkaTermSlab Nerd Font Mono",
   "showRibbon": true
 }

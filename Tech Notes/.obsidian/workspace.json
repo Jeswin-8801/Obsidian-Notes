@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/HomeLab/PROXMOX.md",
+                "file": "02 - DevOps/HomeLab/Proxmox/Post Setup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PROXMOX"
+              "title": "Post Setup"
             }
           }
         ]
@@ -190,15 +190,23 @@
   },
   "active": "dbdb01ac94e2c3fe",
   "lastOpenFiles": [
+    "02 - DevOps/HomeLab/Proxmox/Proxmox Setup.md",
+    "02 - DevOps/HomeLab/Proxmox/Setup Ubuntu Cloud Template.md",
+    "02 - DevOps/HomeLab/Proxmox/Post Setup.md",
+    "04 - Notes/Git SSH setup.md",
+    "04 - Notes",
+    "Images/20250511173115_proxmox_convert_to_template.png",
+    "Images/proxmox_download_iso.png",
+    "Images/20250511170645_proxmox_download_iso.png",
+    "00 - Linux/OS Installations/Arch Installation.md",
+    "00 - Linux/OS Installations",
+    "02 - DevOps/HomeLab/Proxmox",
     "Images/proxmox_convert_to_template.png",
     "Images/proxmox_ubuntu_cloud_init.png",
     "Pasted image 20250511002941.png",
     "Images/proxmox_ubuntu_template_hard_disk.png",
     "Images/proxmox_ubuntu_template_processor.png",
     "Images/proxmox_ubuntu_template_memory.png",
-    "Images/proxmox_download_iso.png",
-    "00 - Linux/Boot Process/Arch Installation.md",
-    "02 - DevOps/HomeLab/PROXMOX.md",
     "02 - DevOps/Tools/GitLab.md",
     "02 - DevOps/HomeLab",
     "00 - Linux/Linux/tmux.md",
@@ -226,17 +234,9 @@
     "02 - DevOps/Tools/Ansible.md",
     "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
     "00 - Linux/Commands and Utilities/Permissions/Permissions.md",
-    "00 - Linux/Commands and Utilities/Symlinks/Hardlinks and Softlinks.md",
-    "00 - Linux/Commands and Utilities/Permissions/umask.md",
     "00 - Linux/Commands and Utilities/Symlinks",
     "00 - Linux/Commands and Utilities/Permissions",
-    "Images/reaction_game 2.gif",
-    "Images/Pasted image 20241012161602.png",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
-    "00 - Linux/Commands and Utilities/Mounting and Unmounting of File Systems",
-    "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems",
-    "00 - Linux/Commands and Utilities/Others/logging",
-    "Images/Pasted image 20241113155639.png",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",
     "Directories.canvas"
