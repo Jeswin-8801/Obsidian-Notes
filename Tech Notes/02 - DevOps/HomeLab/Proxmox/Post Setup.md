@@ -1,3 +1,7 @@
+---
+tags: [homelab,proxmox,setup]
+---
+
 
 </br>
 
@@ -71,6 +75,16 @@ git clone git@github.com:Jeswin-8801/HomeLab.git ~/Downloads/HomeLab
 cd ~/Downloads/HomeLab/proxmox
 sudo ./install.sh
 ```
+
+> [!note] 
+> This script also includes adding a theme to the ==grub== boot menu.
+> 
+> To, enable the boot menu for an extended duration:
+> ```bash ln:False
+> sudo nvim /etc/default/grub
+> # Update GRUB_TIMEOUT to a longer duration
+> sudo update-grub
+> ```
 
 - finally, source the file to apply the changes
 ```bash ln:False

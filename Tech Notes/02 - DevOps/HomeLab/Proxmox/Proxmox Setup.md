@@ -1,3 +1,6 @@
+---
+tags: [homelab,proxmox,setup]
+---
 
 </br>
 

@@ -1,3 +1,6 @@
+---
+tags: [homelab,proxmox,ubuntu,template,setup]
+---
 
 </br>
 
@@ -105,6 +108,9 @@ The following options need to be modified
 > cat ~/.ssh/ubuntu_cloud_ssh_key.pub
 > ```
 
+> [!note] 
+> To add the above key to your local machine, refer [[Starting a VM from Template#Connect to VM over SSH]]
+
 - remember to set the IP to dynamic (DHCP) as we do not want every clone of the template to have the same IP.
 
 </br>
@@ -112,3 +118,7 @@ The following options need to be modified
 3. Convert to Template
 
 ![[20250511173115_proxmox_convert_to_template.png]]
+
+---
+
+> Additionally, create a VM from this template by referring: [[Starting a VM from Template]]
