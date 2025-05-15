@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPihole",
       "LiContainer",
       "FasRotate",
       "RiStackshareLine",
-      "SiJenkins",
-      "LiGitlab"
+      "SiJenkins"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -58,5 +58,6 @@
   "02 - DevOps/CI∕CD/Jenkins.md": "SiJenkins",
   "02 - DevOps/Automation": "RiStackshareLine",
   "02 - DevOps/CI∕CD": "FasRotate",
-  "02 - DevOps/Container Orchestration & Management": "LiContainer"
+  "02 - DevOps/Container Orchestration & Management": "LiContainer",
+  "03 - Homelab/PiHole": "SiPihole"
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/CI∕CD/GitLab.md",
-                "mode": "preview",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GitLab"
+              "title": "PiHole Installation"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - DevOps/CI∕CD/GitLab.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GitLab"
+              "title": "Backlinks for PiHole Installation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - DevOps/CI∕CD/GitLab.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GitLab"
+              "title": "Outgoing links from PiHole Installation"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,8 +195,10 @@
   },
   "active": "565ffeee80b53c86",
   "lastOpenFiles": [
-    "02 - DevOps/CI∕CD/Jenkins.md",
     "02 - DevOps/CI∕CD/GitLab.md",
+    "03 - Homelab/PiHole/PiHole Installation.md",
+    "03 - Homelab/PiHole",
+    "02 - DevOps/CI∕CD/Jenkins.md",
     "02 - DevOps/Automation/Ansible.md",
     "02 - DevOps/Container Orchestration & Management",
     "02 - DevOps/Automation",
@@ -227,7 +229,6 @@
     "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/What is Rancher.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/K3s Setup.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/Helm/Helm Installation.md",
-    "00 - Linux/Boot Process/Arch Installation.md",
     "Images/proxmox_ubuntu_template_memory.png",
     "Images/proxmox_ubuntu_template_hard_disk.png",
     "Images/proxmox_ubuntu_cloud_init.png",
@@ -240,7 +241,6 @@
     "Images/20250512162222_proxmox_vm_from_template_pointer.png",
     "05 - Other Notes",
     "03 - Homelab/Proxmox/Cloud-Init",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",
