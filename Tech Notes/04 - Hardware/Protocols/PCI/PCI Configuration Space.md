@@ -34,7 +34,7 @@ The key registers to note are:
 A type 0 configuration space is specifically used for <mark style="background: #ABF7F7A6;">PCIe endpoints</mark>, which are the terminal points of communication in the PCIe architecture.
 
 The structure of the type 0 config space is given below:
-![[Pasted image 20250503192908.png]]
+![[20250503192908_PCI_register_spec.png]]
 
 #### Type 1
 A type 1 config space is used for <mark style="background: #ABF7F7A6;">PCIe switches</mark>, which facilitate the transmission of messages from their upstream ports to their downstream ports.

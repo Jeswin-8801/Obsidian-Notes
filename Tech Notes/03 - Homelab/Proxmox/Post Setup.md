@@ -90,3 +90,9 @@ sudo ./install.sh
 ```bash ln:False
 source ~/.config/fish/config.fish
 ```
+
+</br>
+
+# Setup Nginx Reverse Proxy
+
+> Refer: [[Reverse Proxy]]

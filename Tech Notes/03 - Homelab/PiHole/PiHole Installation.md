@@ -22,8 +22,9 @@ tags: [dns,homelab]
 Run the following commands:
 
 ```bash ln:False
-sudo apt update
-sudo apt upgrade -y
+apt update
+apt upgrade -y
+apt install -y vim
 ```
 
 ```bash ln:False
@@ -34,4 +35,10 @@ sudo bash basic-install.sh
 > Follow the instructions on the console UI and finish installation
 
 
+### Post Install
 
+- set a new password
+
+```bash ln:False
+pihole setpassword
+```

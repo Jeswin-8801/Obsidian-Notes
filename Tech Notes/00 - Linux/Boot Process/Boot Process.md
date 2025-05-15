@@ -3,7 +3,7 @@ tags:
   - boot
 ---
 
-![[Pasted image 20241113155639.png]]
+![[20241113155639_linux_boot_process.png]]
 
 </br>
 

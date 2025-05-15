@@ -1,7 +1,7 @@
 
 # Regex
 
-![[Pasted image 20240930122732.png]]
+![[20240930122732_regex.png]]
 
 > [!Important]
 > [Quick brush up on regex](https://github.com/ziishaned/learn-regex)

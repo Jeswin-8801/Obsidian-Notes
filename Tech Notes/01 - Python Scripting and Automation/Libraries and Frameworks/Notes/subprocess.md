@@ -28,7 +28,7 @@ print("Done!")
 Checkout [[argparse vs sys.argv#Using `argparse`|argparse]]
 
 > output
-![[timer_gif.gif]]
+![[20240503192909_timer_gif.gif]]
 
 ```python  ln:False
 >>> import subprocess

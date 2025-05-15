@@ -73,17 +73,17 @@ qm set 5000 --serial0 socket --vga serial0
 
 - **Memory**
  Uncheck ballooning
-![[proxmox_ubuntu_template_memory.png]]
+![[20250503192911_proxmox_ubuntu_template_memory.png]]
 
 > When using Hardware Passthrough (refer [PCI Passthrough - Proxmox VE](https://pve.proxmox.com/wiki/PCI_Passthrough)), a static memory is preferred over ballooned or dynamically allotted memory. as hardware like GPUs and PCIe cards often expect dedicated, fixed memory.
 
 - **Processor**
 
-![[proxmox_ubuntu_template_processor.png]]
+![[20250503192912_proxmox_ubuntu_template_processor.png]]
 
 - **Hard Disk**
 
-![[proxmox_ubuntu_template_hard_disk.png]]
+![[20250503192910_proxmox_ubuntu_template_hard_disk.png]]
 
 > This feature helps reclaim unused space in SSDs and NVME drives.
 
@@ -92,7 +92,7 @@ qm set 5000 --serial0 socket --vga serial0
 2. <mark style="background: #D2B3FFA6;">Clout-Init</mark> section
 
 The following options need to be modified
-![[proxmox_ubuntu_cloud_init.png]]
+![[20250503192909_proxmox_ubuntu_cloud_init.png]]
 
 - The ==Username== and ==Password== field will be used to create an account in every VM created using this template therefore we can login using the same credentials on every VM.
 - The SSH key set in the ==SSH public key== field will be copied to every VM created using this template therefore we can SSH into the VMs without any additional key management.

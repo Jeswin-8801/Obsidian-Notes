@@ -30,7 +30,7 @@ print(f"You reacted in {(end - start) * 1000:.0f} milliseconds!\nGoodbye!")
 ```
 
 > output
-![[reaction_game 2.gif]]
+![[20240503192908_reaction_game_2.gif]]
 
 </br>
 
@@ -72,4 +72,4 @@ with subprocess.Popen(
     print(stdout.decode("utf-8"))
 ```
 
-![[reaction_game_hack.mp4]]
+![[20240503192909_reaction_game_hack.mp4]]

@@ -38,7 +38,7 @@ AssertionError: The number should not exceed 5. (number=10)
 
 # Handling Exceptions With the `try` and `except` Block
 
-![[Pasted image 20241012161602.png]]
+![[20241012161602_python_exception_handling.png]]
 
 ```python
 # Filename: linux_interaction.py
