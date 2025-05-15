@@ -15,31 +15,42 @@ tags: [kubernetes,homelab,proxmox]
 
 ### **Recommended VM Resource Allocation**
 
-Designing an **optimal resource allocation** for your **K3s HA cluster** with **3 master nodes and 2 agents** on **Proxmox**.
+With **3 master nodes and 2 agent nodes**, given below is a balanced recommendation for **VM specs** per node, assuming large workloads, the agent takes most of the heavy working.
 
-| **VM Role**          | **CPU Cores**  | **RAM**      | **Storage**                          |
-| -------------------- | -------------- | ------------ | ------------------------------------ |
-| **Master Node (x3)** | 2-3 cores each | 8-12GB each  | **40GB minimum** (Recommended: 60GB) |
-| **Worker Node (x2)** | 3-4 cores each | 12-16GB each | **50GB minimum** (Recommended: 80GB) |
+Therefore, the **VM specs** to support multiple services is given as follows:
 
-### **Breakdown of Resources**
+---
 
-1. **Master Nodes (3x)**
+## 🧮 Recommended Node Specs (Revised for 20 Services)
+
+| Node Role   | vCPUs per Node | RAM per Node | Storage per Node |
+| ----------- | -------------- | ------------ | ---------------- |
+| <mark style="background: #FFB86CA6;">**Masters**</mark> | 2–3 vCPUs      | 6–8 GB       | 30–40 GB SSD     |
+| <mark style="background: #FFB86CA6;">**Agents**</mark>  | 3–4 vCPUs      | 10–12 GB     | 40–60 GB SSD     |
+
+---
+
+## ⚙️ Suggested Allocation (Balanced across 5 VMs)
+
+| Node                                                 | vCPUs | RAM   | Notes                       |
+| ---------------------------------------------------- | ----- | ----- | --------------------------- |
+| <mark style="background: #FFB86CA6;">Master 1</mark> | 2     | 6 GB  | Etcd + Control Plane        |
+| <mark style="background: #FFB86CA6;">Master 2</mark> | 2     | 6 GB  |                             |
+| <mark style="background: #FFB86CA6;">Master 3</mark> | 2     | 6 GB  |                             |
+| <mark style="background: #FFB86CA6;">Agent 1</mark>  | 4     | 12 GB | Runs workloads              |
+| <mark style="background: #FFB86CA6;">Agent 2</mark>  | 4     | 12 GB | Runs workloads              |
+| **Total**                                            | 14    | 42 GB | Leaves headroom on the host |
+
+### This leaves:
+
+- **2 vCPUs + 22 GB RAM free** on the host for:
     
-    - **CPU**: 2-3 cores each → Since K3s is lightweight, this is enough for control plane tasks.
+    - VM overhead
         
-    - **RAM**: 8-12GB each → Ensures stable performance with ETCD and control services.
+    - Management tools (e.g., your hypervisor or SSH)
         
-    - **Storage**: Minimum **40GB** per VM, **60GB recommended** → For logs, Kubernetes objects, and system files.
-        
-2. **Worker Nodes (2x)**
-    
-    - **CPU**: 3-4 cores each → Handles workloads efficiently.
-        
-    - **RAM**: 12-16GB each → Depends on the number of pods running.
-        
-    - **Storage**: Minimum **50GB**, **80GB recommended** → Pods, container images, and logs.
-
+    - Buffer for Kubernetes and OS operations
 
 > [!important] 
 > Refer: [Requirements | K3s](https://docs.k3s.io/installation/requirements)
+> Contrary to what is specified here, since we will have an increased number of services deployed, we will need to either increase the resources if the agent nodes or the number of agent nodes.

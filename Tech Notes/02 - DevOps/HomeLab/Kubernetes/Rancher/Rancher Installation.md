@@ -99,31 +99,28 @@ rancher   3/3     3            3           8m19s
 
 **This means that we have three instances running on our cluster, one on each master node.**
 
-But,
+> But, we find that Rancher is not exposed through the Load Balancer IP if we run:
+> ```bash ln:False
+> kubectl get svc -n cattle-system
+> ```
 
-We find that Rancher is not exposed through the Load Balancer IP if we run.
-
-```bash ln:False
-kubectl get svc -n cattle-system
-```
-
-- Expose the Rancher service on the Load Balancer using the command
+- Expose the Rancher service on the Load Balancer using the command:
 
 ```bash ln:False
 kubectl expose deployment rancher --name rancher-lb --port=443 --type=LoadBalancer -n cattle-system rancher-lb exposed
 ```
 
-gives the output:
+> [!note]
+> The above command gives the following output:
+> ```text ln:False
+> service/rancher-lb exposed
+> Error from server (NotFound): deployments.apps "rancher-lb" not found
+> Error from server (NotFound): deployments.apps "exposed" not found
+> ```
+> 
+> We can ignore the error messages.
 
-```
-service/rancher-lb exposed
-Error from server (NotFound): deployments.apps "rancher-lb" not found
-Error from server (NotFound): deployments.apps "exposed" not found
-```
-
-We can ignore the error messages as we are using self signed certificates.
-
-Running the below command gives the exposed IP of Rancher:
+- Running the command below gives the exposed IP of Rancher:
 
 ```bash ln:False
  $ kubectl get svc -n cattle-system
