@@ -876,6 +876,7 @@ lane
 laptops
 lightweight
 leaves
+linked
 GET
 GUI
 Great
@@ -1211,6 +1212,8 @@ Gives
 Group
 GROUP
 Graphics
+Git
+General
 POST
 PUT
 PATCH
@@ -2057,6 +2060,8 @@ Label
 Links
 Load
 Leaves
+LXC
+Lower
 Ordered
 OpenSSL
 Operator
@@ -2350,6 +2355,7 @@ Owner
 Ownership
 Octal
 Open
+OSes
 They
 Tuples
 The
@@ -2806,6 +2812,7 @@ Trees
 Tab
 TLS
 Total
+TrueNAS
 maintain
 matched
 methods
@@ -3201,6 +3208,8 @@ mapped
 map
 master
 minimum
+minimal
+microservices
 the
 to
 true
@@ -3601,6 +3610,7 @@ tutorial
 template
 taking
 therefore
+technology
 order
 of
 other
@@ -3906,6 +3916,7 @@ offset
 official
 orchestration
 overhead
+offering
 elements
 end
 empty
@@ -4375,6 +4386,8 @@ exposed
 edge
 enterprise
 environments
+emulation
+extensive
 Mutable
 Manger
 Multithreaded
@@ -4807,6 +4820,10 @@ Memory
 Minimum
 Manager
 Masters
+Machine
+MariaDB
+Mix
+MySQL
 Items
 Inserts
 Immutable
@@ -5282,6 +5299,8 @@ IOV
 Installing
 Initialize
 IPs
+Init
+Isolation
 can
 changed
 creation
@@ -5772,6 +5791,11 @@ consideration
 cloud
 centralized
 complete
+click
+clone
+changing
+containers
+contianer
 be
 backend
 buffered
@@ -6714,6 +6738,7 @@ allot
 agent
 assuming
 args
+according
 Allow
 Adds
 Authentic
@@ -7110,6 +7135,8 @@ ARI
 Availability
 Agents
 Agent
+Absolutely
+Assistant
 duplicates
 duplicate
 descending
@@ -7638,6 +7665,12 @@ downstream
 direction
 deployed
 deployment
+dataset
+density
+distros
+deep
+deployments
+developing
 values
 value
 vs
@@ -8001,6 +8034,7 @@ vim
 verified
 viewing
 vCPUs
+virtualization
 Function
 For
 Formatting
@@ -8408,6 +8442,8 @@ Filter
 Filesystems
 Force
 FILE
+Feature
+Fast
 Description
 Dictionary
 DELETE
@@ -8848,6 +8884,7 @@ Designing
 Depends
 Deployment
 Deployed
+Docker
 item
 items
 iterables
@@ -9275,6 +9312,10 @@ introduced
 internet
 improved
 increased
+isolation
+integration
+interaction
+isolated
 specified
 shallow
 set
@@ -9789,6 +9830,10 @@ simply
 simplifies
 scaling
 specs
+shares
+separation
+suitable
+shipping
 Removes
 Returns
 Reverses
@@ -10741,6 +10786,9 @@ functionality
 factor
 flashed
 fact
+family
+fewer
+fast
 removes
 remove
 returns
@@ -11197,6 +11245,7 @@ reason
 rolled
 referenced
 recommendation
+rapid
 present
 pair
 properly
@@ -11662,6 +11711,8 @@ private
 page
 platform
 premises
+pfSense
+passthrough
 given
 guarantee
 group
@@ -12438,6 +12489,12 @@ Spin
 SCP
 Specs
 Suggested
+Slightly
+Slower
+Strong
+Server
+SCALE
+Scenarios
 using
 unpacks
 unique
@@ -12836,6 +12893,8 @@ useful
 umask
 underlying
 upstream
+untrusted
+updates
 No
 Numeric
 Note
@@ -13165,6 +13224,9 @@ Node
 NVME
 Nodes
 Namespace
+Near
+NGINX
+Nextcloud
 number
 new
 not
@@ -13500,6 +13562,7 @@ none
 numeric
 newly
 nginx
+native
 Keys
 Key
 Kg
@@ -13851,6 +13914,7 @@ KhN
 Kernel
 Kill
 Kubernetes
+KVM
 with
 way
 when
@@ -14495,6 +14559,7 @@ keyword
 keep
 knows
 kubectl
+kernels
 JSON
 Jenkins
 JaZ
@@ -14899,6 +14964,7 @@ JZav
 Job
 Jenv
 Journaling
+Jellyfin
 Components
 Custom
 Context
@@ -15284,6 +15350,10 @@ Cores
 Chart
 Cluster
 Contrary
+Clone
+Cloud
+Container
+Containers
 When
 Writing
 With
@@ -15630,6 +15700,7 @@ Without
 Window
 Worker
 Web
+Weaker
 your
 you
 yielded
@@ -16384,6 +16455,9 @@ hexadecimal
 headers
 headroom
 hypervisor
+high
+hosting
+hole
 High
 Handling
 Handlers
@@ -16810,6 +16884,8 @@ Header
 Handles
 Helm
 HTTPS
+Higher
+Home
 Example
 Exceptions
 Encoded
@@ -17254,6 +17330,8 @@ Enhance
 ETCD
 Expose
 Etcd
+Easier
+Enables
 Because
 Block
 Basic
@@ -19477,6 +19555,7 @@ ZUi
 ZAf
 ZvV
 Zoom
+ZFS
 zero
 zu
 zA

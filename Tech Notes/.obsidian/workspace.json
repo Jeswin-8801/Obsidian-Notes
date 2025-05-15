@@ -11,13 +11,14 @@
             "id": "565ffeee80b53c86",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Tech Notes/.obsidian/workspace.json",
-                "staged": false
+                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "LXCs vs Docker"
             }
           }
         ]
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for file, find"
+              "title": "Backlinks for LXCs vs Docker"
             }
           },
           {
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from file, find"
+              "title": "Outgoing links from LXCs vs Docker"
             }
           },
           {
@@ -171,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,14 @@
   },
   "active": "565ffeee80b53c86",
   "lastOpenFiles": [
+    "02 - DevOps/HomeLab/Proxmox/LXCs vs Vms.md",
+    "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
+    "03 - Work/Embedded Systems/Debugging Interfaces/JTAG.md",
     "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Automation Script.md",
+    "03 - Work/Embedded Systems/Debugging Interfaces",
+    "03 - Work/Embedded Systems",
+    "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Custom Scripts.md",
+    "02 - DevOps/HomeLab/Proxmox/Starting a VM from Template.md",
     "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Requirements.md",
     "02 - DevOps/HomeLab/Kubernetes/Rancher/Rancher Installation.md",
     "02 - DevOps/HomeLab/Kubernetes/Rancher/What is Rancher.md",
@@ -215,10 +223,8 @@
     "04 - Notes/Git SSH setup.md",
     "04 - Notes",
     "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Setup Ubuntu Cloud Template.md",
-    "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Custom Scripts.md",
     "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Cloud-Init VM Network Settings.md",
     "02 - DevOps/HomeLab/Kubernetes/Helm/What is Helm.md",
-    "02 - DevOps/HomeLab/Proxmox/Starting a VM from Template.md",
     "02 - DevOps/HomeLab/Proxmox/Proxmox Setup.md",
     "02 - DevOps/HomeLab/Proxmox/Post Setup.md",
     "02 - DevOps/HomeLab/Proxmox/Connect to VMs over SSH.md",
@@ -230,16 +236,11 @@
     "02 - DevOps/HomeLab/Kubernetes",
     "02 - DevOps/HomeLab",
     "00 - Linux/OS Installations/Arch Installation.md",
-    "00 - Linux/OS Installations",
     "03 - Work/pci/PCI devices.md",
     "03 - Work/pci/PCI standards.md",
     "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
     "02 - DevOps/Tools/Jenkins.md",
     "02 - DevOps/Tools/GitLab.md",
-    "01 - Python Scripting and Automation/Index.md",
-    "03 - Work/pci/lspci, setpci.md",
-    "03 - Work/pci/PCI Configuration Space.md",
-    "03 - Work/pci",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",
