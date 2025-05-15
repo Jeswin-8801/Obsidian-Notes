@@ -1,6 +1,10 @@
+---
+tags: [pci]
+---
+
 </br>
 
-1. <mark style="background: #FFB86CA6;">Network Cards</mark>
+1. <mark style="background: #FFB86CA6;">**Network Cards**</mark>
 	These allow computers to connect to a network, such as Ethernet or Wi-Fi.
 </br>
 2. <mark style="background: #FFB86CA6;">**Sound Cards**</mark>

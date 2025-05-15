@@ -6,6 +6,4 @@ BusIer
 UUI
 UUId
 COMMAnd
-REA
-REAd
-REAl
+vm

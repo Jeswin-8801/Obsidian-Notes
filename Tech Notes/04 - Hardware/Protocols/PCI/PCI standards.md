@@ -1,12 +1,15 @@
+---
+tags: [pci]
+---
+
+</br>
+
 There are several different PCI standards, each designed for specific types of devices and performance requirements.
 
 - <mark style="background: #FFB86CA6;">**Conventional PCI**</mark>
 	The original standard, introduced in the early 1990s. It supports 32-bit and 64-bit data paths and operates at speeds up to 133 MB/s.
     </br>
-- <mark style="background: #FFB86CA6;">**PCI-X**</mark>
-	An enhanced version of Conventional PCI, designed for higher speeds and better performance. It supports speeds up to 1.06 GB/s and is backward compatible with Conventional PCI 
-    </br>
-- <mark style="background: #FFB86CA6;">**PCI Express (PCIe)**</mark>
+- <mark style="background: #FFB86CA6;">**[[PCIe|PCI Express]]**</mark>
 	The latest and fastest standard, introduced in the early 2000s. It uses a serial connection instead of a parallel one, allowing for much higher data transfer rates.
 	
 	> [!note] 

@@ -1,3 +1,7 @@
+---
+tags: [CI∕CD]
+---
+
 
 <mark style="background: #FFB86CA6;color:white">GitLab CE</mark>
 

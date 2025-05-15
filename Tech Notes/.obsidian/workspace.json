@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
+                "file": "02 - DevOps/CI∕CD/GitLab.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "LXCs vs Docker"
+              "title": "GitLab"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
+                "file": "02 - DevOps/CI∕CD/GitLab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LXCs vs Docker"
+              "title": "Backlinks for GitLab"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
+                "file": "02 - DevOps/CI∕CD/GitLab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LXCs vs Docker"
+              "title": "Outgoing links from GitLab"
             }
           },
           {
@@ -195,20 +195,38 @@
   },
   "active": "565ffeee80b53c86",
   "lastOpenFiles": [
-    "02 - DevOps/HomeLab/Proxmox/LXCs vs Vms.md",
-    "02 - DevOps/HomeLab/Proxmox/LXCs vs Docker.md",
-    "03 - Work/Embedded Systems/Debugging Interfaces/JTAG.md",
-    "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Automation Script.md",
-    "03 - Work/Embedded Systems/Debugging Interfaces",
-    "03 - Work/Embedded Systems",
-    "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Custom Scripts.md",
-    "02 - DevOps/HomeLab/Proxmox/Starting a VM from Template.md",
-    "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Requirements.md",
-    "02 - DevOps/HomeLab/Kubernetes/Rancher/Rancher Installation.md",
-    "02 - DevOps/HomeLab/Kubernetes/Rancher/What is Rancher.md",
-    "02 - DevOps/HomeLab/Kubernetes/K3s/K3s Setup.md",
-    "02 - DevOps/HomeLab/Kubernetes/Helm/Helm Installation.md",
-    "02 - DevOps/Tools/Ansible.md",
+    "02 - DevOps/CI∕CD/Jenkins.md",
+    "02 - DevOps/CI∕CD/GitLab.md",
+    "02 - DevOps/Automation/Ansible.md",
+    "02 - DevOps/Container Orchestration & Management",
+    "02 - DevOps/Automation",
+    "02 - DevOps/CI∕CD",
+    "00 - Linux/Commands and Utilities/Process Text Streams/nl, wc, od.md",
+    "01 - Python Scripting and Automation/Testing/Programs and Examples/Automated Testing Pipeline (unittest).md",
+    "00 - Linux/OS Installations/Arch Installation.md",
+    "04 - Hardware/Protocols/All Protocols.md",
+    "04 - Hardware/Protocols/PCI/PCI Configuration Space.md",
+    "04 - Hardware/Protocols/PCIe/Lane Architecture.md",
+    "04 - Hardware/Protocols/PCIe/PCIe.md",
+    "04 - Hardware/Protocols/PCIe",
+    "04 - Hardware/Protocols/PCI/PCI devices.md",
+    "04 - Hardware/Protocols/PCI/PCI standards.md",
+    "04 - Hardware/Protocols/NVMe.md",
+    "04 - Hardware/Protocols/HSSTP.md",
+    "03 - Homelab/Proxmox/LXCs vs Docker.md",
+    "04 - Hardware/Protocols",
+    "03 - Homelab/Proxmox/LXCs vs Vms.md",
+    "04 - Hardware/Embedded Systems/Debugging Interfaces/JTAG.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Automation Script.md",
+    "04 - Hardware/Embedded Systems/Debugging Interfaces",
+    "04 - Hardware/Embedded Systems",
+    "03 - Homelab/Proxmox/Cloud-Init/Custom Scripts.md",
+    "03 - Homelab/Proxmox/Starting a VM from Template.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Requirements.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/What is Rancher.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/K3s Setup.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Helm/Helm Installation.md",
     "00 - Linux/Boot Process/Arch Installation.md",
     "Images/proxmox_ubuntu_template_memory.png",
     "Images/proxmox_ubuntu_template_hard_disk.png",
@@ -220,27 +238,9 @@
     "Images/20250512164314_k3s_vms.png",
     "Images/20250512162825_proxmox_vm_from_template_menu.png",
     "Images/20250512162222_proxmox_vm_from_template_pointer.png",
-    "04 - Notes/Git SSH setup.md",
-    "04 - Notes",
-    "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Setup Ubuntu Cloud Template.md",
-    "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Cloud-Init VM Network Settings.md",
-    "02 - DevOps/HomeLab/Kubernetes/Helm/What is Helm.md",
-    "02 - DevOps/HomeLab/Proxmox/Proxmox Setup.md",
-    "02 - DevOps/HomeLab/Proxmox/Post Setup.md",
-    "02 - DevOps/HomeLab/Proxmox/Connect to VMs over SSH.md",
-    "02 - DevOps/HomeLab/Proxmox/Cloud-Init",
-    "02 - DevOps/HomeLab/Kubernetes/Rancher",
-    "02 - DevOps/HomeLab/Kubernetes/K3s",
-    "02 - DevOps/HomeLab/Kubernetes/Helm",
-    "02 - DevOps/HomeLab/Proxmox",
-    "02 - DevOps/HomeLab/Kubernetes",
-    "02 - DevOps/HomeLab",
-    "00 - Linux/OS Installations/Arch Installation.md",
-    "03 - Work/pci/PCI devices.md",
-    "03 - Work/pci/PCI standards.md",
-    "00 - Linux/Commands and Utilities/System Information/Hardware/lspci.md",
-    "02 - DevOps/Tools/Jenkins.md",
-    "02 - DevOps/Tools/GitLab.md",
+    "05 - Other Notes",
+    "03 - Homelab/Proxmox/Cloud-Init",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiGit",
-      "SiArchlinux",
-      "LiFolderTree",
-      "LiFile",
-      "RiQuestionnaireLine"
+      "LiContainer",
+      "FasRotate",
+      "RiStackshareLine",
+      "SiJenkins",
+      "LiGitlab"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,6 +40,23 @@
   "01 - Python Scripting and Automation/Interview Questions and Answers": "RiQuestionnaireLine",
   "01 - Python Scripting and Automation/File Handling": "LiFile",
   "01 - Python Scripting and Automation/File Handling/Notes/Getting a Directory Listing.md": "LiFolderTree",
-  "00 - Linux/OS Installations/Arch Installation.md": "SiArchlinux",
-  "04 - Notes/Git SSH setup.md": "SiGit"
+  "01 - Python Scripting and Automation": "SiPython",
+  "00 - Linux": "SiLinux",
+  "01 - Python Scripting and Automation/Logging": "LiLogs",
+  "02 - DevOps": "SiAzuredevops",
+  "02 - DevOps/Container Orchestration & Management/Kubernetes": "SiKubernetes",
+  "02 - DevOps/Container Orchestration & Management/Kubernetes/Helm": "SiHelm",
+  "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s": "SiK3s",
+  "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher": "SiRancher",
+  "05 - Other Notes": "LiNotebookTabs",
+  "03 - Homelab/Proxmox": "SiProxmox",
+  "03 - Homelab/Proxmox/Cloud-Init": "SiUbuntu",
+  "04 - Hardware": "LiPcCase",
+  "03 - Homelab": "LiServer",
+  "02 - DevOps/Automation/Ansible.md": "SiAnsible",
+  "02 - DevOps/CI∕CD/GitLab.md": "LiGitlab",
+  "02 - DevOps/CI∕CD/Jenkins.md": "SiJenkins",
+  "02 - DevOps/Automation": "RiStackshareLine",
+  "02 - DevOps/CI∕CD": "FasRotate",
+  "02 - DevOps/Container Orchestration & Management": "LiContainer"
 }
