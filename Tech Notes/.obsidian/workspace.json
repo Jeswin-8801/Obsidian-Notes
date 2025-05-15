@@ -11,14 +11,13 @@
             "id": "565ffeee80b53c86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Automation Script.md",
-                "mode": "preview",
-                "source": true
+                "file": "Tech Notes/.obsidian/workspace.json",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "HA Cluster Automation Script"
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -195,6 +194,7 @@
   },
   "active": "565ffeee80b53c86",
   "lastOpenFiles": [
+    "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Automation Script.md",
     "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Requirements.md",
     "02 - DevOps/HomeLab/Kubernetes/Rancher/Rancher Installation.md",
     "02 - DevOps/HomeLab/Kubernetes/Rancher/What is Rancher.md",
@@ -217,7 +217,6 @@
     "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Setup Ubuntu Cloud Template.md",
     "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Custom Scripts.md",
     "02 - DevOps/HomeLab/Proxmox/Cloud-Init/Cloud-Init VM Network Settings.md",
-    "02 - DevOps/HomeLab/Kubernetes/K3s/HA Cluster Automation Script.md",
     "02 - DevOps/HomeLab/Kubernetes/Helm/What is Helm.md",
     "02 - DevOps/HomeLab/Proxmox/Starting a VM from Template.md",
     "02 - DevOps/HomeLab/Proxmox/Proxmox Setup.md",
