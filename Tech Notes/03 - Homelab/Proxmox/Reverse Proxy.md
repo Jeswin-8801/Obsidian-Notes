@@ -98,3 +98,12 @@ After=pve-cluster.service
 
 > [!note] 
 > Make sure your local DNS is made the primary DNS here over the gateway.
+
+
+> [!warning] 
+> Next time you boot up Proxmox, nginx service won't start due to it unable to find the local DNS server when accessed through the domain (because on search, the pi-hole container had yet to start)
+> 
+> You must start the service again manually:
+> ```bash ln:False
+> sudo systemctl start nginx
+> ```

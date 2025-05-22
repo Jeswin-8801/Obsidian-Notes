@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/Proxmox/Reverse Proxy.md",
+                "file": "03 - Homelab/Homarr/Homarr Installation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reverse Proxy"
+              "title": "Homarr Installation"
             }
           }
         ]
@@ -162,8 +162,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,12 +189,17 @@
   },
   "active": "bd3b07fbc42b8d5f",
   "lastOpenFiles": [
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
+    "03 - Homelab/Homarr/Homarr Installation.md",
+    "03 - Homelab/Proxmox/Reverse Proxy.md",
+    "03 - Homelab/Proxmox/Post Setup.md",
+    "03 - Homelab/Proxmox/CPU Undervolting.md",
+    "03 - Homelab/PiHole/PiHole Installation.md",
+    "Images/20250517165620_pi_hole_start_at_boot.png",
+    "03 - Homelab/Homarr",
     "Images/20250515233500_proxmox_node_dns_settings.png",
     "03 - Homelab/Proxmox/Proxmox Setup.md",
-    "03 - Homelab/Proxmox/Post Setup.md",
-    "03 - Homelab/Proxmox/Reverse Proxy.md",
     "03 - Homelab/PiHole/DNS.md",
-    "03 - Homelab/PiHole/PiHole Installation.md",
     "Images/20250503192912_proxmox_ubuntu_template_processor.png",
     "Images/20250503192909_proxmox_ubuntu_cloud_init.png",
     "Images/20250503192908_PCI_register_spec.png",
@@ -230,12 +234,6 @@
     "03 - Homelab/Proxmox/Connect to VMs over SSH.md",
     "03 - Homelab/Proxmox/Cloud-Init",
     "03 - Homelab/Proxmox",
-    "03 - Homelab",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/What is Rancher.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/K3s Setup.md",
-    "Images/20250514174105_VM_template_hardware_settings.png",
-    "Images/20250514174148_VM_template_ci_settings.png",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",

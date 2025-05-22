@@ -42,3 +42,7 @@ sudo bash basic-install.sh
 ```bash ln:False
 pihole setpassword
 ```
+
+- also set start at boot
+
+![[20250517165620_pi_hole_start_at_boot.png]]
