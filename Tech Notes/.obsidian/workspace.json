@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0439beeccfeec6fb",
+        "id": "846611dd7023f77d",
         "type": "tabs",
         "children": [
           {
-            "id": "bd3b07fbc42b8d5f",
+            "id": "d946ff22d9030c08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/Homarr/Homarr Installation.md",
+                "file": "04 - Hardware/Storage Devices/NVME/NVMe Drive Detection on Linux System Startup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homarr Installation"
+              "title": "NVMe Drive Detection on Linux System Startup"
             }
           }
         ]
@@ -53,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shutil",
+                "query": "PCI bus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for file, find"
+              "title": "Backlinks for PiHole Installation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from file, find"
+              "title": "Outgoing links from PiHole Installation"
             }
           },
           {
@@ -128,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -140,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md"
+                "file": "00 - Linux/Boot Process/Arch Installation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of df"
+              "title": "Outline of Arch Installation"
             }
           },
           {
@@ -171,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,55 +193,57 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bd3b07fbc42b8d5f",
+  "active": "d946ff22d9030c08",
   "lastOpenFiles": [
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
-    "03 - Homelab/Homarr/Homarr Installation.md",
-    "03 - Homelab/Proxmox/Reverse Proxy.md",
+    "04 - Hardware/Storage Devices/NVME/NVMe Drive Detection on Linux System Startup.md",
+    "04 - Hardware/Protocols/PCIe/PCIe Lanes and Slots.md",
+    "04 - Hardware/Protocols/PCIe/PCIe Bus, Lane and Bridge.md",
+    "04 - Hardware/Storage Devices/NVME/nvme commands.md",
+    "04 - Hardware/Protocols/PCIe/PCIe Overview.md",
+    "04 - Hardware/Storage Devices/NVME/NVME ELF.md",
+    "04 - Hardware/Storage Devices/NVME/NVME ASIC.md",
+    "04 - Hardware/Storage Devices/NVME/Packet Flow⁝ NVMe SSD → CPU.md",
+    "00 - Linux/Commands and Utilities/Linux Commands and Utilities.md",
+    "00 - Linux/Commands and Utilities/Others/jq.md",
     "03 - Homelab/Proxmox/Post Setup.md",
-    "03 - Homelab/Proxmox/CPU Undervolting.md",
+    "04 - Hardware/Protocols/PCI/lspci, setpci.md",
+    "04 - Hardware/Protocols/PCI/PCI Addressing.md",
+    "04 - Hardware/Protocols/PCI/PCI standards.md",
+    "04 - Hardware/Protocols/PCI/PCI devices.md",
+    "04 - Hardware/Protocols/PCI/PCI Configuration Space.md",
+    "04 - Hardware/Protocols/NVMe.md",
+    "04 - Hardware/Storage Devices/NVME/NVME.md",
+    "05 - Other Notes/Querying before installing Package.md",
+    "00 - Linux/Boot Process/Boot Process.md",
+    "04 - Hardware/Storage Devices/NVME/Untitled.canvas",
+    "00 - Linux/Commands and Utilities/Return Codes.md",
+    "04 - Hardware/Storage Devices/NVME",
+    "03 - Homelab/Proxmox/Reverse Proxy.md",
+    "03 - Homelab/Proxmox/Proxmox Setup.md",
     "03 - Homelab/PiHole/PiHole Installation.md",
+    "03 - Homelab/PiHole/DNS.md",
+    "03 - Homelab/Homarr/Homarr Installation.md",
     "Images/20250517165620_pi_hole_start_at_boot.png",
     "03 - Homelab/Homarr",
+    "00 - Linux/File System Heirarchy/Directories_2.canvas",
+    "04 - Hardware/Storage Devices",
+    "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "Images/20250515233500_proxmox_node_dns_settings.png",
-    "03 - Homelab/Proxmox/Proxmox Setup.md",
-    "03 - Homelab/PiHole/DNS.md",
+    "Images/20250515223124_router_dns_pihole.png",
     "Images/20250503192912_proxmox_ubuntu_template_processor.png",
+    "Images/20250503192911_proxmox_ubuntu_template_memory.png",
+    "Images/20250503192910_proxmox_ubuntu_template_hard_disk.png",
     "Images/20250503192909_proxmox_ubuntu_cloud_init.png",
     "Images/20250503192908_PCI_register_spec.png",
     "Images/20241113155639_linux_boot_process.png",
     "Images/20241012161602_python_exception_handling.png",
-    "Images/20240930122732_regex.png",
-    "Images/20240928232439_linux_directories.png",
-    "Images/20250515223124_router_dns_pihole.png",
+    "Images/20240503192909_reaction_game_hack.mp4",
     "03 - Homelab/PiHole",
-    "04 - Hardware/Protocols/PCIe/PCIe.md",
-    "04 - Hardware/Protocols/PCIe/Lane Architecture.md",
-    "04 - Hardware/Protocols/PCI/PCI standards.md",
-    "04 - Hardware/Protocols/PCI/PCI devices.md",
-    "04 - Hardware/Protocols/PCI/lspci, setpci.md",
-    "04 - Hardware/Protocols/PCI/PCI Configuration Space.md",
-    "04 - Hardware/Embedded Systems/Debugging Interfaces/JTAG.md",
+    "02 - DevOps/Container Orchestration & Management",
+    "02 - DevOps/Automation",
+    "02 - DevOps/CI∕CD",
     "04 - Hardware/Protocols/PCIe",
-    "04 - Hardware/Protocols/NVMe.md",
-    "04 - Hardware/Protocols/PCI",
-    "04 - Hardware/Protocols/HSSTP.md",
-    "04 - Hardware/Protocols/All Protocols.md",
-    "04 - Hardware/Embedded Systems/Debugging Interfaces",
     "04 - Hardware/Protocols",
-    "04 - Hardware/Embedded Systems",
-    "04 - Hardware",
-    "03 - Homelab/Proxmox/Cloud-Init/Setup Ubuntu Cloud Template.md",
-    "03 - Homelab/Proxmox/Cloud-Init/Custom Scripts.md",
-    "03 - Homelab/Proxmox/Cloud-Init/Cloud-Init VM Network Settings.md",
-    "03 - Homelab/Proxmox/Starting a VM from Template.md",
-    "03 - Homelab/Proxmox/LXCs vs Vms.md",
-    "03 - Homelab/Proxmox/LXCs vs Docker.md",
-    "03 - Homelab/Proxmox/Connect to VMs over SSH.md",
-    "03 - Homelab/Proxmox/Cloud-Init",
-    "03 - Homelab/Proxmox",
-    "00 - Linux/File System Heirarchy/Directories_1.canvas",
-    "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Untitled.canvas",
     "Directories.canvas"
   ]

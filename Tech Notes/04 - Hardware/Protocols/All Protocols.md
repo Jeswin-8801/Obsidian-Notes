@@ -8,7 +8,7 @@ tags: [protocols]
 
 |Protocol|Transport Layer|Usage|Notes|
 |---|---|---|---|
-|<mark style="background: #D2B3FFA6;">[[NVMe]]</mark>|PCIe|SSDs|High-speed, low-latency storage protocol designed for flash and future memory|
+|<mark style="background: #D2B3FFA6;">[[04 - Hardware/Protocols/NVMe]]</mark>|PCIe|SSDs|High-speed, low-latency storage protocol designed for flash and future memory|
 |<mark style="background: #CACFD9A6;">**AHCI**</mark>|SATA|HDD/SSDs|Legacy interface for spinning disks and early SSDs|
 |<mark style="background: #CACFD9A6;">**SCSI**</mark>|Parallel or SAS|HDDs, enterprise|Command set for managing block storage devices|
 |<mark style="background: #CACFD9A6;">**SAS**</mark>|Serial (SCSI)|Enterprise HDD/SSD|Faster, full-duplex version of SCSI, hot-swappable|
@@ -26,7 +26,7 @@ tags: [protocols]
 |Protocol|Type|Notes|
 |---|---|---|
 |<mark style="background: #D2B3FFA6;">[[PCI Configuration Space\|PCI]]</mark>|Parallel bus|Legacy interface, replaced by PCIe|
-|<mark style="background: #D2B3FFA6;">[[PCIe]]</mark>|Serial point-to-point|High-speed, scalable, used in GPUs, SSDs, NICs|
+|<mark style="background: #D2B3FFA6;">[[PCIe Overview]]</mark>|Serial point-to-point|High-speed, scalable, used in GPUs, SSDs, NICs|
 |<mark style="background: #CACFD9A6;">**USB**</mark>|Serial bus|General-purpose peripheral interconnect|
 |<mark style="background: #CACFD9A6;">**Thunderbolt**</mark>|Serial bus (based on PCIe + DisplayPort)|High-speed external I/O for storage, graphics, docks|
 |<mark style="background: #CACFD9A6;">**SATA**</mark>|Serial|Storage interface for HDDs/SSDs|

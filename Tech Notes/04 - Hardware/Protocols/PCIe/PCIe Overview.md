@@ -8,7 +8,7 @@ tags: [pci,protocol]
 <mark style="background: #CACFD9A6;">PCIe</mark> a **high-speed serial expansion bus standard** used to connect hardware devices (like GPUs, SSDs, NICs) to a computer's motherboard.
 
 > [!note] 
-> Checkout Lane Architechture at [[Lane Architecture]]
+> Checkout Lane Architechture at [[PCIe Lanes and Slots]]
 
 ---
 
@@ -64,6 +64,37 @@ tags: [pci,protocol]
 - **Peer-to-peer support**: Devices can talk without CPU involvement (useful for AI/GPUs). 
 
 </br>
+
+---
+
+## **Layered Architecture (Protocol Stack)**
+
+PCIe uses a layered architecture similar to the OSI model:
+
+```yaml ln:False
++---------------------------+
+|   Transaction Layer       | ◄─ High-level communication (packets)
++---------------------------+
+|     Data Link Layer       | ◄─ Reliable data delivery (ACK/NAK, CRC)
++---------------------------+
+|     Physical Layer        | ◄─ Electrical signaling (bit transmission)
++---------------------------+
+```
+
+</br>
+Example Packet flow:
+
+1. **Transaction Layer:** NVMe creates a write request (TLP).
+    
+2. **Data Link Layer:** Adds CRC and control header.
+    
+3. **Physical Layer:** Encodes and transmits bits over PCIe lanes.
+    
+4. **CPU Physical Layer:** Receives and decodes bits.
+    
+5. **Data Link Layer:** Validates CRC, sends ACK.
+    
+6. **Transaction Layer:** Passes payload to the CPU/memory.
 
 ---
 

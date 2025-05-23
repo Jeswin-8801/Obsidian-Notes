@@ -8,18 +8,19 @@ The **NVMe protocol** (<mark style="background: #D2B3FFA6;">Non-Volatile Memory 
 
 </br>
 
-## 🚀 NVMe at a Glance
+> [!tldr] 
+> 
+> |Feature|Value|
+> |---|---|
+> |**First Released**|2011|
+> |**Transport**|PCIe (also over Fabrics: NVMe-oF)|
+> |**Optimized For**|SSDs and storage-class memory (SCM)|
+> |**Replaces**|AHCI (used with SATA SSDs/HDDs)|
+> |**Latency**|Low (microseconds)|
+> |**Queue Depth**|64K queues × 64K commands/queue|
+> |**Target Systems**|PCs, servers, enterprise storage, mobile devices (via UFS/NVMe over M.2)|
 
-|Feature|Value|
-|---|---|
-|**Full Name**|Non-Volatile Memory Express|
-|**First Released**|2011|
-|**Transport**|PCIe (also over Fabrics: NVMe-oF)|
-|**Optimized For**|SSDs and storage-class memory (SCM)|
-|**Replaces**|AHCI (used with SATA SSDs/HDDs)|
-|**Latency**|Low (microseconds)|
-|**Queue Depth**|64K queues × 64K commands/queue|
-|**Target Systems**|PCs, servers, enterprise storage, mobile devices (via UFS/NVMe over M.2)|
+</br>
 
 ## 🔁 NVMe Generational Improvements (PCIe Tie-in)
 
