@@ -33,5 +33,27 @@ homarr   0/1     1            0           24s
 
 - Expose IP through LB
 ```bash ln:False
-kubectl expose deployment homarr --name homarr-lb --port=443 --target-port=7575 --type=LoadBalancer -n homarr homarr-lb exposed
+kubectl expose deployment homarr --name homarr-lb --port=80 --target-port=7575 --type=LoadBalancer -n homarr homarr-lb exposed
+```
+
+</br>
+
+## Debug
+
+- Pod
+```bash ln:False
+kubectl get pods -A | grep homarr
+```
+
+```bash ln:False
+kubectl describe pod $(kubectl get pods -A | grep homarr | awk -F' ' '{print$2}') -n homarr
+```
+
+- Service
+```bash ln:False
+kubectl get svc -n homarr
+```
+
+```bash ln:False
+kubectl describe svc homarr-lb -n homarr
 ```

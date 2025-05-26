@@ -96,3 +96,11 @@ source ~/.config/fish/config.fish
 # Setup Nginx Reverse Proxy
 
 > Refer: [[Reverse Proxy]]
+
+</br>
+
+# Reserve IP of the System on local DHCP
+
+![[20250525092036_reserve_ip.png]]
+
+> Refer: [[Wake on LAN#Get MAC address]] on how to get the mac address
