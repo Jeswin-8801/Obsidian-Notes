@@ -28,12 +28,21 @@ fi
 $ pdm init
 ```
 
+</br>
+
 ---
+
 ### Use an Existing PDM config
+
+> [!note] 
+> Set the venv folder to be created in the local cache dir instead of the project home dir.
+> ```bash ln:False
+> $ pdm config venv.in_project false
+> ```
 
 - create virtual environment
 ```bash ln:False
-$ pdm venv create --name venv python3
+$ pdm venv create
 ```
 
 - install dependencies

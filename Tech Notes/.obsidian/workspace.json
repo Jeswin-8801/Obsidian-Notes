@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/Persistent Storage/Longhorn/Longhorn Installation.md",
-                "mode": "source",
+                "file": "03 - Homelab/PiHole/Change FQDN and add valid SSL.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Longhorn Installation"
+              "title": "Change FQDN and add valid SSL"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,45 +185,47 @@
       "obsidian-projects:Open projects": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "a334f2678ec06ea6",
   "lastOpenFiles": [
+    "03 - Homelab/Proxmox/Valid Self Signed Certificate.md",
+    "03 - Homelab/PiHole/Change FQDN and add valid SSL.md",
+    "o.md",
+    "02 - DevOps/Networking/Traefik/Installation.md",
+    "02 - DevOps/Networking/Traefik/What is Traefik.md",
+    "03 - Homelab/PiHole/DNS.md",
+    "03 - Homelab/PiHole/PiHole Installation.md",
+    "02 - DevOps/Networking/Setup A CA.md",
+    "Images/20250601133020_proxmox_upload_cert.png",
+    "02 - DevOps/Persistent Storage/Longhorn/Longhorn Installation.md",
+    "02 - DevOps/Networking/Traefik",
+    "02 - DevOps/Networking",
+    "03 - Homelab/Homarr/Homarr Installation.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Starting and Accessing VMs.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/K3s Setup.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Automation Script.md",
+    "03 - Homelab/Proxmox/Starting a VM from Template.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Requirements.md",
+    "03 - Homelab/Proxmox/Post Setup.md",
+    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
     "05 - Other Notes/Git SSH setup.md",
     "03 - Homelab/Proxmox/Reverse Proxy.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Starting and Accessing VMs.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Requirements.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/HA Cluster Automation Script.md",
-    "03 - Homelab/Proxmox/Post Setup.md",
     "03 - Homelab/Proxmox/Proxmox Setup.md",
     "03 - Homelab/Proxmox/Cloud-Init/Cloud-Init VM Network Settings.md",
     "03 - Homelab/Proxmox/Cloud-Init/Custom Scripts.md",
     "02 - DevOps/Automation/Ansible.md",
-    "02 - DevOps/Persistent Storage/Longhorn/Longhorn Installation.md",
     "02 - DevOps/Persistent Storage/Longhorn",
     "02 - DevOps/Persistent Storage",
     "Excalidraw/Drawing 2025-05-25 09.45.55.excalidraw.md",
     "Excalidraw/Drawing 2025-05-25 09.44.42.excalidraw.md",
-    "Untitled Kanban.md",
     "Excalidraw",
-    "2025-05-25.md",
     "Untitled.canvas",
     "Images/20250525092036_reserve_ip.png",
     "Pasted image 20250525091623.png",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Rancher/Rancher Installation.md",
-    "03 - Homelab/Homarr/Homarr Installation.md",
-    "03 - Homelab/Proxmox/Wake on LAN.md",
     "Images/20250525090658_Proxmox_WoL.png",
-    "03 - Homelab/Proxmox/CPU Undervolting.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/K3s Setup.md",
-    "05 - Other Notes/Querying before installing Package.md",
-    "04 - Hardware/Storage Devices/NVME/Packet Flow⁝ NVMe SSD → CPU.md",
-    "04 - Hardware/Storage Devices/NVME/NVME ELF.md",
-    "04 - Hardware/Storage Devices/NVME/NVMe Drive Detection on Linux System Startup.md",
-    "04 - Hardware/Storage Devices/NVME/nvme commands.md",
-    "04 - Hardware/Storage Devices/NVME/NVME ASIC.md",
     "04 - Hardware/Storage Devices/NVME",
     "04 - Hardware/Storage Devices",
     "Images/20250517165620_pi_hole_start_at_boot.png",
@@ -232,11 +235,8 @@
     "Images/20250503192909_proxmox_ubuntu_cloud_init.png",
     "Images/20250503192908_PCI_register_spec.png",
     "Images/20241113155639_linux_boot_process.png",
-    "Images/20241012161602_python_exception_handling.png",
     "03 - Homelab/PiHole",
     "04 - Hardware/Protocols/PCIe",
-    "04 - Hardware/Protocols/PCI",
-    "04 - Hardware/Embedded Systems/Debugging Interfaces",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Directories.canvas"
