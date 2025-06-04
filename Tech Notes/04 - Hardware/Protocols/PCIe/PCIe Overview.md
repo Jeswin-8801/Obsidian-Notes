@@ -8,7 +8,7 @@ tags: [pci,protocol]
 <mark style="background: #CACFD9A6;">PCIe</mark> a **high-speed serial expansion bus standard** used to connect hardware devices (like GPUs, SSDs, NICs) to a computer's motherboard.
 
 > [!note] 
-> Checkout Lane Architechture at [[PCIe Lanes and Slots]]
+> Checkout Lane Architechture at [[PCIe Lane Configurations and Slots]]
 
 ---
 
@@ -25,16 +25,6 @@ tags: [pci,protocol]
 
 > [!note] 
 > Gen 6 drops traditional NRZ encoding in favor of **PAM4** for double data rates.
-
-</br>
-
----
-
-## 🧬 PCIe Layers
-
-1. **Transaction Layer**: Handles read/write requests and completions.
-2. **Data Link Layer**: Adds CRC and ensures reliable delivery.
-3. **Physical Layer**: Converts bits to signals over wires (includes electrical signaling, encoding, equalization).
 
 </br>
 
@@ -67,7 +57,7 @@ tags: [pci,protocol]
 
 ---
 
-## **Layered Architecture (Protocol Stack)**
+## 🧬 PCIe Layers
 
 PCIe uses a layered architecture similar to the OSI model:
 
@@ -81,24 +71,37 @@ PCIe uses a layered architecture similar to the OSI model:
 +---------------------------+
 ```
 
+1. **Transaction Layer**: Handles read/write requests and completions.
+2. **Data Link Layer**: Adds CRC and ensures reliable delivery.
+3. **Physical Layer**: Converts bits to signals over wires (includes electrical signaling, encoding, equalization).
+
 </br>
 Example Packet flow:
 
-1. **Transaction Layer:** NVMe creates a write request (TLP).
-    
-2. **Data Link Layer:** Adds CRC and control header.
-    
-3. **Physical Layer:** Encodes and transmits bits over PCIe lanes.
-    
-4. **CPU Physical Layer:** Receives and decodes bits.
-    
-5. **Data Link Layer:** Validates CRC, sends ACK.
-    
-6. **Transaction Layer:** Passes payload to the CPU/memory.
+- **Transaction Layer:** NVMe creates a write request (TLP).
+> ⠀
+- **Data Link Layer:** Adds CRC and control header.
+> ⠀
+- **Physical Layer:** Encodes and transmits bits over PCIe lanes.
+> ⠀ 
+- **CPU Physical Layer:** Receives and decodes bits.
+> ⠀
+- **Data Link Layer:** Validates CRC, sends ACK.
+> ⠀
+- **Transaction Layer:** Passes payload to the CPU/memory.
 
----
+</br>
+
 
 > [!info] 
 > Also checkout [[PCI devices]]
+
+---
+
+#### Youtube
+
+1. [PCI Express Physical Layer](https://youtu.be/EHkuzkNWXFk?si=4P05aOtlXT74CfKC)
+2. [Linux and PCIe (Playlist)](https://www.youtube.com/watch?v=E3p0DXmRSV4&list=PLCGpd0Do5-I1hZpk8zi9Zh7SCnHrIQlgT)
+3. [PCIe Architecture](https://youtube.com/@pcie3823?si=t6EcHhgMjVJGGAEi)
 
 
