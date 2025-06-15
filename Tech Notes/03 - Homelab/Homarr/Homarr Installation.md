@@ -4,14 +4,20 @@ tags: [dashboard,homelab]
 
 </br>
 
-- create new namespace
+- Get values.yml and use it in the command below
 ```bash ln:False
-kubectl create namespace homarr
+mkdir -p Homarr
+cd Homarr
+wget https://raw.githubusercontent.com/Jeswin-8801/HomeLab/refs/heads/main/Homarr/values.yaml
 ```
 
-- Install through Chart
+- Install through Helm Chart
 ```bash ln:False
-helm install homarr -n homarr --set env.TZ="India/Kolkata" oci://ghcr.io/homarr-labs/charts/homarr
+helm install homarr oci://ghcr.io/homarr-labs/charts/homarr \
+  --namespace homarr \
+  --create-namespace \
+  --set env.TZ="India/Kolkata" \
+  -f values.yaml
 ```
 
 - Verify deployment

@@ -132,3 +132,20 @@ rancher-webhook            ClusterIP      10.43.49.42     <none>         443/TCP
 ```
 
 > Rancher can now be accessed through the URL https://192.168.0.61/ as per the IP specified above
+
+</br>
+
+## Certificates and Secrets
+
+> [!note] 
+> Perform this step after you have ensured that you have [[Traefik Installation|Traefik]] and [[CertMgr Installation with Self Signed Certs|CertManager]] setup
+
+- certificates
+```bash ln:False
+kubectl -n cattle-system get certificates
+```
+
+- secrets
+```bash ln:False
+kubectl -n cattle-system get secrets
+```

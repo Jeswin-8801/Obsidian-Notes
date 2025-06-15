@@ -22,7 +22,15 @@ helm repo update
 ```
 
 - install:
+```bash ln:False
+mkdir -p Traefik
+cd Traefik
+wget https://raw.githubusercontent.com/Jeswin-8801/HomeLab/refs/heads/main/Kubernetes/Traefik/values.yaml
+```
 
 ```bash ln:False
-helm install traefik traefik/traefik
+helm install traefik traefik/traefik \
+  --namespace traefik \
+  --create-namespace \
+  --values values.yaml
 ```
