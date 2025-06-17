@@ -41,3 +41,9 @@ Resource Record Type: A # (might vary based on the hostname you want to resolve)
 ## Traefik
 
 > https://traefik.home.local/ping
+
+</br>
+
+## Homarr
+
+> https://homarr.home.local/api/health/live
