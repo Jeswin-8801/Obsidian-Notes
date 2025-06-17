@@ -10,4 +10,4 @@ tags: [dns,homelab]
 
 **We can now access PiHole at: http://pi.hole/admin**
 
-> Add DNS records one by one at: [Pi-hole pi-hole](http://pi.hole/admin/settings/dnsrecords)
+> Add DNS records one by one at ***(This URL will be changed later)***: [Pi-hole](http://pi.hole/admin/settings/dnsrecords)
