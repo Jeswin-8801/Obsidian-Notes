@@ -914,6 +914,7 @@ limiting
 labels
 little
 layered
+longhorn
 GET
 GUI
 Great
@@ -1746,6 +1747,12 @@ Programming
 PCB
 Peripheral
 Passes
+PhysicalVolume
+PhysicalVolumeClaim
+PVC
+PersistantVolumeClaim
+PersistantVolume
+Project
 Lists
 Locks
 Log
@@ -6676,6 +6683,7 @@ bitstreams
 boards
 bandwidth
 buses
+bound
 after
 an
 and
@@ -7204,6 +7212,7 @@ assign
 agentless
 applicable
 aligned
+ass
 Allow
 Adds
 Authentic
@@ -7639,6 +7648,8 @@ Addressing
 Architechture
 ACK
 Although
+Actual
+Admin
 duplicates
 duplicate
 descending
@@ -9039,6 +9050,7 @@ FQDN
 Failure
 FPGAs
 Field
+Failed
 Description
 Dictionary
 DELETE
@@ -9529,6 +9541,7 @@ Delete
 Debugging
 Daisy
 Debugger
+Developer
 item
 items
 iterables
@@ -10539,6 +10552,7 @@ significant
 sup
 slots
 secondary
+scoped
 Removes
 Returns
 Reverses
@@ -11103,6 +11117,7 @@ Reset
 Register
 Receives
 Route
+Referring
 from
 first
 function
@@ -12558,6 +12573,10 @@ pathway
 payload
 pihole
 probing
+provisioner
+provisioning
+pgAdmin
+proceeding
 given
 guarantee
 group
@@ -13387,6 +13406,8 @@ Supported
 Short
 Splits
 Switches
+Scope
+StorageClass
 using
 unpacks
 unique
@@ -13812,6 +13833,7 @@ uMO
 unable
 upload
 updating
+uninstall
 No
 Numeric
 Note
@@ -14167,6 +14189,7 @@ NVCC
 Ntvvbpp
 Nginx
 Not
+Negation
 number
 new
 not
@@ -16428,6 +16451,8 @@ Complex
 Connection
 Connected
 Continue
+Created
+ConfigMap
 When
 Writing
 With
@@ -19764,6 +19789,7 @@ YQQ
 YcF
 YAML
 Youtube
+Yes
 XML
 XlE
 XJ

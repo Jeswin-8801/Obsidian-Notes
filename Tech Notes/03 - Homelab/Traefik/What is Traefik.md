@@ -16,3 +16,6 @@ Similar known tools: ==Nginx==, ==Apache web server==
 |🛣️ **Routing / Load Balancing**|Path-based or host-based routing to services|
 |🔒 **Security Middleware**|Can integrate auth, rate limiting, headers|
 |📈 **Observability**|Metrics, tracing, logging for traffic flows|
+
+> [!info] 
+> Checkout installation at [[Traefik Installation]]

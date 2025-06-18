@@ -47,3 +47,9 @@ Resource Record Type: A # (might vary based on the hostname you want to resolve)
 ## Homarr
 
 > https://homarr.home.local/api/health/live
+
+</br>
+
+## pgAdmin4
+
+> https://pgadmin4.home.local/login

@@ -71,3 +71,11 @@ kubectl get nodes --show-labels | grep longhorn
 
 > [!note] 
 > Access the Longhorn UI from the Rancher Dashboard.
+
+</br>
+
+### Verify using `kubectl`
+
+```bash ln:False
+kubectl get storageclass
+```
