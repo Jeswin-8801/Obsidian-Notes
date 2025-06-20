@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/PostgreSQL/Postgres Installation.md",
+                "file": "03 - Homelab/Zitadel/Zitadel Istallation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Postgres Installation"
+              "title": "Zitadel Istallation"
             }
           }
         ]
@@ -193,11 +193,14 @@
   "active": "a334f2678ec06ea6",
   "lastOpenFiles": [
     "03 - Homelab/UptimeKuma/Adding Monitors.md",
+    "03 - Homelab/Zitadel/Zitadel Istallation.md",
     "03 - Homelab/PostgreSQL/pgAdmin4 Installation.md",
+    "03 - Homelab/PostgreSQL/Postgres Installation.md",
+    "03 - Homelab/UptimeKuma/Uptime Kuma Installation.md",
+    "03 - Homelab/Zitadel",
     "03 - Homelab/Homarr/Homarr Installation.md",
     "03 - Homelab/Traefik/What is Traefik.md",
     "03 - Homelab/Homarr/Ingress Route Setup.md",
-    "03 - Homelab/PostgreSQL/Postgres Installation.md",
     "03 - Homelab/Longhorn/Longhorn Installation.md",
     "03 - Homelab/Longhorn/Verify.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/PV and PVC.md",
@@ -206,7 +209,6 @@
     "03 - Homelab/Cert Manager/CertMgr Installation with Self Signed Certs.md",
     "03 - Homelab/Traefik/Setup Dashboard.md",
     "03 - Homelab/UptimeKuma/Add Custom CA.md",
-    "03 - Homelab/UptimeKuma/Uptime Kuma Installation.md",
     "03 - Homelab/Traefik/Traefik Installation.md",
     "03 - Homelab/PiHole/Change FQDN and add valid SSL.md",
     "03 - Homelab/PiHole/DNS.md",
@@ -219,7 +221,6 @@
     "04 - Hardware/Protocols/PCI/PCI standards.md",
     "04 - Hardware/Protocols/PCI/PCI devices.md",
     "04 - Hardware/Protocols/PCI/PCI Configuration Space.md",
-    "04 - Hardware/Protocols/PCI/PCI Addressing.md",
     "03 - Homelab/Cert Manager",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS",
     "Images/20250601133020_proxmox_upload_cert.png",
@@ -232,7 +233,6 @@
     "Images/20250525092036_reserve_ip.png",
     "Pasted image 20250525091623.png",
     "Images/20250525090658_Proxmox_WoL.png",
-    "04 - Hardware/Storage Devices/NVME",
     "Images/20250517165620_pi_hole_start_at_boot.png",
     "Images/20250515233500_proxmox_node_dns_settings.png",
     "Images/20250503192912_proxmox_ubuntu_template_processor.png",

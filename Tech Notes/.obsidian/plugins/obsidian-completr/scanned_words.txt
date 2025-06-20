@@ -1275,6 +1275,7 @@ Gcfz
 Gff
 GzR
 GitHub
+Got
 POST
 PUT
 PATCH
@@ -1753,6 +1754,7 @@ PVC
 PersistantVolumeClaim
 PersistantVolume
 Project
+Postgres
 Lists
 Locks
 Log
@@ -4709,6 +4711,9 @@ else
 ensured
 endian
 extends
+exposing
+encoded
+expose
 Mutable
 Manger
 Multithreaded
@@ -6684,6 +6689,7 @@ boards
 bandwidth
 buses
 bound
+base
 after
 an
 and
@@ -7213,6 +7219,7 @@ agentless
 applicable
 aligned
 ass
+annotate
 Allow
 Adds
 Authentic
@@ -11118,6 +11125,7 @@ Register
 Receives
 Route
 Referring
+Repo
 from
 first
 function
@@ -12067,6 +12075,7 @@ revert
 resouces
 register
 referring
+raw
 present
 pair
 properly
@@ -12577,6 +12586,7 @@ provisioner
 provisioning
 pgAdmin
 proceeding
+passwords
 given
 guarantee
 group
@@ -13408,6 +13418,7 @@ Splits
 Switches
 Scope
 StorageClass
+Secret
 using
 unpacks
 unique
@@ -13834,6 +13845,7 @@ unable
 upload
 updating
 uninstall
+usernames
 No
 Numeric
 Note
@@ -20912,6 +20924,7 @@ ZGW
 Zddd
 ZJJ
 Zzdjj
+Zitadel
 zero
 zu
 zA

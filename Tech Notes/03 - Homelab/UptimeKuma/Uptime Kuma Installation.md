@@ -27,7 +27,7 @@ helm install my-uptime-kuma uptime-kuma/uptime-kuma \
 	-f values.yaml
 ```
 
-- Create tls secret
+- Create TLS certs
 ```bash ln:False
 kubectl apply -f uptime-kuma-cert.yaml
 ```
