@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/Homarr/Setup SSO.md",
+                "file": "03 - Homelab/TinyAuth/Installation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Setup SSO"
+              "title": "Installation"
             }
           }
         ]
@@ -192,10 +192,20 @@
   },
   "active": "a334f2678ec06ea6",
   "lastOpenFiles": [
-    "03 - Homelab/Homarr/Zitadel Application Setup.md",
-    "03 - Homelab/Homarr/Ingress Route Setup.md",
+    "03 - Homelab/TinyAuth/Zitadel Config.md",
+    "03 - Homelab/TinyAuth/Installation.md",
+    "03 - Homelab/Proxmox/CPU Undervolting.md",
     "03 - Homelab/Homarr/Setup SSO.md",
     "03 - Homelab/Zitadel/Zitadel Istallation.md",
+    "03 - Homelab/Traefik/Traefik Installation.md",
+    "Images/20250622173312_tinyauth_zitadel_config.png",
+    "03 - Homelab/TinyAuth",
+    "03 - Homelab/UptimeKuma/Add SSO.md",
+    "Images/20250622125134_uptimekuma_disable_auth.png",
+    "Pasted image 20250622125134.png",
+    "03 - Homelab/Homarr/Backup and Restore.md",
+    "03 - Homelab/Homarr/Zitadel Application Setup.md",
+    "03 - Homelab/Homarr/Ingress Route Setup.md",
     "Images/20250621231943_homarr_group_name_setup.png",
     "Images/20250621232852_zitadel_authorization_for_user.png",
     "Images/20250621232747_zitadel_organization_grants.png",
@@ -221,22 +231,14 @@
     "03 - Homelab/PostgreSQL",
     "03 - Homelab/Traefik/Setup Dashboard.md",
     "03 - Homelab/UptimeKuma/Add Custom CA.md",
-    "03 - Homelab/Traefik/Traefik Installation.md",
-    "03 - Homelab/PiHole/Change FQDN and add valid SSL.md",
-    "03 - Homelab/PiHole/DNS.md",
-    "03 - Homelab/PiHole/PiHole Installation.md",
-    "04 - Hardware/Protocols/HSSTP.md",
     "03 - Homelab/UptimeKuma",
     "03 - Homelab/Cert Manager",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS",
-    "Images/20250601133020_proxmox_upload_cert.png",
     "03 - Homelab/Traefik",
     "02 - DevOps/Networking",
     "03 - Homelab/Longhorn",
     "02 - DevOps/Persistent Storage",
-    "Excalidraw",
     "Untitled.canvas",
-    "Images/20250525092036_reserve_ip.png",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
     "Directories.canvas"

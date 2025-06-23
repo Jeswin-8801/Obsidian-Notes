@@ -44,7 +44,7 @@ kubectl create secret generic auth-oidc-secret \
 
 </br>
 
-#### 4. Add root CA from cert-mgr
+#### 4. Add root CA from cert-manager
 
 > [!note] 
 > Add this only if you are using self signed certs
@@ -76,12 +76,17 @@ helm upgrade homarr oci://ghcr.io/homarr-labs/charts/homarr \
   -f values_sso.yaml
 ```
 
+- check for Pods ==Ready==
+```bash ln:False
+watch kubectl -n homarr get pods
+```
+
 </br>
 
 ---
 
 > [!bug] 
-> <mark style="background: #ABF7F7A6;">Temporary</mark>
+> <mark style="background: #ABF7F7A6;">RESOLVED</mark>
 > Quick fix for issue [bug: Issue #123 · homarr-labs/charts](https://github.com/homarr-labs/charts/issues/123)
 > ```bash ln:False
 > kubectl exec -i -n homarr deploy/homarr -- sh -c 'cat > /appdata/trusted-certificates/tls.crt' <<< "$(kubectl -n homarr get secret my-root-ca-secret -o yaml | grep -oP "tls\.crt: \K.*$" | base64 --decode)"
