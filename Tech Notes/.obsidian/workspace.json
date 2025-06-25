@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/TinyAuth/Installation.md",
+                "file": "03 - Homelab/Rancher/OIDC.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Installation"
+              "title": "OIDC"
             }
           }
         ]
@@ -192,12 +192,20 @@
   },
   "active": "a334f2678ec06ea6",
   "lastOpenFiles": [
-    "03 - Homelab/TinyAuth/Zitadel Config.md",
-    "03 - Homelab/TinyAuth/Installation.md",
-    "03 - Homelab/Proxmox/CPU Undervolting.md",
-    "03 - Homelab/Homarr/Setup SSO.md",
-    "03 - Homelab/Zitadel/Zitadel Istallation.md",
+    "03 - Homelab/Rancher/Rancher Installation.md",
+    "03 - Homelab/Rancher/OIDC.md",
+    "03 - Homelab/Cert Manager/Import Custom CA.md",
+    "03 - Homelab/Traefik/Setup Dashboard.md",
     "03 - Homelab/Traefik/Traefik Installation.md",
+    "03 - Homelab/Zitadel/Zitadel Istallation.md",
+    "03 - Homelab/TinyAuth/Installation.md",
+    "03 - Homelab/TinyAuth/Zitadel Config.md",
+    "Images/20250626003607_rancher_oidc_config.png",
+    "03 - Homelab/Homarr/Homarr Installation.md",
+    "03 - Homelab/Homarr/Setup SSO.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Local DNS Config.md",
+    "Images/20250626001442_Rancher_OIDC.png",
+    "03 - Homelab/Proxmox/CPU Undervolting.md",
     "Images/20250622173312_tinyauth_zitadel_config.png",
     "03 - Homelab/TinyAuth",
     "03 - Homelab/UptimeKuma/Add SSO.md",
@@ -211,13 +219,10 @@
     "Images/20250621232747_zitadel_organization_grants.png",
     "Images/20250621232601_zitadel_project_roles.png",
     "Images/20250621232318_zitadel_users_page.png",
-    "03 - Homelab/Homarr/Homarr Installation.md",
-    "Images/20250621220832_token_settings.png",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/Restart Deployment.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/View Helm Chart.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/Scale Deployments to 0.md",
     "03 - Homelab/Cert Manager/CertMgr Installation with Self Signed Certs.md",
-    "Images/20250620211147_Homarr_Zitadel_Config.png",
     "03 - Homelab/UptimeKuma/Adding Monitors.md",
     "03 - Homelab/PostgreSQL/pgAdmin4 Installation.md",
     "03 - Homelab/PostgreSQL/Postgres Installation.md",
@@ -225,12 +230,7 @@
     "03 - Homelab/Zitadel",
     "03 - Homelab/Traefik/What is Traefik.md",
     "03 - Homelab/Longhorn/Longhorn Installation.md",
-    "03 - Homelab/Longhorn/Verify.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/PV and PVC.md",
-    "03 - Homelab/Cert Manager/Import Custom CA.md",
     "03 - Homelab/PostgreSQL",
-    "03 - Homelab/Traefik/Setup Dashboard.md",
-    "03 - Homelab/UptimeKuma/Add Custom CA.md",
     "03 - Homelab/UptimeKuma",
     "03 - Homelab/Cert Manager",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS",

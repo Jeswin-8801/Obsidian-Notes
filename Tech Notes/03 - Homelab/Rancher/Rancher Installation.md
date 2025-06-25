@@ -76,7 +76,7 @@ kubectl get pods --namespace cert-manager
 ```bash ln:False
 helm install rancher rancher-stable/rancher \
   --namespace cattle-system \
-  --set hostname=rancher.homelab.pve \
+  --set hostname=rancher.home.local \
   --set bootstrapPassword=admin
 ```
 

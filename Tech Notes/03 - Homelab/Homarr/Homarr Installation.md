@@ -60,6 +60,9 @@ homarr   0/1     1            0           24s
 > [!note] 
 > Now you will be asked to create a new user. This will be the admin user internal to <mark style="background: #ADCCFFA6;">Homarr</mark>.
 
+> [!important] 
+> To have Homarr ping all required URIs served by your local DNS successfully, refer [[Local DNS Config]]
+
 </br>
 
 ## Debug
