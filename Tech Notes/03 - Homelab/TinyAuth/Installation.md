@@ -37,7 +37,7 @@ sed -i "s/<your_client_secret>/$(echo -n ${CLIENT_SECRET} | base64 -w 0)/g" secr
 ```
 
 
-#### 3. Add root CA from cert-manager
+#### 4. Add root CA from cert-manager
 
 > [!note] 
 > Required if you are using self signed certs
@@ -46,7 +46,7 @@ sed -i "s/<your_client_secret>/$(echo -n ${CLIENT_SECRET} | base64 -w 0)/g" secr
 sed -i "s/<BASE64_ENCODED_CERT>/$(kubectl -n cert-manager get secret spnw-root-ca-secret -o jsonpath='{.data.tls\.crt}')/g" root-ca-secret.yaml
 ```
 
-#### 4. Apply all Configs
+#### 5. Apply all Configs
 
 ```bash ln:False
 kubectl apply -k .

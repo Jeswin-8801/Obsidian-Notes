@@ -74,14 +74,27 @@ Get Pod Logs:
 kubectl -n postgres logs $(kubectl -n postgres get pods | grep "postgres" | awk -F" " '{ printf $1 }')
 ```
 
-Incase you get Mount Failed, try installing `nfs-commn` in all longhorn nodes:
+</br>
+
+#### 6. Install Required Mount Helper Programs
+
+Incase you get Mount Failed, try installing `nfs-commn` in all worker nodes where the PVC will mounted:
+
+> for errors:
+> ```bash  ln:False
+> bad option; for several filesystems (e.g. nfs, cifs) you might need a /sbin/mount.<type> helper program.
+> ```
+
+> [!note] 
+> The PVC will be mounted in worker nodes but the actual volume will be stored in longhorn nodes.
+
 ```bash ln:False
 sudo apt install -y nfs-common
 ```
 
 </br>
 
-#### 6. Create a service
+#### 7. Create a service
 ```bash ln:False
 kubectl apply -f psql-service.yaml
 ```

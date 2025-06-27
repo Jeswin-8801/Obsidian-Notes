@@ -1,5 +1,5 @@
 ---
-tags: [OIDC, Zitadel]
+tags: [OIDC, SSO, Zitadel]
 ---
 
 #### 1. Add custom CA
