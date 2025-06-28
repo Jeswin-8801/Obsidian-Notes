@@ -52,10 +52,16 @@ Resource Record Type: A # (might vary based on the hostname you want to resolve)
 
 ## pgAdmin4
 
-> https://pgadmin4.home.local/login
+> https://pgadmin4.home.local/misc/ping
 
 </br>
 
 ## Zitadel
 
 > https://zitadel.home.local/debug/healthz
+
+</br>
+
+## TinyAuth
+
+> https://tinyauth.home.local/api/healthcheck

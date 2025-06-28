@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/Checkmk/checkmk Installation.md",
+                "file": "03 - Homelab/Tailscale/Tailscale Installation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "checkmk Installation"
+              "title": "Tailscale Installation"
             }
           }
         ]
@@ -192,8 +192,19 @@
   },
   "active": "a334f2678ec06ea6",
   "lastOpenFiles": [
-    "03 - Homelab/TinyAuth/Installation.md",
+    "Images/20250628164400_tailscale_dns.png",
+    "Images/20250628162531_tailscale_auth_key.png",
+    "03 - Homelab/Checkmk/Setting up Agents.md",
+    "03 - Homelab/Tailscale/Tailscale Installation.md",
+    "03 - Homelab/Tailscale",
+    "Images/20250628145549_checkmk_add_host.png",
+    "Images/20250628145104_checkmk_select_services.png",
+    "03 - Homelab/PiHole/Add Local DNS to VMs.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Local DNS Config.md",
+    "Images/20250628120100_checkmk_agent_package.png",
     "03 - Homelab/Checkmk/checkmk Installation.md",
+    "03 - Homelab/UptimeKuma/Adding Monitors.md",
+    "03 - Homelab/TinyAuth/Installation.md",
     "03 - Homelab/Checkmk",
     "03 - Homelab/PostgreSQL/pgAdmin4 Installation.md",
     "03 - Homelab/PostgreSQL/pgAdmin4 SSO.md",
@@ -202,7 +213,6 @@
     "03 - Homelab/Longhorn/Longhorn Installation.md",
     "03 - Homelab/Longhorn/Taint, Label Longhorn Nodes.md",
     "02 - DevOps/Container Orchestration & Management/Kubernetes/Untitled.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Local DNS Config.md",
     "03 - Homelab/Rancher/Rancher Installation.md",
     "03 - Homelab/Cert Manager/Import Custom CA.md",
     "03 - Homelab/Traefik/Setup Dashboard.md",
@@ -220,16 +230,7 @@
     "Images/20250622125134_uptimekuma_disable_auth.png",
     "Pasted image 20250622125134.png",
     "03 - Homelab/Homarr/Backup and Restore.md",
-    "03 - Homelab/Homarr/Zitadel Application Setup.md",
-    "03 - Homelab/Homarr/Ingress Route Setup.md",
     "Images/20250621231943_homarr_group_name_setup.png",
-    "Images/20250621232852_zitadel_authorization_for_user.png",
-    "Images/20250621232747_zitadel_organization_grants.png",
-    "Images/20250621232601_zitadel_project_roles.png",
-    "Images/20250621232318_zitadel_users_page.png",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/Restart Deployment.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/View Helm Chart.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/Scale Deployments to 0.md",
     "03 - Homelab/Zitadel",
     "03 - Homelab/PostgreSQL",
     "03 - Homelab/UptimeKuma",
@@ -237,7 +238,6 @@
     "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS",
     "03 - Homelab/Traefik",
     "02 - DevOps/Networking",
-    "03 - Homelab/Longhorn",
     "Untitled.canvas",
     "00 - Linux/File System Heirarchy/Directories_1.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
