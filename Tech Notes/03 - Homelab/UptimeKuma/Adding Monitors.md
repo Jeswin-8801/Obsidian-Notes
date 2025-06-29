@@ -65,3 +65,9 @@ Resource Record Type: A # (might vary based on the hostname you want to resolve)
 ## TinyAuth
 
 > https://tinyauth.home.local/api/healthcheck
+
+</br>
+
+## Metabase
+
+> https://metabase.home.local/api/health

@@ -2224,6 +2224,7 @@ Lanes
 Longest
 Logout
 LcSc
+Login
 Ordered
 OpenSSL
 Operator
@@ -3042,6 +3043,7 @@ TkK
 Tinyauth
 Tki
 TVV
+TinyAuth
 maintain
 matched
 methods
@@ -5217,6 +5219,7 @@ Medium
 MetalLB
 MKr
 Myz
+Metabase
 Items
 Inserts
 Immutable
@@ -9126,6 +9129,7 @@ Failed
 FRU
 FkYs
 Finalize
+Folder
 Description
 Dictionary
 DELETE
@@ -9619,6 +9623,7 @@ Debugger
 Developer
 Dir
 DIS
+Database
 item
 items
 iterables
@@ -10641,6 +10646,7 @@ sRZez
 sFd
 side
 save
+superset
 Removes
 Returns
 Reverses
@@ -13524,6 +13530,7 @@ Scope
 StorageClass
 Secret
 Sgf
+Superset
 using
 unpacks
 unique
@@ -16609,6 +16616,7 @@ Client
 Complete
 Configs
 CMM
+ClickHouse
 When
 Writing
 With
@@ -19572,6 +19580,7 @@ VfKT
 VDF
 VwI
 VeWY
+Variables
 You
 Yf
 Ya
