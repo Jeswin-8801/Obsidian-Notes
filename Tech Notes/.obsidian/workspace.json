@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d73d1d11bf599d25",
+        "id": "6b80e22940024c17",
         "type": "tabs",
         "children": [
           {
-            "id": "a334f2678ec06ea6",
+            "id": "936bd3923749edd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Homelab/Superset/Superset Installation.md",
+                "file": "02 - DevOps/CI∕CD/Jenkins.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Superset Installation"
+              "title": "Jenkins"
             }
           }
         ]
@@ -53,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nfs",
-                "matchingCase": true,
+                "query": "setpci",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for file, find"
+              "title": "Backlinks for PiHole Installation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Compression And Archiving/file, find.md",
+                "file": "03 - Homelab/PiHole/PiHole Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from file, find"
+              "title": "Outgoing links from PiHole Installation"
             }
           },
           {
@@ -142,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Linux/Commands and Utilities/Ensuring Integrity of File Systems/df.md"
+                "file": "00 - Linux/Boot Process/Arch Installation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of df"
+              "title": "Outline of Arch Installation"
             }
           },
           {
@@ -173,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,56 +192,58 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a334f2678ec06ea6",
+  "active": "936bd3923749edd3",
   "lastOpenFiles": [
-    "03 - Homelab/Metabase/Metabase Installation.md",
-    "03 - Homelab/ClickHouse/ClickHouse Installation.md",
-    "Pasted image 20250629133138.png",
-    "03 - Homelab/Superset/Superset Installation.md",
-    "03 - Homelab/UptimeKuma/Adding Monitors.md",
-    "03 - Homelab/Metabase",
-    "03 - Homelab/Superset/Zitadel Configuration.md",
-    "03 - Homelab/TinyAuth/TinyAuth Installation.md",
+    "02 - DevOps/CI∕CD/Jenkins.md",
+    "Images/20250621232852_zitadel_authorization_for_user.png",
+    "Images/20250621232747_zitadel_organization_grants.png",
+    "Images/20250621232601_zitadel_project_roles.png",
+    "Images/20250621232318_zitadel_users_page.png",
+    "Images/20250621231943_homarr_group_name_setup.png",
+    "Images/20250621220832_token_settings.png",
+    "Images/20250620211147_Homarr_Zitadel_Config.png",
+    "03 - Homelab/Zitadel/Zitadel Istallation.md",
+    "03 - Homelab/Zitadel",
     "03 - Homelab/TinyAuth/Zitadel Config.md",
-    "03 - Homelab/Superset",
+    "03 - Homelab/TinyAuth/TinyAuth Installation.md",
+    "03 - Homelab/TinyAuth",
     "03 - Homelab/Tailscale/Tailscale Installation.md",
-    "03 - Homelab/ClickHouse",
+    "03 - Homelab/Tailscale",
     "Images/20250628164400_tailscale_dns.png",
     "Images/20250628162531_tailscale_auth_key.png",
-    "03 - Homelab/Checkmk/Setting up Agents.md",
-    "03 - Homelab/Tailscale",
     "Images/20250628145549_checkmk_add_host.png",
-    "Images/20250628145104_checkmk_select_services.png",
+    "03 - Homelab/Superset/Zitadel Configuration.md",
+    "03 - Homelab/Superset/Superset Installation.md",
+    "03 - Homelab/Superset",
+    "03 - Homelab/Rancher/Rancher SSO.md",
     "03 - Homelab/PiHole/Add Local DNS to VMs.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Local DNS Config.md",
-    "Images/20250628120100_checkmk_agent_package.png",
+    "03 - Homelab/Metabase/Metabase Installation.md",
+    "03 - Homelab/Metabase",
+    "03 - Homelab/Longhorn/Taint, Label Longhorn Nodes.md",
+    "03 - Homelab/Homarr/Zitadel Application Setup.md",
+    "03 - Homelab/Homarr/Setup SSO.md",
+    "03 - Homelab/Homarr/Backup and Restore.md",
+    "03 - Homelab/ClickHouse/ClickHouse Installation.md",
+    "03 - Homelab/ClickHouse",
+    "03 - Homelab/Checkmk/Setting up Agents.md",
     "03 - Homelab/Checkmk/checkmk Installation.md",
     "03 - Homelab/Checkmk",
-    "03 - Homelab/PostgreSQL/pgAdmin4 Installation.md",
-    "03 - Homelab/PostgreSQL/pgAdmin4 SSO.md",
-    "03 - Homelab/Rancher/Rancher SSO.md",
-    "03 - Homelab/PostgreSQL/Postgres Installation.md",
-    "03 - Homelab/Longhorn/Longhorn Installation.md",
-    "03 - Homelab/Longhorn/Taint, Label Longhorn Nodes.md",
-    "02 - DevOps/Container Orchestration & Management/Kubernetes/Untitled.md",
-    "03 - Homelab/Rancher/Rancher Installation.md",
-    "03 - Homelab/Cert Manager/Import Custom CA.md",
-    "03 - Homelab/Traefik/Setup Dashboard.md",
-    "03 - Homelab/Traefik/Traefik Installation.md",
-    "03 - Homelab/Zitadel/Zitadel Istallation.md",
-    "Images/20250626003607_rancher_oidc_config.png",
-    "03 - Homelab/Homarr/Homarr Installation.md",
-    "Images/20250626001442_Rancher_OIDC.png",
-    "Images/20250622173312_tinyauth_zitadel_config.png",
-    "03 - Homelab/TinyAuth",
-    "Images/20250622125134_uptimekuma_disable_auth.png",
-    "03 - Homelab/Zitadel",
-    "03 - Homelab/PostgreSQL",
-    "03 - Homelab/UptimeKuma",
-    "03 - Homelab/Cert Manager",
-    "Untitled.canvas",
-    "00 - Linux/File System Heirarchy/Directories_1.canvas",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/K3s/Local DNS Config.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/View Helm Chart.md",
+    "02 - DevOps/Container Orchestration & Management/Kubernetes/COMMANDS/Restart Deployment.md",
+    "02 - DevOps/CI∕CD/Untitled",
+    "04 - Hardware/Protocols/PCI/lspci, setpci.md",
+    "00 - Linux/Commands and Utilities/Compression And Archiving/tar, cpio.md",
+    "00 - Linux/Commands and Utilities/Compression And Archiving/gzip, gunzip, bzip2, bunzip, xz, unxz.md",
+    "01 - Python Scripting and Automation/File Handling/Notes/Archiving.md",
+    "01 - Python Scripting and Automation/Libraries and Frameworks/Notes/subprocess.md",
+    "01 - Python Scripting and Automation/Virtual Environments/PDM.md",
+    "03 - Homelab/Traefik",
+    "03 - Homelab/Rancher",
+    "04 - Hardware/Storage Devices/NVME/Untitled.canvas",
     "00 - Linux/File System Heirarchy/Directories_2.canvas",
+    "00 - Linux/File System Heirarchy/Directories_1.canvas",
+    "Untitled.canvas",
     "Directories.canvas"
   ]
 }
