@@ -1,19 +1,30 @@
 # Obsidian-Notes
 
-# 🧠 Technical Knowledge Base
+## 🏗️ Systems & Infrastructure Engineering
 
-## 🏗️ Infrastructure Core
-*Focused on systems architecture and the homelab stack.*
+*Low-level systems design, container orchestration, and homelab virtualization.*
 
-- **Environment:** Arch Linux / Linux Core
-- **Orchestration:** Kubernetes (K3s/K8s) configuration and deployment strategies.
-- **Hardware:** Proxmox Homelab Server project and network topology.
-- **Fundamentals:** Shell scripting (Bash/Python), Dockerization, and CI/CD.
+* **Core Environments:** Advanced Linux administration (Arch Linux / Kernel Optimization / NixOS).
+* **Orchestration & DevOps:** Cloud-native deployment via Kubernetes (K8s/K3s), CI/CD pipeline architecture, and Infrastructure as Code (IaC).
+* **Virtualization & Hardware:** Enterprise-grade hypervisor management (Proxmox VE), network topology design, and bare-metal provisioning.
+* **Automation:** Systems programming in Python and POSIX-compliant Shell scripting.
 
-## 📐 Machine Learning & Theory
-*First-principles approach to AI and Deep Learning.*
+## 📐 Machine Learning Theory & Research
 
-- **Mathematics:** Linear Algebra (Eigen-decomposition), Multivariate Calculus, and Statistics.
-- **Algorithms:** Gradient Descent optimization, Backpropagation, and Loss Functions.
-- **Architecture:** Transformer models, CNNs, and Latent Space theory.
-- **Tools:** PyTorch, NumPy, and Obsidian-rendered LaTeX.
+*Deep learning research from first principles and computational mathematics.*
+
+* **Computational Mathematics:** Advanced Linear Algebra (Spectral Theory), Multivariate Calculus (Manifold Learning), and Inferential Statistics.
+* **Optimization & Learning:** Stochastic Gradient Descent (SGD) dynamics, automatic differentiation, and backpropagation mechanics.
+* **Neural Architectures:** Structural analysis of Transformers, Convolutional Neural Networks (CNNs), and Latent Space manifold theory.
+* **Implementation:** Scientific computing with PyTorch and NumPy, documented via high-fidelity LaTeX.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+| Domain | Tools |
+| --- | --- |
+| **Operating Systems** | Arch Linux, Proxmox, NixOS |
+| **Virtualization** | Docker, Kubernetes, QEMU/KVM |
+| **Scientific Stack** | PyTorch, NumPy, SciPy, Matplotlib |
+| **Documentation** | Obsidian (Markdown + LaTeX + Mermaid + Plotly) |
