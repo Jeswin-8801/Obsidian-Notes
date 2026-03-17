@@ -1,0 +1,26 @@
+# --- Obsidian Core ---
+# Ignore workspace state (tabs, active file, etc.) to prevent merge conflicts
+**/workspace.json
+**/workspace
+**/.obsidian/workspace.json
+**/.obsidian/workspace
+
+# --- Remotely Save ---
+**/.obsidian/plugins/remotely-save/data.json
+**/.obsidian/plugins/remotely-save/main.js
+**/.obsidian/remotely-save-metadata.json
+
+# --- Copilot ---
+**/.obsidian/plugins/copilot/data.json
+
+# --- General Housekeeping ---
+.DS_Store
+Thumbs.db
+*.tmp
+
+# --- Data Safety ---
+# If you have large datasets for your ML/Math notes, ignore them to keep the repo small
+*.csv
+*.parquet
+*.h5
+*.log

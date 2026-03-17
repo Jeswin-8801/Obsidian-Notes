@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Maple",
+  "interfaceFontFamily": "Adwaita Mono",
+  "enabledCssSnippets": [
+    "Background for Kanban",
+    "Bigger Popover Preview",
+    "Colored Sidebar Items",
+    "CyanVoxel's General Tweaks",
+    "Notebook Backgrounds"
+  ]
+}

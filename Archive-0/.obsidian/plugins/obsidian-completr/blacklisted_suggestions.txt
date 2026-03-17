@@ -1,0 +1,16 @@
+list
+lists
+cmd
+bash
+BusIer
+UUI
+UUId
+COMMAnd
+vm
+RESOLVE
+RESOLVEd
+RESOLVEs
+OIDC
+OIC
+OI
+PASSWORd

@@ -1,0 +1,27 @@
+.theme-dark .view-content .kanban-plugin::after {
+    content: "";
+    position: fixed;
+    background-image: url(https://i.imgur.com/jWKrInT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px) brightness(50%) saturate(100%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .theme-light .view-content .kanban-plugin::after {
+    content: "";
+    position: fixed;
+    background-image: url(https://i.redd.it/z952an87fie61.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px) brightness(70%) saturate(100%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
