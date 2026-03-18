@@ -35,7 +35,7 @@ In Natural Language Processing, "One-Hot Encoding" or "Bag of Words" creates mas
 
 #### C. Interpretability (Feature Selection)
 
-The **$L_1$ [[Manhattan Norm]], using $L_1$ regularization (Lasso) encourages the model to find a **sparse solution**.
+The **$L_1$ [[Manhattan Distance and Norm]], using $L_1$ regularization (Lasso) encourages the model to find a **sparse solution**.
 
 - By forcing coefficients of "unimportant" features to exactly zero, the model effectively performs automatic feature selection, making it easier to understand which inputs actually drive the output.
 

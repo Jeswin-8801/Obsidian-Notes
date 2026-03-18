@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Norms and Lp",
-      "path": "00 - Machine Learning/02 - Mathematics/Concepts/Norms and Lp.md"
+      "basename": "Linear Regression",
+      "path": "00 - Machine Learning/01 - Concepts/Supervised/Linear Regression.md"
     },
     {
-      "basename": "Manhattan Norm",
-      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Manhattan Norm.md"
+      "basename": "Ordinary Least Squares Estimation",
+      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Ordinary Least Squares Estimation.md"
+    },
+    {
+      "basename": "Manhattan Distance and Norm",
+      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Manhattan Distance and Norm.md"
+    },
+    {
+      "basename": "Norms and Lp",
+      "path": "00 - Machine Learning/02 - Mathematics/Concepts/Norms and Lp.md"
     },
     {
       "basename": "Distances vs Norms",
@@ -39,10 +47,6 @@
     {
       "basename": "Similarity Metrics",
       "path": "00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/Similarity Metrics.md"
-    },
-    {
-      "basename": "Linear Regression",
-      "path": "00 - Machine Learning/Linear Regression.md"
     },
     {
       "basename": "briefly_define_categorical_and_numeric@20260317_201049",

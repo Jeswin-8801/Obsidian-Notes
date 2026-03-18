@@ -49,7 +49,7 @@ The estimators for $\hat{\beta}_0$ and $\hat{\beta}_1$ are derived by setting th
 
 #### Scalar Form:
 
-The OLS estimators are given by:
+The [[Ordinary Least Squares Estimation#Scalar Form|OLS Estimators]] are given by:
 
 $$\hat{\beta}_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2}$$
 
@@ -71,7 +71,7 @@ For a linear model $y = X\beta + \epsilon$, where $y$ is the $n \times 1$ respon
 
 $$X = \begin{pmatrix} 1 & x_1 \\ 1 & x_2 \\ \vdots & \vdots \\ 1 & x_n \end{pmatrix}, \quad y = \begin{pmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{pmatrix}, \quad \beta = \begin{pmatrix} \beta_0 \\ \beta_1 \end{pmatrix}$$
 
-The OLS estimator for $\beta$ is:
+The [[Ordinary Least Squares Estimation#Matrix Form|OLS estimator]] for $\beta$ is:
 
 $$\hat{\beta} = (X^T X)^{-1} X^T y$$
 
