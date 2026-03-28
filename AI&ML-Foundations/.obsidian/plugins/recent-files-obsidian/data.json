@@ -1,72 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Linear Regression",
-      "path": "00 - Machine Learning/01 - Concepts/Supervised/Linear Regression.md"
+      "basename": "(Example) Forward and Backward Propagation",
+      "path": "01 - Neural Networks/03 - Examples/(Example) Forward and Backward Propagation.md"
     },
     {
-      "basename": "Ordinary Least Squares Estimation",
-      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Ordinary Least Squares Estimation.md"
+      "basename": "Forward and Backward Propagation",
+      "path": "01 - Neural Networks/01 - Core Theory/Forward and Backward Propagation.md"
     },
     {
-      "basename": "Manhattan Distance and Norm",
-      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Manhattan Distance and Norm.md"
+      "basename": "(Subnotes) Backward Propagation Hidden Parameter Gradients",
+      "path": "01 - Neural Networks/02 - Derivations/(Subnotes) Backward Propagation Hidden Parameter Gradients.md"
     },
     {
-      "basename": "Norms and Lp",
-      "path": "00 - Machine Learning/02 - Mathematics/Concepts/Norms and Lp.md"
+      "basename": "(Subnotes) Backward Propagation Hidden Layer Error",
+      "path": "01 - Neural Networks/02 - Derivations/(Subnotes) Backward Propagation Hidden Layer Error.md"
     },
     {
-      "basename": "Distances vs Norms",
-      "path": "00 - Machine Learning/02 - Mathematics/Concepts/Distances vs Norms.md"
+      "basename": "(Subnotes) Backward Propagation Output Parameter Gradients",
+      "path": "01 - Neural Networks/02 - Derivations/(Subnotes) Backward Propagation Output Parameter Gradients.md"
     },
     {
-      "basename": "Sparse and Dense Vectors",
-      "path": "00 - Machine Learning/02 - Mathematics/Concepts/Sparse and Dense Vectors.md"
-    },
-    {
-      "basename": "Proximity Metrics",
-      "path": "00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/Proximity Metrics.md"
-    },
-    {
-      "basename": "Lp Norms and Minkowski Distance",
-      "path": "00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/Lp Norms and Minkowski Distance.md"
+      "basename": "(Subnotes) Backward Propagation Output Error",
+      "path": "01 - Neural Networks/02 - Derivations/(Subnotes) Backward Propagation Output Error.md"
     },
     {
       "basename": "MOC",
-      "path": "00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/MOC.md"
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/MOC.md"
+    },
+    {
+      "basename": "Categorical Cross Entropy",
+      "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/Categorical Cross Entropy.md"
+    },
+    {
+      "basename": "Mean Squared Error",
+      "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/Mean Squared Error.md"
+    },
+    {
+      "basename": "Mean Absolute Error",
+      "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/Mean Absolute Error.md"
+    },
+    {
+      "basename": "Binary Cross Entropy",
+      "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/Binary Cross Entropy.md"
+    },
+    {
+      "basename": "MOC",
+      "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/MOC.md"
+    },
+    {
+      "basename": "Sigmoid",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Sigmoid.md"
+    },
+    {
+      "basename": "ReLU",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/ReLU.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Softmax.md"
+    },
+    {
+      "basename": "Softplus",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Softplus.md"
+    },
+    {
+      "basename": "Tanh",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Tanh.md"
+    },
+    {
+      "basename": "Lasso Regression (L1 Regularization)",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Regularized Models/Lasso Regression (L1 Regularization).md"
+    },
+    {
+      "basename": "Ridge Regression (L2 Regularization)",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Regularized Models/Ridge Regression (L2 Regularization).md"
+    },
+    {
+      "basename": "Ordinary Least Squares Estimation",
+      "path": "00 - Machine Learning/03 - Derivations/Ordinary Least Squares Estimation.md"
+    },
+    {
+      "basename": "(Example) Solving a System of Linear Equations (3x6)",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Solving a System of Linear Equations (3x6).md"
+    },
+    {
+      "basename": "(Example) Shannon Entopy",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Shannon Entopy.md"
+    },
+    {
+      "basename": "(Example) Lasso Regression",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Lasso Regression.md"
+    },
+    {
+      "basename": "MOC",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/MOC.md"
+    },
+    {
+      "basename": "LDL Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/LDL Decomposition.md"
+    },
+    {
+      "basename": "LU Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/LU Decomposition.md"
+    },
+    {
+      "basename": "Cholesky Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/Cholesky Decomposition.md"
+    },
+    {
+      "basename": "RREF",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/RREF.md"
+    },
+    {
+      "basename": "Solving Linear Systems via Row Echelon Form (REF)",
+      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Solving Linear Systems via Row Echelon Form (REF).md"
+    },
+    {
+      "basename": "Emperical Risk Minimization",
+      "path": "00 - Machine Learning/02 - Mathematics/Optimisation/Emperical Risk Minimization.md"
+    },
+    {
+      "basename": "Bias Variance Tradeoff",
+      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Bias Variance Tradeoff.md"
+    },
+    {
+      "basename": "Over fitting and Under fitting",
+      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Over fitting and Under fitting.md"
+    },
+    {
+      "basename": "Sparse and Dense Vectors",
+      "path": "00 - Machine Learning/02 - Mathematics/Linear Algebra and Geometry/Vector Spaces/Sparse and Dense Vectors.md"
+    },
+    {
+      "basename": "Sparsity (The \"Lasso\" Effect)",
+      "path": "00 - Machine Learning/02 - Mathematics/Optimisation/Sparsity (The \"Lasso\" Effect).md"
+    },
+    {
+      "basename": "MOC",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Regularized Models/MOC.md"
+    },
+    {
+      "basename": "Types of Regressions",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Types of Regressions.md"
+    },
+    {
+      "basename": "Linear Regression",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Linear Regression.md"
     },
     {
       "basename": "Pearson Correlation",
-      "path": "00 - Machine Learning/02 - Mathematics/Derivations/Pearson Correlation.md"
+      "path": "00 - Machine Learning/03 - Derivations/Pearson Correlation.md"
+    },
+    {
+      "basename": "Maximal Information Coefficient",
+      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Maximal Information Coefficient.md"
+    },
+    {
+      "basename": "(Example) Maximal Information Coefficient",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Maximal Information Coefficient.md"
+    },
+    {
+      "basename": "Joint Entropy and Mutual Information",
+      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Joint Entropy and Mutual Information.md"
+    },
+    {
+      "basename": "(Example) Joint Entropy and Mutual Information",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Joint Entropy and Mutual Information.md"
+    },
+    {
+      "basename": "Shannon Entropy",
+      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Shannon Entropy.md"
+    },
+    {
+      "basename": "Binary Classification Dataset with 3 Features",
+      "path": "00 - Machine Learning/04 - Examples/Datasets/Binary Classification Dataset with 3 Features.md"
+    },
+    {
+      "basename": "(Example) Performance Metrics",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Performance Metrics.md"
     },
     {
       "basename": "Performance Metrics",
-      "path": "00 - Machine Learning/Performance Metrics.md"
-    },
-    {
-      "basename": "Similarity Metrics",
-      "path": "00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/Similarity Metrics.md"
-    },
-    {
-      "basename": "briefly_define_categorical_and_numeric@20260317_201049",
-      "path": "copilot/copilot-conversations/briefly_define_categorical_and_numeric@20260317_201049.md"
+      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Performance Metrics.md"
     },
     {
       "basename": "Data Types and Quality",
-      "path": "00 - Machine Learning/01 - Concepts/Unsupervised/Data Types and Quality.md"
+      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Data Types and Quality.md"
     },
     {
-      "basename": "2NN",
-      "path": "00 - Machine Learning/2NN.md"
-    },
-    {
-      "basename": "ID3",
-      "path": "00 - Machine Learning/ID3.md"
+      "basename": "Distances vs Norms",
+      "path": "00 - Machine Learning/02 - Mathematics/Linear Algebra and Geometry/Metric Spaces/Distances vs Norms.md"
     },
     {
       "basename": "3NN",
-      "path": "00 - Machine Learning/3NN.md"
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/3NN.md"
+    },
+    {
+      "basename": "2NN",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/2NN.md"
     }
   ],
   "omittedPaths": [],

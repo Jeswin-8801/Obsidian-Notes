@@ -15,7 +15,7 @@ and use markdown properly
 [Context: Notes: 00 - Machine Learning/02 - Mathematics/Concepts/Norms and Lp.md]
 [Timestamp: 2026/03/18 02:08:39]
 
-**ai**: In the context of [[Norms and Lp]], a norm provides a formal way to measure the "length" or "magnitude" of vectors in a vector space.
+**ai**: In the context of [[Lp Norms and its Graphical Representation]], a norm provides a formal way to measure the "length" or "magnitude" of vectors in a vector space.
 
 ### Definition of a Norm
 
@@ -108,5 +108,5 @@ $ \min_{\mathbf{w}} \mathcal{L}(\mathbf{w}) + \lambda \|\mathbf{w}\|_1 $
 - **Geometric Interpretation:** The level sets of a smooth loss function $\mathcal{L}(\mathbf{w})$ are typically ellipsoidal. Due to the "pointed" nature of the $L_1$ ball at the axes (where $w_i = 0$ for some $i$), the constrained optimum $\mathbf{w}^*$ is statistically likely to occur at a vertex of the $L_1$ polytope.
 - **Feature Selection:** This property effectively performs automatic feature selection by driving coefficients of irrelevant features to exactly zero, distinguishing it from the $L_2$ norm which only asymptotically approaches zero.
 
-For further details on the comparison with other norms, refer to [[Norms and Lp]].
+For further details on the comparison with other norms, refer to [[Lp Norms and its Graphical Representation]].
 [Timestamp: 2026/03/18 02:15:41]

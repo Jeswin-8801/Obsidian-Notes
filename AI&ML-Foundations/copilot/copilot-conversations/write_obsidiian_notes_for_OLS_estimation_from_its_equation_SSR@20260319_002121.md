@@ -189,3 +189,49 @@ $S(\beta) = (y^T - \beta^T X^T)(y - X\beta)$
 $S(\beta) = y^T y - y^T X\beta - \beta^T X^T y + \beta^T X^T X \beta$
 $S(\beta) = y^T y - 2\beta^T X^T y + \beta^T X^T X \beta$
 [Timestamp: 2026/03/19 01:14:41]
+
+**user**: How to link manhattan distance nad norm
+[Context: Notes: 00 - Machine Learning/02 - Mathematics/Formulae/Metric Spaces and Proximity/Proximity Metrics.md]
+[Timestamp: 2026/03/19 11:28:21]
+
+**ai**: The relationship between Manhattan distance and the Manhattan norm ($L_1$ norm) is defined by the vector difference between two points.
+
+### Mathematical Connection
+The Manhattan distance between two points $\mathbf{p}$ and $\mathbf{q}$ is equivalent to the $L_1$ norm of their difference vector [^1]:
+$d_1(\mathbf{p}, \mathbf{q}) = \|\mathbf{p} - \mathbf{q}\|_1 = \sum_{i=1}^n |p_i - q_i|$
+
+### Conceptual Difference
+While both metrics utilize the same summation of absolute values, they differ in their reference points:
+- **Manhattan Distance:** Measures the "gap" or displacement between two distinct locations $\mathbf{p}$ and $\mathbf{q}$ [^2].
+- **Manhattan Norm ($L_1$):** Measures the distance from a single vector to the **Origin $(0,0)$** [^2].
+
+If the second point $\mathbf{q}$ is set to the origin $(0,0)$, the distance formula simplifies directly into the norm [^2]:
+$\|\mathbf{p}\|_1 = |p_x - 0| + |p_y - 0| = |p_x| + |p_y|$
+
+### Geometric Context
+In a 2D plane, the set of all points where the $L_1$ norm is constant (the "unit ball") forms a **diamond** shape [^3]. This geometry is the basis for both the distance calculation and the norm's application in optimization, such as inducing sparsity in Lasso regression [^4].
+
+#### Sources
+[^1]: [[Manhattan Distance and Norm]]
+[^2]: [[Distances vs Norms]]
+[^3]: [[Norms and Lp]]
+[^4]: [[Manhattan Distance and Norm]]
+[Timestamp: 2026/03/19 11:28:41]
+
+**user**: Complete L_2 and L_infinity like for L1
+[Timestamp: 2026/03/19 12:01:46]
+
+**ai**: 
+<errorChunk>[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:streamGenerateContent?alt=sse: [429 ] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 48.115571363s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"48s"}]</errorChunk>
+[Timestamp: 2026/03/19 12:02:11]
+
+**user**: Complete L_2 and L_infinity like for L1
+[Timestamp: 2026/03/19 12:02:45]
+
+**ai**: 
+<errorChunk>[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:streamGenerateContent?alt=sse: [429 ] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash
+Please retry in 1.896209625s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"1s"}]</errorChunk>
+[Timestamp: 2026/03/19 12:02:58]

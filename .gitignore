@@ -8,6 +8,8 @@
 # --- Remotely Save ---
 **/.obsidian/plugins/remotely-save/data.json
 **/.obsidian/plugins/remotely-save/main.js
+**/.obsidian/plugins/smart-composer/data.json
+**/.obsidian/plugins/smart-composer/main.js
 **/.obsidian/remotely-save-metadata.json
 
 # --- Copilot ---
@@ -24,3 +26,6 @@ Thumbs.db
 *.parquet
 *.h5
 *.log
+
+*.tar.gz
+**/.smtcmp_json_db
