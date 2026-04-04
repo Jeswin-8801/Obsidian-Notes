@@ -15,7 +15,9 @@ $$\begin{pmatrix} \mathbf{1} & 2 & 3 & 4 \\ 0 & 0 & \mathbf{1} & 3 \\ 0 & 0 & 0 
 ### **3. Step 2: Eliminate Above Pivots**
 
 - $R_1 - 3R_2 \to R_1$
-_(Using the pivot in $R_2$ to clear the entry at $a_{13}$)_
+
+(Using the pivot in $R_2$ to clear the entry at $a_{13}$)
+
 $$\begin{pmatrix} \mathbf{1} & 2 & 0 & -5 \\ 0 & 0 & \mathbf{1} & 3 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
 
 ---

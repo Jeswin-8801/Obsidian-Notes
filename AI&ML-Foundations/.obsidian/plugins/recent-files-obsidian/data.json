@@ -1,8 +1,104 @@
 {
   "recentFiles": [
     {
+      "basename": "3NN",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/3NN.md"
+    },
+    {
+      "basename": "2NN",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/2NN.md"
+    },
+    {
+      "basename": "ID3",
+      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/ID3.md"
+    },
+    {
+      "basename": "(Example) Singular Value Decomposition (SVD)",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Singular Value Decomposition (SVD).md"
+    },
+    {
+      "basename": "Eigen Value Decomposition (EVD)",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/Eigen Value Decomposition (EVD).md"
+    },
+    {
+      "basename": "Singular Value Decomposition (SVD)",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/Singular Value Decomposition (SVD).md"
+    },
+    {
+      "basename": "The Spectral Theorem",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Matrices/The Spectral Theorem.md"
+    },
+    {
+      "basename": "Cholesky Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/Cholesky Decomposition.md"
+    },
+    {
+      "basename": "Gram-Schmidt Process",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Gram-Schmidt Process.md"
+    },
+    {
+      "basename": "Rank of a Matrix",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Rank of a Matrix.md"
+    },
+    {
+      "basename": "Gaussian Elimination on the Augmented Gram Matrix",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Gaussian Elimination on the Augmented Gram Matrix.md"
+    },
+    {
+      "basename": "Ordinary Least Squares Estimation",
+      "path": "00 - Machine Learning/03 - Derivations/Ordinary Least Squares Estimation.md"
+    },
+    {
+      "basename": "Softmax",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Softmax.md"
+    },
+    {
+      "basename": "Emojify",
+      "path": "copilot/copilot-custom-prompts/Emojify.md"
+    },
+    {
+      "basename": "(Example) Orthonormalization via Gaussian Elimination",
+      "path": "00 - Machine Learning/04 - Examples/(Example) Orthonormalization via Gaussian Elimination.md"
+    },
+    {
+      "basename": "Norm Properties and Geometric Derivations",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Vectors/Norm Properties and Geometric Derivations.md"
+    },
+    {
+      "basename": "Vector Space Notations and Subspace Operators",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Vectors/Vector Space Notations and Subspace Operators.md"
+    },
+    {
+      "basename": "Vector Spaces and Fields",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Vectors/Vector Spaces and Fields.md"
+    },
+    {
+      "basename": "Linear Independence, Span, and Basis",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Vectors/Linear Independence, Span, and Basis.md"
+    },
+    {
+      "basename": "MOC",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/MOC.md"
+    },
+    {
+      "basename": "RREF",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/RREF.md"
+    },
+    {
+      "basename": "LU Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/LU Decomposition.md"
+    },
+    {
+      "basename": "LDL Decomposition",
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Decompositions/LDL Decomposition.md"
+    },
+    {
       "basename": "(Example) Forward and Backward Propagation",
       "path": "01 - Neural Networks/03 - Examples/(Example) Forward and Backward Propagation.md"
+    },
+    {
+      "basename": "Sigmoid",
+      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Sigmoid.md"
     },
     {
       "basename": "Forward and Backward Propagation",
@@ -49,16 +145,8 @@
       "path": "01 - Neural Networks/01 - Core Theory/Loss Functions/MOC.md"
     },
     {
-      "basename": "Sigmoid",
-      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Sigmoid.md"
-    },
-    {
       "basename": "ReLU",
       "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/ReLU.md"
-    },
-    {
-      "basename": "Softmax",
-      "path": "01 - Neural Networks/01 - Core Theory/Activation Functions/Softmax.md"
     },
     {
       "basename": "Softplus",
@@ -77,10 +165,6 @@
       "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Regularized Models/Ridge Regression (L2 Regularization).md"
     },
     {
-      "basename": "Ordinary Least Squares Estimation",
-      "path": "00 - Machine Learning/03 - Derivations/Ordinary Least Squares Estimation.md"
-    },
-    {
       "basename": "(Example) Solving a System of Linear Equations (3x6)",
       "path": "00 - Machine Learning/04 - Examples/(Example) Solving a System of Linear Equations (3x6).md"
     },
@@ -93,28 +177,8 @@
       "path": "00 - Machine Learning/04 - Examples/(Example) Lasso Regression.md"
     },
     {
-      "basename": "MOC",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/MOC.md"
-    },
-    {
-      "basename": "LDL Decomposition",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/LDL Decomposition.md"
-    },
-    {
-      "basename": "LU Decomposition",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/LU Decomposition.md"
-    },
-    {
-      "basename": "Cholesky Decomposition",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Decompositions/Cholesky Decomposition.md"
-    },
-    {
-      "basename": "RREF",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/RREF.md"
-    },
-    {
       "basename": "Solving Linear Systems via Row Echelon Form (REF)",
-      "path": "00 - Machine Learning/02 - Mathematics/Matrices/Solving Linear Systems via Row Echelon Form (REF).md"
+      "path": "00 - Machine Learning/02 - Mathematics/Vectors & Matrices/Solving Linear Systems via Row Echelon Form (REF).md"
     },
     {
       "basename": "Emperical Risk Minimization",
@@ -135,70 +199,6 @@
     {
       "basename": "Sparsity (The \"Lasso\" Effect)",
       "path": "00 - Machine Learning/02 - Mathematics/Optimisation/Sparsity (The \"Lasso\" Effect).md"
-    },
-    {
-      "basename": "MOC",
-      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Regularized Models/MOC.md"
-    },
-    {
-      "basename": "Types of Regressions",
-      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Types of Regressions.md"
-    },
-    {
-      "basename": "Linear Regression",
-      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Regression/Linear Models/Linear Regression.md"
-    },
-    {
-      "basename": "Pearson Correlation",
-      "path": "00 - Machine Learning/03 - Derivations/Pearson Correlation.md"
-    },
-    {
-      "basename": "Maximal Information Coefficient",
-      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Maximal Information Coefficient.md"
-    },
-    {
-      "basename": "(Example) Maximal Information Coefficient",
-      "path": "00 - Machine Learning/04 - Examples/(Example) Maximal Information Coefficient.md"
-    },
-    {
-      "basename": "Joint Entropy and Mutual Information",
-      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Joint Entropy and Mutual Information.md"
-    },
-    {
-      "basename": "(Example) Joint Entropy and Mutual Information",
-      "path": "00 - Machine Learning/04 - Examples/(Example) Joint Entropy and Mutual Information.md"
-    },
-    {
-      "basename": "Shannon Entropy",
-      "path": "00 - Machine Learning/02 - Mathematics/Information Theory/Shannon Entropy.md"
-    },
-    {
-      "basename": "Binary Classification Dataset with 3 Features",
-      "path": "00 - Machine Learning/04 - Examples/Datasets/Binary Classification Dataset with 3 Features.md"
-    },
-    {
-      "basename": "(Example) Performance Metrics",
-      "path": "00 - Machine Learning/04 - Examples/(Example) Performance Metrics.md"
-    },
-    {
-      "basename": "Performance Metrics",
-      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Performance Metrics.md"
-    },
-    {
-      "basename": "Data Types and Quality",
-      "path": "00 - Machine Learning/01 - Core Theory/Foundational Concepts/Data Types and Quality.md"
-    },
-    {
-      "basename": "Distances vs Norms",
-      "path": "00 - Machine Learning/02 - Mathematics/Linear Algebra and Geometry/Metric Spaces/Distances vs Norms.md"
-    },
-    {
-      "basename": "3NN",
-      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/3NN.md"
-    },
-    {
-      "basename": "2NN",
-      "path": "00 - Machine Learning/01 - Core Theory/Supervised/Classification/K-Nearest Neighbor/2NN.md"
     }
   ],
   "omittedPaths": [],
